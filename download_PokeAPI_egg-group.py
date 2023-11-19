@@ -1,8 +1,9 @@
 import requests
 import json
 
-# Base URL for the PokeAPI
+# Base URLs for the PokeAPI
 EGG_GROUP_BASE_URL = "https://pokeapi.co/api/v2/egg-group/"
+POKEMON_SPECIES_BASE_URL = "https://pokeapi.co/api/v2/pokemon-species/"
 DATA_SAVE_PATH = "./data/"
 ALL_EGG_GROUPS_FILE = "egg-groups-data.json"
 
@@ -10,11 +11,22 @@ def save_data(data, file_name):
     with open(DATA_SAVE_PATH + file_name, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
 
+def is_in_first_five_generations(species_id):
+    response = requests.get(POKEMON_SPECIES_BASE_URL + str(species_id))
+    if response.status_code == 200:
+        species_data = response.json()
+        generation_number = int(species_data['generation']['url'].split('/')[-2])
+        return generation_number <= 5
+    return False
+
 def process_pokemon_species(pokemon_species_list):
+    filtered_species = []
     for species in pokemon_species_list:
-        # Remove the 'url' field from each species
-        species.pop('url', None)
-    return pokemon_species_list
+        species_id = species['url'].split('/')[-2]
+        if is_in_first_five_generations(species_id):
+            species.pop('url', None)
+            filtered_species.append(species)
+    return filtered_species
 
 def get_egg_group_data():
     all_egg_groups = {}
@@ -36,7 +48,7 @@ def get_egg_group_data():
             # Remove the 'name' field
             egg_group_data.pop('names', None)
 
-            # Process and remove URLs from pokemon_species
+            # Process and filter pokemon_species for generations 1-5
             if 'pokemon_species' in egg_group_data:
                 egg_group_data['pokemon_species'] = process_pokemon_species(egg_group_data['pokemon_species'])
 
