@@ -10,7 +10,14 @@ ALL_POKEMON_FILE = "pokemon_data.json"
 def get_evolution_chain_data(evolution_chain_url):
     response = requests.get(evolution_chain_url)
     if response.status_code == 200:
-        return response.json()
+        evolution_chain_data = response.json()
+
+        # Process the evolution chain to remove nested evolves_to
+        if 'chain' in evolution_chain_data and 'evolves_to' in evolution_chain_data['chain']:
+            for evolution_stage in evolution_chain_data['chain']['evolves_to']:
+                evolution_stage['evolves_to'] = []  # Remove the nested evolves_to
+
+        return evolution_chain_data
     return None
 
 def save_all_data(all_data):
