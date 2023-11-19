@@ -12,7 +12,7 @@ def get_evolution_chain_data(evolution_chain_url):
     if response.status_code == 200:
         evolution_chain_data = response.json()
 
-        # Process the evolution chain to remove URLs
+        # Process the evolution chain to remove nested evolves_to and URLs
         process_evolution_chain(evolution_chain_data['chain'])
 
         return evolution_chain_data
@@ -21,10 +21,12 @@ def get_evolution_chain_data(evolution_chain_url):
 def process_evolution_chain(chain):
     if 'evolves_to' in chain:
         for evolves_to in chain['evolves_to']:
-            process_evolution_chain(evolves_to)
+            process_evolution_chain(evolves_to)  # Recursive call for nested evolves_to
 
             if 'species' in evolves_to:
                 evolves_to['species'] = evolves_to['species']['name']
+
+        chain['evolves_to'] = chain['evolves_to'][:1]  # Keep only the first evolves_to entry
 
 def is_in_first_five_generations(generation_url):
     generation_id = int(generation_url.split('/')[-2])
