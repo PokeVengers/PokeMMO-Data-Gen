@@ -11,23 +11,17 @@ def get_evolution_chain_data(evolution_chain_url):
     response = requests.get(evolution_chain_url)
     if response.status_code == 200:
         evolution_chain_data = response.json()
-
-        # Process the evolution chain to remove nested evolves_to and URLs
         process_evolution_chain(evolution_chain_data['chain'])
-
         return evolution_chain_data
     return None
 
 def process_evolution_chain(chain):
     if 'evolves_to' in chain:
-        # Remove nested evolves_to from each stage
         for evolves_to in chain['evolves_to']:
-            process_evolution_chain(evolves_to)  # Recursive call for nested evolves_to
-
+            process_evolution_chain(evolves_to)
             if 'species' in evolves_to:
                 evolves_to['species'] = evolves_to['species']['name']
-
-            evolves_to['evolves_to'] = []  # Clear nested evolves_to
+            evolves_to['evolves_to'] = []
 
 def is_in_first_five_generations(generation_url):
     generation_id = int(generation_url.split('/')[-2])
@@ -44,6 +38,15 @@ def process_stats(stats):
 
 def process_types(types):
     return [type_entry['type']['name'] for type_entry in types]
+
+def process_varieties(varieties):
+    return [{'is_default': variety['is_default'], 'name': variety['pokemon']['name']} for variety in varieties]
+
+def process_abilities(abilities):
+    return [{'ability_name': ability['ability']['name'], 'is_hidden': ability['is_hidden'], 'slot': ability['slot']} for ability in abilities]
+
+def process_forms(forms):
+    return [form['name'] for form in forms]
 
 def save_all_data(all_data):
     with open(DATA_SAVE_PATH + ALL_POKEMON_FILE, 'w', encoding='utf-8') as file:
@@ -81,8 +84,10 @@ def main():
                 evolution_chain_data = get_evolution_chain_data(evolution_chain_url)
                 species_data['evolution_chain'] = evolution_chain_data
 
+            species_data['varieties'] = process_varieties(species_data['varieties'])
+
             for variety in species_data['varieties']:
-                pokemon_id = variety['pokemon']['url'].split('/')[-2]
+                pokemon_id = variety['name']
                 pokemon_response = requests.get(POKEMON_BASE_URL + pokemon_id)
                 if pokemon_response.status_code == 200:
                     pokemon_data = pokemon_response.json()
@@ -101,6 +106,10 @@ def main():
                         pokemon_data['stats'] = process_stats(pokemon_data['stats'])
                     if 'types' in pokemon_data:
                         pokemon_data['types'] = process_types(pokemon_data['types'])
+                    if 'abilities' in pokemon_data:
+                        pokemon_data['abilities'] = process_abilities(pokemon_data['abilities'])
+                    if 'forms' in pokemon_data:
+                        pokemon_data['forms'] = process_forms(pokemon_data['forms'])
 
                     merged_data = {**species_data, **pokemon_data}
                     all_pokemon_data[pokemon_name] = merged_data
