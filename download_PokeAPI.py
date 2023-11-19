@@ -67,6 +67,9 @@ def main():
             species_data.pop('names', None)
             species_data.pop('pal_park_encounters', None)
             species_data.pop('pokedex_numbers', None)
+            species_data.pop('color', None)
+            species_data.pop('form_descriptions', None)
+            species_data.pop('shape', None)
             species_data['egg_groups'] = process_egg_groups(species_data['egg_groups'])
             species_data['growth_rate'] = process_growth_rate(species_data['growth_rate'])
 
