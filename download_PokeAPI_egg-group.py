@@ -10,6 +10,12 @@ def save_data(data, file_name):
     with open(DATA_SAVE_PATH + file_name, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
 
+def process_pokemon_species(pokemon_species_list):
+    for species in pokemon_species_list:
+        # Remove the 'url' field from each species
+        species.pop('url', None)
+    return pokemon_species_list
+
 def get_egg_group_data():
     all_egg_groups = {}
 
@@ -26,10 +32,16 @@ def get_egg_group_data():
         egg_group_response = requests.get(EGG_GROUP_BASE_URL + str(i))
         if egg_group_response.status_code == 200:
             egg_group_data = egg_group_response.json()
-            egg_group_name = egg_group_data['name']
 
-            # Process each egg group
-            all_egg_groups[egg_group_name] = egg_group_data
+            # Remove the 'name' field
+            egg_group_data.pop('names', None)
+
+            # Process and remove URLs from pokemon_species
+            if 'pokemon_species' in egg_group_data:
+                egg_group_data['pokemon_species'] = process_pokemon_species(egg_group_data['pokemon_species'])
+
+            # Add modified egg group data to all egg groups
+            all_egg_groups[f"egg_group_{i}"] = egg_group_data
 
     return all_egg_groups
 
