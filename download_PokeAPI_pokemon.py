@@ -18,10 +18,27 @@ def get_evolution_chain_data(evolution_chain_url):
 def process_evolution_chain(chain):
     if 'evolves_to' in chain:
         for evolves_to in chain['evolves_to']:
+            # Process the next level in the evolution chain
             process_evolution_chain(evolves_to)
+
+            # Remove URLs from evolution details
+            if 'evolution_details' in evolves_to:
+                for detail in evolves_to['evolution_details']:
+                    remove_urls(detail)
+
+            # Replace species with just the name, if present
             if 'species' in evolves_to:
                 evolves_to['species'] = evolves_to['species']['name']
+
             evolves_to['evolves_to'] = []
+
+def remove_urls(dictionary):
+    for key, value in list(dictionary.items()):
+        if isinstance(value, dict):
+            if 'url' in value:
+                del dictionary[key]['url']  # Remove URL
+            else:
+                remove_urls(value)  # Recursive call for nested dictionaries
 
 def is_in_first_five_generations(generation_url):
     generation_id = int(generation_url.split('/')[-2])
