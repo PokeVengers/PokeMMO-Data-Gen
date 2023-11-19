@@ -141,6 +141,9 @@ def main():
                     if 'forms' in pokemon_data:
                         pokemon_data['forms'] = process_forms(pokemon_data['forms'])
 
+                    remove_urls(species_data)
+                    remove_urls(pokemon_data)
+
                     merged_data = {**species_data, **pokemon_data}
                     merged_data.pop('species', None)
                     all_pokemon_data[pokemon_name] = merged_data
