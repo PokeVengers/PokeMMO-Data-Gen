@@ -134,6 +134,7 @@ def main():
                         pokemon_data['forms'] = process_forms(pokemon_data['forms'])
 
                     merged_data = {**species_data, **pokemon_data}
+                    merged_data.pop('species', None)
                     all_pokemon_data[pokemon_name] = merged_data
 
     save_all_data(all_pokemon_data)
