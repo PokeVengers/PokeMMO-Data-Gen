@@ -12,17 +12,29 @@ def get_evolution_chain_data(evolution_chain_url):
     if response.status_code == 200:
         evolution_chain_data = response.json()
 
-        # Process the evolution chain to remove nested evolves_to
-        if 'chain' in evolution_chain_data and 'evolves_to' in evolution_chain_data['chain']:
-            for evolution_stage in evolution_chain_data['chain']['evolves_to']:
-                evolution_stage['evolves_to'] = []  # Remove the nested evolves_to
+        # Process the evolution chain to remove URLs
+        process_evolution_chain(evolution_chain_data['chain'])
 
         return evolution_chain_data
     return None
 
+def process_evolution_chain(chain):
+    if 'evolves_to' in chain:
+        for evolves_to in chain['evolves_to']:
+            process_evolution_chain(evolves_to)
+
+            if 'species' in evolves_to:
+                evolves_to['species'] = evolves_to['species']['name']
+
 def is_in_first_five_generations(generation_url):
     generation_id = int(generation_url.split('/')[-2])
     return 1 <= generation_id <= 5
+
+def process_egg_groups(egg_groups):
+    return [group['name'] for group in egg_groups]
+
+def process_growth_rate(growth_rate):
+    return growth_rate['name']
 
 def save_all_data(all_data):
     with open(DATA_SAVE_PATH + ALL_POKEMON_FILE, 'w', encoding='utf-8') as file:
@@ -52,6 +64,8 @@ def main():
             species_data.pop('names', None)
             species_data.pop('pal_park_encounters', None)
             species_data.pop('pokedex_numbers', None)
+            species_data['egg_groups'] = process_egg_groups(species_data['egg_groups'])
+            species_data['growth_rate'] = process_growth_rate(species_data['growth_rate'])
 
             # Get Evolution Chain Data
             evolution_chain_url = species_data.get('evolution_chain', {}).get('url')
