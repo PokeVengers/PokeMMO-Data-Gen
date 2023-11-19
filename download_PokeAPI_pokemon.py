@@ -38,7 +38,7 @@ def process_evolution_chain(chain):
             if "species" in evolves_to:
                 evolves_to["species"] = evolves_to["species"]["name"]
 
-            evolves_to["evolves_to"] = []
+            evolves_to.pop("evolves_to", None)
 
 
 def remove_urls(dictionary):
