@@ -16,6 +16,11 @@ def get_evolution_chain_data(evolution_chain_url):
     return None
 
 def process_evolution_chain(chain):
+    if 'species' in chain:
+        # Remove URL from species field
+        if 'url' in chain['species']:
+            del chain['species']['url']
+
     if 'evolves_to' in chain:
         for evolves_to in chain['evolves_to']:
             # Process the next level in the evolution chain
