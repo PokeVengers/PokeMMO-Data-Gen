@@ -39,6 +39,12 @@ def process_egg_groups(egg_groups):
 def process_growth_rate(growth_rate):
     return growth_rate['name']
 
+def process_stats(stats):
+    return [{'stat_name': stat['stat']['name'], 'base_stat': stat['base_stat']} for stat in stats]
+
+def process_types(types):
+    return [type_entry['type']['name'] for type_entry in types]
+
 def save_all_data(all_data):
     with open(DATA_SAVE_PATH + ALL_POKEMON_FILE, 'w', encoding='utf-8') as file:
         json.dump(all_data, file, ensure_ascii=False, indent=4)
@@ -46,19 +52,16 @@ def save_all_data(all_data):
 def main():
     all_pokemon_data = {}
 
-    # Get the total count of Pokémon
     response = requests.get(POKEMON_BASE_URL)
     total_count = response.json()['count']
 
-    # Loop through all Pokémon species
     for i in range(1, total_count + 1):
         species_response = requests.get(POKEMON_SPECIES_URL + str(i))
         if species_response.status_code == 200:
             species_data = species_response.json()
 
-            # Check if the species is in the first five generations
             if not is_in_first_five_generations(species_data['generation']['url']):
-                continue  # Skip species not in generations 1-5
+                continue
 
             species_data.pop('flavor_text_entries', None)  # Remove unwanted fields
             species_data.pop('genera', None)
@@ -73,15 +76,13 @@ def main():
             species_data['egg_groups'] = process_egg_groups(species_data['egg_groups'])
             species_data['growth_rate'] = process_growth_rate(species_data['growth_rate'])
 
-            # Get Evolution Chain Data
             evolution_chain_url = species_data.get('evolution_chain', {}).get('url')
             if evolution_chain_url:
                 evolution_chain_data = get_evolution_chain_data(evolution_chain_url)
                 species_data['evolution_chain'] = evolution_chain_data
 
-            # Loop through all varieties of the Pokémon species
             for variety in species_data['varieties']:
-                pokemon_id = variety['pokemon']['url'].split('/')[-2]  # Extract ID from URL
+                pokemon_id = variety['pokemon']['url'].split('/')[-2]
                 pokemon_response = requests.get(POKEMON_BASE_URL + pokemon_id)
                 if pokemon_response.status_code == 200:
                     pokemon_data = pokemon_response.json()
@@ -91,13 +92,15 @@ def main():
                     pokemon_data.pop('location_area_encounters', None)
                     pokemon_data.pop('moves', None)
 
-                    # Remove versions from sprites
-                    if 'sprites' in pokemon_data and 'versions' in pokemon_data['sprites']:
+                    if 'sprites' in pokemon_data:
                         pokemon_data['sprites'].pop('versions', None)
-                        
-                    # Remove other from sprites
-                    if 'sprites' in pokemon_data and 'other' in pokemon_data['sprites']:
                         pokemon_data['sprites'].pop('other', None)
+
+                    # Process stats and types
+                    if 'stats' in pokemon_data:
+                        pokemon_data['stats'] = process_stats(pokemon_data['stats'])
+                    if 'types' in pokemon_data:
+                        pokemon_data['types'] = process_types(pokemon_data['types'])
 
                     merged_data = {**species_data, **pokemon_data}
                     all_pokemon_data[pokemon_name] = merged_data
