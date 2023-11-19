@@ -5,7 +5,7 @@ import json
 POKEMON_BASE_URL = "https://pokeapi.co/api/v2/pokemon/"
 POKEMON_SPECIES_URL = "https://pokeapi.co/api/v2/pokemon-species/"
 DATA_SAVE_PATH = "./data/"
-ALL_POKEMON_FILE = "pokemon_data.json"
+ALL_POKEMON_FILE = "pokemon-data.json"
 
 def get_evolution_chain_data(evolution_chain_url):
     response = requests.get(evolution_chain_url)
