@@ -20,13 +20,14 @@ def get_evolution_chain_data(evolution_chain_url):
 
 def process_evolution_chain(chain):
     if 'evolves_to' in chain:
+        # Remove nested evolves_to from each stage
         for evolves_to in chain['evolves_to']:
             process_evolution_chain(evolves_to)  # Recursive call for nested evolves_to
 
             if 'species' in evolves_to:
                 evolves_to['species'] = evolves_to['species']['name']
 
-        chain['evolves_to'] = chain['evolves_to'][:1]  # Keep only the first evolves_to entry
+            evolves_to['evolves_to'] = []  # Clear nested evolves_to
 
 def is_in_first_five_generations(generation_url):
     generation_id = int(generation_url.split('/')[-2])
