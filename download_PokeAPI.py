@@ -20,6 +20,10 @@ def get_evolution_chain_data(evolution_chain_url):
         return evolution_chain_data
     return None
 
+def is_in_first_five_generations(generation_url):
+    generation_id = int(generation_url.split('/')[-2])
+    return 1 <= generation_id <= 5
+
 def save_all_data(all_data):
     with open(DATA_SAVE_PATH + ALL_POKEMON_FILE, 'w', encoding='utf-8') as file:
         json.dump(all_data, file, ensure_ascii=False, indent=4)
@@ -36,6 +40,11 @@ def main():
         species_response = requests.get(POKEMON_SPECIES_URL + str(i))
         if species_response.status_code == 200:
             species_data = species_response.json()
+
+            # Check if the species is in the first five generations
+            if not is_in_first_five_generations(species_data['generation']['url']):
+                continue  # Skip species not in generations 1-5
+
             species_data.pop('flavor_text_entries', None)  # Remove unwanted fields
             species_data.pop('genera', None)
             species_data.pop('generation', None)
