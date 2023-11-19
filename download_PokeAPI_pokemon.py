@@ -12,6 +12,7 @@ def get_evolution_chain_data(evolution_chain_url):
     if response.status_code == 200:
         evolution_chain_data = response.json()
         process_evolution_chain(evolution_chain_data['chain'])
+        remove_urls(evolution_chain_data)
         return evolution_chain_data
     return None
 
@@ -41,9 +42,16 @@ def remove_urls(dictionary):
     for key, value in list(dictionary.items()):
         if isinstance(value, dict):
             if 'url' in value:
-                del dictionary[key]['url']  # Remove URL
+                del value['url']  # Remove the URL from the dictionary
             else:
-                remove_urls(value)  # Recursive call for nested dictionaries
+                remove_urls(value)  # Recursively call remove_urls on nested dictionaries
+        elif isinstance(value, list):
+            for item in value:
+                if isinstance(item, dict):
+                    if 'url' in item:
+                        del item['url']  # Remove the URL from the dictionary within the list
+                    else:
+                        remove_urls(item)  # Recursively call remove_urls on dictionaries within the list
 
 def is_in_first_five_generations(generation_url):
     generation_id = int(generation_url.split('/')[-2])
