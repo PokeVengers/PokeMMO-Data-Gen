@@ -14,6 +14,7 @@ def get_evolution_chain_data(evolution_chain_url):
         evolution_chain_data = response.json()
         process_evolution_chain(evolution_chain_data["chain"])
         remove_urls(evolution_chain_data)
+        del evolution_chain_data["chain"]["evolution_details"]
         return evolution_chain_data
     return None
 
