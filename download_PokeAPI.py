@@ -88,13 +88,17 @@ def main():
                     pokemon_data.pop('location_area_encounters', None)
                     pokemon_data.pop('moves', None)
 
-                    # Merge species and pokemon data
-                    merged_data = {**species_data, **pokemon_data}
+                    # Remove versions from sprites
+                    if 'sprites' in pokemon_data and 'versions' in pokemon_data['sprites']:
+                        pokemon_data['sprites'].pop('versions', None)
+                        
+                    # Remove other from sprites
+                    if 'sprites' in pokemon_data and 'other' in pokemon_data['sprites']:
+                        pokemon_data['sprites'].pop('other', None)
 
-                    # Store merged data under the Pokémon's name
+                    merged_data = {**species_data, **pokemon_data}
                     all_pokemon_data[pokemon_name] = merged_data
 
-    # Save all data at the end
     save_all_data(all_pokemon_data)
 
 if __name__ == "__main__":
