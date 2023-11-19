@@ -161,6 +161,10 @@ def main():
                     pokemon_data.pop("game_indices", None)
                     pokemon_data.pop("location_area_encounters", None)
                     pokemon_data.pop("moves", None)
+                    pokemon_data.pop("height", None)
+                    pokemon_data.pop("weight", None)
+                    pokemon_data.pop("past_types", None)
+                    pokemon_data.pop("past_abilities", None)
 
                     if "sprites" in pokemon_data:
                         pokemon_data["sprites"].pop("versions", None)
