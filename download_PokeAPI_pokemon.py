@@ -93,7 +93,7 @@ def process_varieties(varieties):
     for variety in varieties:
         name = variety["pokemon"]["name"]
         # Exclude specific variations
-        if "mega" in name or "gmax" in name or "alola" in name:
+        if "mega" in name or "gmax" in name or "alola" in name or "hisui" in name or "galar" in name:
             continue
         filtered_varieties.append({
             "is_default": variety["is_default"], 
