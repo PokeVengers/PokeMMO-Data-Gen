@@ -89,10 +89,17 @@ def process_types(types):
 
 
 def process_varieties(varieties):
-    return [
-        {"is_default": variety["is_default"], "name": variety["pokemon"]["name"]}
-        for variety in varieties
-    ]
+    filtered_varieties = []
+    for variety in varieties:
+        name = variety["pokemon"]["name"]
+        # Exclude specific variations
+        if "mega" in name or "gmax" in name or "alola" in name:
+            continue
+        filtered_varieties.append({
+            "is_default": variety["is_default"], 
+            "name": name
+        })
+    return filtered_varieties
 
 
 def process_abilities(abilities):
