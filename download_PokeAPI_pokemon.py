@@ -79,7 +79,11 @@ def process_growth_rate(growth_rate):
 
 def process_stats(stats):
     return [
-        {"stat_name": stat["stat"]["name"], "base_stat": stat["base_stat"], "effort": stat["effort"]}
+        {
+            "stat_name": stat["stat"]["name"],
+            "base_stat": stat["base_stat"],
+            "effort": stat["effort"],
+        }
         for stat in stats
     ]
 
@@ -93,12 +97,15 @@ def process_varieties(varieties):
     for variety in varieties:
         name = variety["pokemon"]["name"]
         # Exclude specific variations
-        if "mega" in name or "gmax" in name or "alola" in name or "hisui" in name or "galar" in name:
+        if (
+            "mega" in name
+            or "gmax" in name
+            or "alola" in name
+            or "hisui" in name
+            or "galar" in name
+        ):
             continue
-        filtered_varieties.append({
-            "is_default": variety["is_default"], 
-            "name": name
-        })
+        filtered_varieties.append({"is_default": variety["is_default"], "name": name})
     return filtered_varieties
 
 
