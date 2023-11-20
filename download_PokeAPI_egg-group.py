@@ -7,6 +7,29 @@ POKEMON_SPECIES_BASE_URL = "https://pokeapi.co/api/v2/pokemon-species/"
 DATA_SAVE_PATH = "./data/"
 ALL_EGG_GROUPS_FILE = "egg-groups-data.json"
 
+# Lookup table to map API egg group names to PokéMMO egg group names
+EGG_GROUP_NAME_LOOKUP = {
+    "monster": "monster",
+    "water1": "water a",
+    "water2": "water b",
+    "water3": "water c",
+    "bug": "bug",
+    "flying": "flying",
+    "field": "field",
+    "fairy": "fairy",
+    "plant": "plant",
+    "humanshape": "humanoid",
+    "mineral": "mineral",
+    "ground": "ground",
+    "amorphous": "chaos",
+    "ditto": "ditto",
+    "dragon": "dragon",
+    "undiscovered": "undiscovered",
+    "no-eggs": "no-eggs",
+    "indeterminate": "indeterminate",
+    # Add any other egg groups that PokéMMO uses which aren't listed in the PokeAPI
+}
+
 def save_data(data, file_name):
     with open(DATA_SAVE_PATH + file_name, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
@@ -45,7 +68,15 @@ def get_egg_group_data():
         if egg_group_response.status_code == 200:
             egg_group_data = egg_group_response.json()
 
-            # Remove the 'name' field
+            # Replace the egg group name using the lookup table
+            egg_group_name = egg_group_data['name']
+            if egg_group_name in EGG_GROUP_NAME_LOOKUP:
+                egg_group_name = EGG_GROUP_NAME_LOOKUP[egg_group_name]
+                egg_group_data['name'] = egg_group_name
+            else:
+                print(f"Warning: Egg group name '{egg_group_name}' not found in lookup table")
+
+            # Remove the 'names' field
             egg_group_data.pop('names', None)
 
             # Process and filter pokemon_species for generations 1-5
