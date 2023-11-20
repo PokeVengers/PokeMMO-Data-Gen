@@ -79,7 +79,7 @@ def process_growth_rate(growth_rate):
 
 def process_stats(stats):
     return [
-        {"stat_name": stat["stat"]["name"], "base_stat": stat["base_stat"]}
+        {"stat_name": stat["stat"]["name"], "base_stat": stat["base_stat"], "effort": stat["effort"]}
         for stat in stats
     ]
 
