@@ -165,6 +165,10 @@ def main():
                     pokemon_data.pop("weight", None)
                     pokemon_data.pop("past_types", None)
                     pokemon_data.pop("past_abilities", None)
+                    if "held_items" in pokemon_data:
+                        for item in pokemon_data["held_items"]:
+                            if "version_details" in item:
+                                del item["version_details"]
 
                     if "sprites" in pokemon_data:
                         pokemon_data["sprites"].pop("versions", None)
