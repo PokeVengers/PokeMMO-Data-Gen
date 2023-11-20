@@ -92,6 +92,17 @@ def process_types(types):
     return [type_entry["type"]["name"] for type_entry in types]
 
 
+def process_past_types(pokemon_data):
+    if 'past_types' in pokemon_data and pokemon_data['past_types']:
+        for past_type_entry in pokemon_data['past_types']:
+            # Check if the generation is Generation 5
+            if past_type_entry['generation']['name'] == 'generation-v':
+                processed_types = [type_entry['type']['name'] for type_entry in past_type_entry['types']]
+                if processed_types:
+                    pokemon_data['types'] = processed_types
+                    break  # Stop processing after finding Generation 5 types
+
+
 def process_varieties(varieties):
     filtered_varieties = []
     for variety in varieties:
@@ -172,13 +183,7 @@ def main():
                     pokemon_data = pokemon_response.json()
                     pokemon_name = pokemon_data["name"]
 
-                    pokemon_data.pop("game_indices", None)
-                    pokemon_data.pop("location_area_encounters", None)
-                    pokemon_data.pop("moves", None)
-                    pokemon_data.pop("height", None)
-                    pokemon_data.pop("weight", None)
-                    pokemon_data.pop("past_types", None)
-                    pokemon_data.pop("past_abilities", None)
+
                     if "held_items" in pokemon_data:
                         for item in pokemon_data["held_items"]:
                             if "version_details" in item:
@@ -199,6 +204,16 @@ def main():
                         )
                     if "forms" in pokemon_data:
                         pokemon_data["forms"] = process_forms(pokemon_data["forms"])
+                        
+                    process_past_types(pokemon_data)
+                    
+                    pokemon_data.pop("game_indices", None)
+                    pokemon_data.pop("location_area_encounters", None)
+                    pokemon_data.pop("moves", None)
+                    pokemon_data.pop("height", None)
+                    pokemon_data.pop("weight", None)
+                    pokemon_data.pop("past_types", None)
+                    pokemon_data.pop("past_abilities", None)
 
                     remove_urls(species_data)
                     remove_urls(pokemon_data)
