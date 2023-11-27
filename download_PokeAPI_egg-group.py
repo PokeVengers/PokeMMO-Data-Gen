@@ -10,23 +10,20 @@ ALL_EGG_GROUPS_FILE = "egg-groups-data.json"
 # Lookup table to map API egg group names to PokéMMO egg group names
 EGG_GROUP_NAME_LOOKUP = {
     "monster": "monster",
-    "water1": "water a",
-    "water2": "water b",
-    "water3": "water c",
+    "water1": "watera",
+    "water2": "waterb",
+    "water3": "waterc",
     "bug": "bug",
     "flying": "flying",
-    "field": "field",
+    "ground": "field",
     "fairy": "fairy",
     "plant": "plant",
     "humanshape": "humanoid",
     "mineral": "mineral",
-    "ground": "ground",
-    "amorphous": "chaos",
     "ditto": "ditto",
     "dragon": "dragon",
-    "undiscovered": "undiscovered",
-    "no-eggs": "no-eggs",
-    "indeterminate": "indeterminate",
+    "no-eggs": "cannot-breed",
+    "indeterminate": "chaos",
     # Add any other egg groups that PokéMMO uses which aren't listed in the PokeAPI
 }
 
