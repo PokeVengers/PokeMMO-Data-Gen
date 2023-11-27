@@ -7,6 +7,26 @@ POKEMON_SPECIES_URL = "https://pokeapi.co/api/v2/pokemon-species/"
 DATA_SAVE_PATH = "./data/"
 ALL_POKEMON_FILE = "pokemon-data.json"
 
+# Lookup table to map API egg group names to PokéMMO egg group names
+EGG_GROUP_NAME_LOOKUP = {
+    "monster": "monster",
+    "water1": "watera",
+    "water2": "waterb",
+    "water3": "waterc",
+    "bug": "bug",
+    "flying": "flying",
+    "ground": "field",
+    "fairy": "fairy",
+    "plant": "plant",
+    "humanshape": "humanoid",
+    "mineral": "mineral",
+    "ditto": "ditto",
+    "dragon": "dragon",
+    "no-eggs": "cannot-breed",
+    "indeterminate": "chaos",
+    # Add any other egg groups that PokéMMO uses which aren't listed in the PokeAPI
+}
+
 
 def get_evolution_chain_data(evolution_chain_url):
     response = requests.get(evolution_chain_url)
@@ -70,7 +90,9 @@ def is_in_first_five_generations(generation_url):
 
 
 def process_egg_groups(egg_groups):
-    return [group["name"] for group in egg_groups]
+    return [
+        EGG_GROUP_NAME_LOOKUP.get(group["name"], group["name"]) for group in egg_groups
+    ]
 
 
 def process_growth_rate(growth_rate):
@@ -93,13 +115,16 @@ def process_types(types):
 
 
 def process_past_types(pokemon_data):
-    if 'past_types' in pokemon_data and pokemon_data['past_types']:
-        for past_type_entry in pokemon_data['past_types']:
+    if "past_types" in pokemon_data and pokemon_data["past_types"]:
+        for past_type_entry in pokemon_data["past_types"]:
             # Check if the generation is Generation 5
-            if past_type_entry['generation']['name'] == 'generation-v':
-                processed_types = [type_entry['type']['name'] for type_entry in past_type_entry['types']]
+            if past_type_entry["generation"]["name"] == "generation-v":
+                processed_types = [
+                    type_entry["type"]["name"]
+                    for type_entry in past_type_entry["types"]
+                ]
                 if processed_types:
-                    pokemon_data['types'] = processed_types
+                    pokemon_data["types"] = processed_types
                     break  # Stop processing after finding Generation 5 types
 
 
@@ -183,7 +208,6 @@ def main():
                     pokemon_data = pokemon_response.json()
                     pokemon_name = pokemon_data["name"]
 
-
                     if "held_items" in pokemon_data:
                         for item in pokemon_data["held_items"]:
                             if "version_details" in item:
@@ -204,9 +228,9 @@ def main():
                         )
                     if "forms" in pokemon_data:
                         pokemon_data["forms"] = process_forms(pokemon_data["forms"])
-                        
+
                     process_past_types(pokemon_data)
-                    
+
                     pokemon_data.pop("game_indices", None)
                     pokemon_data.pop("location_area_encounters", None)
                     pokemon_data.pop("moves", None)
