@@ -62,6 +62,17 @@ def process_evolution_chain(chain):
             evolves_to.pop("evolves_to", None)
 
 
+def process_held_items(held_items):
+    processed_items = []
+    for item in held_items:
+        item_id = int(item["item"]["url"].split("/")[-2])
+        processed_items.append({
+            "id": item_id,
+            "item_name": item["item"]["name"],
+        })
+    return processed_items
+
+
 def remove_urls(dictionary):
     for key, value in list(dictionary.items()):
         if isinstance(value, dict):
@@ -209,9 +220,7 @@ def main():
                     pokemon_name = pokemon_data["name"]
 
                     if "held_items" in pokemon_data:
-                        for item in pokemon_data["held_items"]:
-                            if "version_details" in item:
-                                del item["version_details"]
+                        pokemon_data["held_items"] = process_held_items(pokemon_data["held_items"])
 
                     if "sprites" in pokemon_data:
                         pokemon_data["sprites"].pop("versions", None)
