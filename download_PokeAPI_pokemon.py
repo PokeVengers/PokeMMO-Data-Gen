@@ -45,9 +45,12 @@ def get_evolution_chain_data(evolution_chain_url):
 
 def process_evolution_chain(chain):
     if "species" in chain:
-        # Remove URL from species field
-        if "url" in chain["species"]:
-            del chain["species"]["url"]
+        # Fetch and store the species ID
+        species_url = chain["species"].get("url")
+        if species_url:
+            species_id = int(species_url.split("/")[-2])
+            chain["species"]["id"] = species_id  # Add the ID to the species data
+            del chain["species"]["url"]  # Remove URL from species field
 
     if "evolves_to" in chain:
         for evolves_to in chain["evolves_to"]:
@@ -59,9 +62,15 @@ def process_evolution_chain(chain):
                 for detail in evolves_to["evolution_details"]:
                     remove_urls(detail)
 
-            # Replace species with just the name, if present
+            # Replace species with just the name and ID, if present
             if "species" in evolves_to:
-                evolves_to["species"] = evolves_to["species"]["name"]
+                evolves_to_species_url = evolves_to["species"].get("url")
+                if evolves_to_species_url:
+                    evolves_to_species_id = int(evolves_to_species_url.split("/")[-2])
+                    evolves_to["species"] = {
+                        "name": evolves_to["species"]["name"],
+                        "id": evolves_to_species_id
+                    }
 
             evolves_to.pop("evolves_to", None)
 
