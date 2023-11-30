@@ -159,6 +159,7 @@ def process_varieties(varieties):
 def process_abilities(abilities):
     return [
         {
+            "id": int(ability["ability"]["url"].split("/")[-2]), # Extracting the ID from the URL
             "ability_name": ability["ability"]["name"],
             "is_hidden": ability["is_hidden"],
             "slot": ability["slot"],
