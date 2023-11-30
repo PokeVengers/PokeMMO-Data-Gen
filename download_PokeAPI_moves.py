@@ -6,20 +6,28 @@ BASE_URL = "https://pokeapi.co/api/v2/move/"
 DATA_SAVE_PATH = "./data/"
 OUTPUT_FILE = "moves-data.json"
 
-def get_total_move_count():
-    response = requests.get(BASE_URL)
-    if response.status_code == 200:
-        return response.json().get("count", 0)
-    else:
-        print("Failed to fetch total move count")
-        return 0
+def get_all_moves():
+    moves = []
+    next_url = BASE_URL  # Start with the initial URL
 
-def get_move_data(move_id):
-    response = requests.get(f"{BASE_URL}{move_id}")
+    while next_url:
+        response = requests.get(next_url)
+        if response.status_code == 200:
+            data = response.json()
+            moves.extend(data.get("results", []))
+            next_url = data.get("next")  # URL for the next page of results
+        else:
+            print(f"Failed to fetch moves list: HTTP {response.status_code}")
+            break
+
+    return [move["name"] for move in moves]
+
+def get_move_data(move_name):
+    response = requests.get(f"{BASE_URL}{move_name}")
     if response.status_code == 200:
         return response.json()
     else:
-        print(f"Failed to fetch data for move ID {move_id}")
+        print(f"Failed to fetch data for move {move_name}")
         return None
 
 def is_move_in_generations_1_to_5(move_data):
@@ -45,11 +53,11 @@ def save_moves_to_file(moves, filename):
         json.dump(moves, file, ensure_ascii=False, indent=4)
 
 def main():
-    total_moves = get_total_move_count()
+    all_move_names = get_all_moves()
     all_moves = {}
 
-    for move_id in range(1, total_moves + 1):
-        move_data = get_move_data(move_id)
+    for move_name in all_move_names:
+        move_data = get_move_data(move_name)
         if move_data and is_move_in_generations_1_to_5(move_data):
             processed_data = process_move_data(move_data)
             all_moves[processed_data["name"]] = processed_data
