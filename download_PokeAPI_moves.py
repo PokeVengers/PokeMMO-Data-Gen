@@ -35,6 +35,10 @@ def is_move_in_generations_1_to_5(move_data):
     return generation_name in ["generation-i", "generation-ii", "generation-iii", "generation-iv", "generation-v"]
 
 def process_move_data(raw_data):
+    # Skip moves with type 'shadow'
+    if raw_data.get("type", {}).get("name") == "shadow":
+        return None
+
     processed_data = {
         "id": raw_data.get("id"),
         "name": raw_data.get("name"),
@@ -60,7 +64,8 @@ def main():
         move_data = get_move_data(move_name)
         if move_data and is_move_in_generations_1_to_5(move_data):
             processed_data = process_move_data(move_data)
-            all_moves[processed_data["name"]] = processed_data
+            if processed_data:  # Add only if processed_data is not None
+                all_moves[processed_data["name"]] = processed_data
 
     save_moves_to_file(all_moves, OUTPUT_FILE)
 
