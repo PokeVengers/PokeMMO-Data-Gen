@@ -22,6 +22,10 @@ def get_move_data(move_id):
         print(f"Failed to fetch data for move ID {move_id}")
         return None
 
+def is_move_in_generations_1_to_5(move_data):
+    generation_name = move_data.get("generation", {}).get("name", "")
+    return generation_name in ["generation-i", "generation-ii", "generation-iii", "generation-iv", "generation-v"]
+
 def process_move_data(raw_data):
     processed_data = {
         "id": raw_data.get("id"),
@@ -45,9 +49,9 @@ def main():
     all_moves = {}
 
     for move_id in range(1, total_moves + 1):
-        raw_data = get_move_data(move_id)
-        if raw_data:
-            processed_data = process_move_data(raw_data)
+        move_data = get_move_data(move_id)
+        if move_data and is_move_in_generations_1_to_5(move_data):
+            processed_data = process_move_data(move_data)
             all_moves[processed_data["name"]] = processed_data
 
     save_moves_to_file(all_moves, OUTPUT_FILE)
