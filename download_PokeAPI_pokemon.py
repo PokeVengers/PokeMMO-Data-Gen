@@ -212,10 +212,19 @@ def read_moves():
         return json.load(file)
 
 
+def get_all_unique_moves(moves_data):
+    unique_moves = set()
+    for pokemon, data in moves_data.items():
+        for move in data["moves"]:
+            unique_moves.add((move["name"], move["id"]))
+    return unique_moves
+
+
 def main():
     all_pokemon_data = {}
     locations_data = read_locations()
-    moves_data = read_moves() 
+    moves_data = read_moves()
+    all_unique_moves = get_all_unique_moves(moves_data)
 
     response = requests.get(POKEMON_BASE_URL)
     total_count = response.json()["count"]
@@ -298,6 +307,27 @@ def main():
                     merged_data = {**species_data, **pokemon_data}
                     merged_data.pop("species", None)
                     all_pokemon_data[pokemon_name] = merged_data
+
+    smeargle_moves = [{
+        "id": move_id,
+        "name": move_name,
+        "type": "sketch"
+    } for move_name, move_id in all_unique_moves]
+
+    # Check if Smeargle is in all_pokemon_data
+    if "smeargle" not in all_pokemon_data:
+        all_pokemon_data["smeargle"] = {"name": "smeargle", "moves": []}
+
+    # Retrieve Smeargle's existing moves
+    existing_smeargle_moves = all_pokemon_data["smeargle"].get("moves", [])
+
+    # Merge unique moves with existing ones, avoiding duplicates
+    existing_move_names = {move['name'] for move in existing_smeargle_moves}
+    merged_moves = existing_smeargle_moves + [move for move in smeargle_moves if move['name'] not in existing_move_names]
+
+    # Update Smeargle's moves in all_pokemon_data
+    all_pokemon_data["smeargle"]["moves"] = merged_moves
+
 
     save_all_data(all_pokemon_data)
 
