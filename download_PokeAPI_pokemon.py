@@ -43,34 +43,46 @@ def get_evolution_chain_data(evolution_chain_url):
     return None
 
 
+def get_pokemon_generation(species_id):
+    response = requests.get(POKEMON_SPECIES_URL + str(species_id))
+    if response.status_code == 200:
+        species_data = response.json()
+        generation_url = species_data["generation"]["url"]
+        generation_id = int(generation_url.split("/")[-2])
+        return generation_id
+    return None
+
+
 def process_evolution_chain(chain):
     if "species" in chain:
-        # Fetch and store the species ID
         species_url = chain["species"].get("url")
         if species_url:
             species_id = int(species_url.split("/")[-2])
-            chain["species"]["id"] = species_id  # Add the ID to the species data
-            del chain["species"]["url"]  # Remove URL from species field
+            chain["species"]["id"] = species_id
+            del chain["species"]["url"]
 
     if "evolves_to" in chain:
-        for evolves_to in chain["evolves_to"]:
+        for evolves_to in chain["evolves_to"][:]:  # Iterate over a copy of the list
+            # Check if the species it evolves to is from gen 6 or later
+            evolves_to_species_url = evolves_to["species"].get("url")
+            if evolves_to_species_url:
+                evolves_to_species_id = int(evolves_to_species_url.split("/")[-2])
+                if get_pokemon_generation(evolves_to_species_id) > 5:
+                    chain["evolves_to"].remove(evolves_to)  # Remove this evolution
+                    continue
+
             # Process the next level in the evolution chain
             process_evolution_chain(evolves_to)
 
-            # Remove URLs from evolution details
             if "evolution_details" in evolves_to:
                 for detail in evolves_to["evolution_details"]:
                     remove_urls(detail)
 
-            # Replace species with just the name and ID, if present
             if "species" in evolves_to:
-                evolves_to_species_url = evolves_to["species"].get("url")
-                if evolves_to_species_url:
-                    evolves_to_species_id = int(evolves_to_species_url.split("/")[-2])
-                    evolves_to["species"] = {
-                        "name": evolves_to["species"]["name"],
-                        "id": evolves_to_species_id
-                    }
+                evolves_to["species"] = {
+                    "name": evolves_to["species"]["name"],
+                    "id": evolves_to_species_id
+                }
 
             evolves_to.pop("evolves_to", None)
 
