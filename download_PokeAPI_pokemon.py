@@ -9,6 +9,7 @@ POKEMON_SPECIES_URL = "https://pokeapi.co/api/v2/pokemon-species/"
 DATA_SAVE_PATH = "./data/"
 ALL_POKEMON_FILE = "pokemon-data.json"
 LOCATIONS_FILE = os.path.join(current_dir, "locations.json")
+MOVES_FILE = os.path.join(current_dir, "pokemon_moves.json")  # Path to the moves file
 
 # Lookup table to map API egg group names to PokéMMO egg group names
 EGG_GROUP_NAME_LOOKUP = {
@@ -183,11 +184,17 @@ def save_all_data(all_data):
 def read_locations():
     with open(LOCATIONS_FILE, 'r', encoding='utf-8') as file:
         return json.load(file)
+    
+
+def read_moves():
+    with open(MOVES_FILE, 'r', encoding='utf-8') as file:
+        return json.load(file)
 
 
 def main():
     all_pokemon_data = {}
     locations_data = read_locations()
+    moves_data = read_moves() 
 
     response = requests.get(POKEMON_BASE_URL)
     total_count = response.json()["count"]
@@ -261,6 +268,8 @@ def main():
                     pokemon_name = species_data["name"]
                     if pokemon_name in locations_data:
                         species_data["location_area_encounters"] = locations_data[pokemon_name]["locations"]
+                    if pokemon_name in moves_data:
+                        species_data["moves"] = moves_data[pokemon_name]["moves"]
 
                     remove_urls(species_data)
                     remove_urls(pokemon_data)
