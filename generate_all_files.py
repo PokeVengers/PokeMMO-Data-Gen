@@ -13,7 +13,11 @@ def run_script(script_path):
         print(f"Error in script {script_path}: {e}")
 
 # List of scripts to run
-scripts_to_run = [os.path.join(current_dir, 'download_PokeAPI_pokemon.py'),os.path.join(current_dir, 'download_PokeAPI_egg-group.py')]
+scripts_to_run = [
+    os.path.join(current_dir, 'download_PokeAPI_pokemon.py'),
+    os.path.join(current_dir, 'download_PokeAPI_egg-group.py'),
+    os.path.join(current_dir, 'download_PokeAPI_moves.py')
+    ]
 
 for script in scripts_to_run:
     run_script(script)
