@@ -49,6 +49,7 @@ def process_move_data(raw_data):
         "power": raw_data.get("power"),
         "damage_class": raw_data.get("damage_class", {}).get("name"),
         "type": raw_data.get("type", {}).get("name"),
+        "effect": raw_data.get("effect_entries")[0].get("short_effect") if raw_data.get("effect_entries") else None,
     }
     return processed_data
 
