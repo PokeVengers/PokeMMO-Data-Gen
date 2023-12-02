@@ -16,7 +16,8 @@ def run_script(script_path):
 scripts_to_run = [
     os.path.join(current_dir, 'download_PokeAPI_pokemon.py'),
     os.path.join(current_dir, 'download_PokeAPI_egg-group.py'),
-    os.path.join(current_dir, 'download_PokeAPI_moves.py')
+    os.path.join(current_dir, 'download_PokeAPI_moves.py'),
+    os.path.join(current_dir, 'patch_data_files.py')
     ]
 
 for script in scripts_to_run:

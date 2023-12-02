@@ -1,0 +1,12 @@
+{
+    "blaziken": {
+        "abilities_remove": [
+            {
+                "id": 3,
+                "ability_name": "speed-boost",
+                "is_hidden": true,
+                "slot": 3
+            }
+        ]
+    }
+}
