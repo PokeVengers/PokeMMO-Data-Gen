@@ -6336,7 +6336,7 @@
             }
         ]
     },
-    "nidoran♀": {
+    "nidoran-f": {
         "locations": [
             {
                 "type": "Grass",
@@ -6699,7 +6699,7 @@
             }
         ]
     },
-    "nidoran♂": {
+    "nidoran-m": {
         "locations": [
             {
                 "type": "Grass",
