@@ -5,6 +5,8 @@ import json
 BASE_URL = "https://pokeapi.co/api/v2/item/"
 DATA_SAVE_PATH = "./data/"
 OUTPUT_FILE = "item-data.json"
+INCLUDED_ITEMS = ["assault-vest", "ability-capsule", "exp-candy-xs", "exp-candy-s", "exp-candy-m", "exp-candy-l", "exp-candy-xl"]  # List of items to include regardless of generation
+EXCLUDED_ITEMS = ["tm01", "tm02"]  # List of items to exclude
 
 def get_all_items():
     items = []
@@ -30,6 +32,15 @@ def get_item_data(item_name):
         print(f"Failed to fetch data for item {item_name}")
         return None
 
+def is_item_in_generations_1_to_5(item_data):
+    game_indices = item_data.get("game_indices", [])
+    for index in game_indices:
+        generation_name = index.get("generation", {}).get("name", "")
+        if generation_name in ["generation-i", "generation-ii", "generation-iii", "generation-iv", "generation-v"]:
+            return True
+    return False
+
+
 def process_item_data(raw_data):
     processed_data = {
         "id": raw_data.get("id"),
@@ -50,8 +61,11 @@ def main():
     all_items = {}
 
     for item_name in all_item_names:
+        if item_name in EXCLUDED_ITEMS:
+            continue  # Skip excluded items
+
         item_data = get_item_data(item_name)
-        if item_data:
+        if item_data and (is_item_in_generations_1_to_5(item_data) or item_name in INCLUDED_ITEMS):
             processed_data = process_item_data(item_data)
             all_items[processed_data["name"]] = processed_data
 
