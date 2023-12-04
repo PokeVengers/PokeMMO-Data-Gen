@@ -170,7 +170,7 @@ def process_varieties(varieties):
         name = variety["pokemon"]["name"]
         # Exclude specific variations
         if (
-            "mega" in name
+            "-mega" in name
             or "gmax" in name
             or "alola" in name
             or "hisui" in name
