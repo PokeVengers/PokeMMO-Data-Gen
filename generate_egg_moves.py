@@ -24,7 +24,7 @@ def get_pokemon_egg_groups(pokemon, egg_groups_data):
             yield egg_group_info['name']
 
 def can_learn_move_naturally(pokemon, move, all_pokemon):
-    return 'moves' in all_pokemon[pokemon] and any(m['name'] == move and m['type'] != 'egg_moves' for m in all_pokemon[pokemon]['moves'])
+    return pokemon in all_pokemon and 'moves' in all_pokemon[pokemon] and any(m['name'] == move and m['type'] != 'egg_moves' for m in all_pokemon[pokemon]['moves'])
 
 def find_breeding_chains(pokemon, move, all_pokemon, egg_groups_data):
     chains = []
@@ -34,25 +34,29 @@ def find_breeding_chains(pokemon, move, all_pokemon, egg_groups_data):
         if egg_group_info['name'] in pokemon_egg_groups:
             for species in egg_group_info['pokemon_species']:
                 species_name = species['name']
-                if species_name != pokemon and can_learn_move_naturally(species_name, move, all_pokemon):
+                if species_name != pokemon and species_name in all_pokemon and can_learn_move_naturally(species_name, move, all_pokemon):
                     chains.append([pokemon, species_name])
 
-    # Check for second-level breeding chains if the Pokémon belongs to multiple egg groups
     if len(pokemon_egg_groups) > 1:
         for egg_group_key, egg_group_info in egg_groups_data.items():
             if egg_group_info['name'] in pokemon_egg_groups:
                 for species in egg_group_info['pokemon_species']:
                     species_name = species['name']
-                    if species_name != pokemon:
+                    if species_name != pokemon and species_name in all_pokemon:
                         species_egg_groups = list(get_pokemon_egg_groups(species_name, egg_groups_data))
                         for secondary_egg_group_key, secondary_egg_group_info in egg_groups_data.items():
                             if secondary_egg_group_info['name'] in species_egg_groups and secondary_egg_group_info['name'] != egg_group_info['name']:
                                 for secondary_species in secondary_egg_group_info['pokemon_species']:
                                     secondary_species_name = secondary_species['name']
-                                    if secondary_species_name != species_name and can_learn_move_naturally(secondary_species_name, move, all_pokemon):
+                                    if secondary_species_name != species_name and secondary_species_name in all_pokemon and can_learn_move_naturally(secondary_species_name, move, all_pokemon):
                                         chains.append([pokemon, species_name, secondary_species_name])
 
     return chains
+
+def write_json(data, filename):
+    with open(DATA_SAVE_PATH + filename, 'w', encoding='utf-8') as file:
+        json.dump(data, file, ensure_ascii=False, indent=4)
+
 def main():
     pokemon_data = load_json(INPUT_FILE)
     egg_groups_data = load_json(EGG_GROUPS_FILE)
@@ -63,10 +67,6 @@ def main():
         breeding_chains[pokemon] = {move: find_breeding_chains(pokemon, move, pokemon_data, egg_groups_data) for move in moves}
 
     write_json(breeding_chains, OUTPUT_FILE)
-
-def write_json(data, filename):
-    with open(DATA_SAVE_PATH + filename, 'w', encoding='utf-8') as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
     main()
