@@ -10,6 +10,7 @@ DATA_SAVE_PATH = "./data/"
 ALL_POKEMON_FILE = "pokemon-data.json"
 LOCATIONS_FILE = os.path.join(current_dir, "locations.json")
 MOVES_FILE = os.path.join(current_dir, "pokemon_moves.json")  # Path to the moves file
+egg_moves_database = {}
 
 # Lookup table to map API egg group names to PokéMMO egg group names
 EGG_GROUP_NAME_LOOKUP = {
@@ -85,6 +86,45 @@ def process_evolution_chain(chain):
                 }
 
             evolves_to.pop("evolves_to", None)
+
+
+def process_pokemon_egg_moves(pokemon_name, moves):
+    """ Process egg moves for a given Pokémon and update the database. """
+    egg_moves = [move for move in moves if move["type"] == "egg_moves"]
+    if egg_moves:
+        egg_moves_database[pokemon_name] = egg_moves
+
+
+def add_egg_moves_to_evolutions(all_pokemon_data, pokemon_name, egg_moves):
+    """ Add egg moves to the evolutions of a given Pokémon if they don't have them. """
+    updates = {}  # Initialize an empty dictionary to store updates
+
+    if pokemon_name in all_pokemon_data:
+        # Extract the top-level evolution data
+        evolution_chain_data = all_pokemon_data[pokemon_name].get("evolution_chain", {})
+        
+        # Traverse the evolution chain to find evolved forms
+        current_stage = evolution_chain_data.get("chain", {})
+        while current_stage:
+            evolves_to = current_stage.get("evolves_to", [])
+            for evolution in evolves_to:
+                species_data = evolution.get("species", {})
+                evolution_name = species_data.get("name")
+                if evolution_name in all_pokemon_data:
+                    evolution_moves = all_pokemon_data[evolution_name].get("moves", [])
+                    existing_egg_move_ids = {move["id"] for move in evolution_moves if move["type"] == "egg_moves"}
+                    new_egg_moves = [move for move in egg_moves if move["id"] not in existing_egg_move_ids]
+                    if new_egg_moves:
+                        updates[evolution_name] = evolution_moves + new_egg_moves
+            
+            # Go to the next stage in the chain
+            if len(evolves_to) > 0:
+                current_stage = evolves_to[0]
+            else:
+                break
+
+    return updates
+
 
 
 def process_held_items(held_items):
@@ -300,6 +340,8 @@ def main():
                         species_data["location_area_encounters"] = locations_data[pokemon_name]["locations"]
                     if pokemon_name in moves_data:
                         species_data["moves"] = moves_data[pokemon_name]["moves"]
+                    if pokemon_name in moves_data:
+                        process_pokemon_egg_moves(pokemon_name, moves_data[pokemon_name]["moves"])
 
                     remove_urls(species_data)
                     remove_urls(pokemon_data)
@@ -328,6 +370,12 @@ def main():
     # Update Smeargle's moves in all_pokemon_data
     all_pokemon_data["smeargle"]["moves"] = merged_moves
 
+    # Add egg moves to evolutions and merge updates
+    for pokemon_name, egg_moves in egg_moves_database.items():
+        updates = add_egg_moves_to_evolutions(all_pokemon_data, pokemon_name, egg_moves)
+        # Apply the updates to all_pokemon_data
+        for evolution_name, moves in updates.items():
+            all_pokemon_data[evolution_name]["moves"] = moves
 
     save_all_data(all_pokemon_data)
 
