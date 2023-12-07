@@ -5,6 +5,8 @@ import json
 BASE_URL = "https://pokeapi.co/api/v2/ability/"
 DATA_SAVE_PATH = "./data/"
 OUTPUT_FILE = "abilities-data.json"
+INCLUDED_ABILITIES = ["wind-rider"]  # List of abilities to include regardless of generation
+EXCLUDED_ABILITIES = []  # List of abilities to exclude
 
 def get_all_abilities():
     abilities = []
@@ -30,6 +32,10 @@ def get_ability_data(ability_name):
         print(f"Failed to fetch data for ability {ability_name}")
         return None
 
+def is_ability_in_generations_1_to_5(ability_data):
+    generation_name = ability_data.get("generation", {}).get("name", "")
+    return generation_name in ["generation-i", "generation-ii", "generation-iii", "generation-iv", "generation-v"]
+
 def process_ability_data(raw_data):
     effect_text = None
     for effect_entry in raw_data.get("effect_entries", []):
@@ -54,8 +60,11 @@ def main():
     all_abilities = {}
 
     for ability_name in all_ability_names:
+        if ability_name in EXCLUDED_ABILITIES:
+            continue  # Skip excluded abilities
+
         ability_data = get_ability_data(ability_name)
-        if ability_data:
+        if ability_data and (is_ability_in_generations_1_to_5(ability_data) or ability_name in INCLUDED_ABILITIES):
             processed_data = process_ability_data(ability_data)
             all_abilities[processed_data["name"]] = processed_data
 
