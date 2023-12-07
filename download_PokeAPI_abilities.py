@@ -37,6 +37,8 @@ def is_ability_in_generations_1_to_5(ability_data):
     return generation_name in ["generation-i", "generation-ii", "generation-iii", "generation-iv", "generation-v"]
 
 def process_ability_data(raw_data):
+    if not raw_data.get("is_main_series"):
+        return None  # Skip if the ability is not part of the main series
     effect_text = None
     for effect_entry in raw_data.get("effect_entries", []):
         if effect_entry.get("language", {}).get("name") == "en":
@@ -66,7 +68,8 @@ def main():
         ability_data = get_ability_data(ability_name)
         if ability_data and (is_ability_in_generations_1_to_5(ability_data) or ability_name in INCLUDED_ABILITIES):
             processed_data = process_ability_data(ability_data)
-            all_abilities[processed_data["name"]] = processed_data
+            if processed_data:  # Add only if processed_data is not None
+                all_abilities[processed_data["name"]] = processed_data
 
     save_abilities_to_file(all_abilities, OUTPUT_FILE)
 
