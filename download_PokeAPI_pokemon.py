@@ -211,10 +211,24 @@ def process_varieties(varieties):
         # Exclude specific variations
         if (
             "-mega" in name
-            or "gmax" in name
-            or "alola" in name
-            or "hisui" in name
-            or "galar" in name
+            or "-gmax" in name
+            or "-alola" in name
+            or "-hisui" in name
+            or "-galar" in name
+            or "-rock-star" in name
+            or "-belle" in name
+            or "-pop-star" in name
+            or "-phd" in name
+            or "-libre" in name
+            or "-cosplay" in name
+            or "-original-cap" in name
+            or "-hoenn-cap" in name
+            or "-sinnoh-cap" in name
+            or "-unova-cap" in name
+            or "-kalos-cap" in name
+            or "-partner-cap" in name
+            or "-starter" in name
+            or "-world-cap" in name
         ):
             continue
         filtered_varieties.append({"is_default": variety["is_default"], "name": name})
