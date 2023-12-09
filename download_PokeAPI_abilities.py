@@ -5,7 +5,7 @@ import json
 BASE_URL = "https://pokeapi.co/api/v2/ability/"
 DATA_SAVE_PATH = "./data/"
 OUTPUT_FILE = "abilities-data.json"
-INCLUDED_ABILITIES = ["wind-rider"]  # List of abilities to include regardless of generation
+INCLUDED_ABILITIES = ["competitive","neutralizing-gas","protean","sharpness","slush-rush","wind-rider"]  # List of abilities to include regardless of generation
 EXCLUDED_ABILITIES = []  # List of abilities to exclude
 
 def get_all_abilities():

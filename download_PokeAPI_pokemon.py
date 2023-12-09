@@ -235,6 +235,10 @@ def process_varieties(species_id):
                 or "-partner-cap" in name
                 or "-starter" in name
                 or "-world-cap" in name
+                or "-primal" in name
+                or "-paldea" in name
+                or "-totem" in name
+                or "-origin" in name
             ):
                 continue
 
