@@ -204,35 +204,50 @@ def process_past_types(pokemon_data):
                     break  # Stop processing after finding Generation 5 types
 
 
-def process_varieties(varieties):
-    filtered_varieties = []
-    for variety in varieties:
-        name = variety["pokemon"]["name"]
-        # Exclude specific variations
-        if (
-            "-mega" in name
-            or "-gmax" in name
-            or "-alola" in name
-            or "-hisui" in name
-            or "-galar" in name
-            or "-rock-star" in name
-            or "-belle" in name
-            or "-pop-star" in name
-            or "-phd" in name
-            or "-libre" in name
-            or "-cosplay" in name
-            or "-original-cap" in name
-            or "-hoenn-cap" in name
-            or "-sinnoh-cap" in name
-            or "-unova-cap" in name
-            or "-kalos-cap" in name
-            or "-partner-cap" in name
-            or "-starter" in name
-            or "-world-cap" in name
-        ):
-            continue
-        filtered_varieties.append({"is_default": variety["is_default"], "name": name})
-    return filtered_varieties
+def process_varieties(species_id):
+    response = requests.get(POKEMON_SPECIES_URL + str(species_id))
+    if response.status_code == 200:
+        species_data = response.json()
+        varieties = species_data['varieties']
+
+        processed_varieties = []
+        for variety in varieties:
+            name = variety['pokemon']['name']
+
+            # Exclude specific variations
+            if (
+                "-mega" in name
+                or "-gmax" in name
+                or "-alola" in name
+                or "-hisui" in name
+                or "-galar" in name
+                or "-rock-star" in name
+                or "-belle" in name
+                or "-pop-star" in name
+                or "-phd" in name
+                or "-libre" in name
+                or "-cosplay" in name
+                or "-original-cap" in name
+                or "-hoenn-cap" in name
+                or "-sinnoh-cap" in name
+                or "-unova-cap" in name
+                or "-kalos-cap" in name
+                or "-partner-cap" in name
+                or "-starter" in name
+                or "-world-cap" in name
+            ):
+                continue
+
+            variety_id = int(variety['pokemon']['url'].split('/')[-2])
+            processed_varieties.append({
+                "name": name,
+                "id": variety_id,
+                "is_default": variety["is_default"]
+            })
+
+        return processed_varieties
+
+    return []
 
 
 def process_abilities(abilities):
@@ -311,11 +326,11 @@ def main():
                 evolution_chain_data = get_evolution_chain_data(evolution_chain_url)
                 species_data["evolution_chain"] = evolution_chain_data
 
-            species_data["varieties"] = process_varieties(species_data["varieties"])
-
-            for variety in species_data["varieties"]:
-                pokemon_id = variety["name"]
-                pokemon_response = requests.get(POKEMON_BASE_URL + pokemon_id)
+            varieties = process_varieties(i)  # Process varieties for the species
+            for variety in varieties:
+                variety_id = variety["id"]
+                variety_name = variety["name"]
+                pokemon_response = requests.get(POKEMON_BASE_URL + str(variety_id))
                 if pokemon_response.status_code == 200:
                     pokemon_data = pokemon_response.json()
                     pokemon_name = pokemon_data["name"]
@@ -360,9 +375,12 @@ def main():
                     remove_urls(species_data)
                     remove_urls(pokemon_data)
 
+                    # Merge species data with pokemon data for the specific variety
                     merged_data = {**species_data, **pokemon_data}
-                    merged_data.pop("species", None)
-                    all_pokemon_data[pokemon_name] = merged_data
+                    merged_data.pop("species", None)  # Remove the 'species' key from merged data
+
+                    # Store the data for this variety in the main dictionary
+                    all_pokemon_data[variety_name] = merged_data
 
     smeargle_moves = [{
         "id": move_id,
