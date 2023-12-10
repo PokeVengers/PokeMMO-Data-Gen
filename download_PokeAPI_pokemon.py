@@ -63,29 +63,22 @@ def process_evolution_chain(chain):
             del chain["species"]["url"]
 
     if "evolves_to" in chain:
-        for evolves_to in chain["evolves_to"][:]:  # Iterate over a copy of the list
-            # Check if the species it evolves to is from gen 6 or later
-            evolves_to_species_url = evolves_to["species"].get("url")
-            if evolves_to_species_url:
-                evolves_to_species_id = int(evolves_to_species_url.split("/")[-2])
-                if get_pokemon_generation(evolves_to_species_id) > 5:
-                    chain["evolves_to"].remove(evolves_to)  # Remove this evolution
-                    continue
+        for evolves_to in chain["evolves_to"]:
+            process_evolution_chain(evolves_to)  # Recursively process the next evolution
 
-            # Process the next level in the evolution chain
-            process_evolution_chain(evolves_to)
-
+            # Processing evolution details and species information
             if "evolution_details" in evolves_to:
                 for detail in evolves_to["evolution_details"]:
                     remove_urls(detail)
 
-            if "species" in evolves_to:
+            evolves_to_species_url = evolves_to["species"].get("url")
+            if evolves_to_species_url:
+                evolves_to_species_id = int(evolves_to_species_url.split("/")[-2])
                 evolves_to["species"] = {
                     "name": evolves_to["species"]["name"],
                     "id": evolves_to_species_id
                 }
 
-            evolves_to.pop("evolves_to", None)
 
 
 def process_pokemon_egg_moves(pokemon_name, moves):
