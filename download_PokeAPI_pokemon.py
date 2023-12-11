@@ -376,6 +376,7 @@ def main():
                     merged_data = {**species_data, **pokemon_data}
                     merged_data['varieties'] = varieties
                     merged_data.pop("species", None)  # Remove the 'species' key from merged data
+                    merged_data.pop("forms", None)
 
                     # Store the data for this variety in the main dictionary
                     all_pokemon_data[variety_name] = merged_data
