@@ -12,6 +12,11 @@ It is very important that data in this project be as accurate as possible. If yo
 - `download_PokeAPI_pokemon.py`: This script generates pokemon-data.json.
 - `download_PokeAPI_moves.py`: This script generates moves-data.json.
 - `download_PokeAPI_egg-group.py`: This script generates egg-groups-data.json.
+- `download_PokeAPI_abilities.py`: This script generates abilities-data.json.
+- `download_PokeAPI_items.py`: This script generates item-data.json.
+- `add_pokemon_to_abilities.py`: Adds Pokemon to their abilities in abilities-data.json.
+- `add_pokemon_to_moves.py`: Adds Pokemon to their moves moves-data.json.
+- `generate_egg_moves.py`: This script generates egg-moves-data.json.
 - `pokemon_moves.json`: This file contains the data for all of the moves that Pokemon can learn. Move changes should be made here.
 - `locations.json`: This file contains the data for all encounter locations of Pokemon. Location changes should be made here.
 - `patch_data_files.py`: This script performs "patches" on the data. This is needed to handle changes that are different from the main series games. Example of the patching format will be below.
@@ -25,7 +30,7 @@ It is very important that data in this project be as accurate as possible. If yo
         "new_feature": "example_value", // Add a new feature
         // Update a nested value (evolution_chain -> chain -> evolves_to -> species -> name)
         "evolution_chain.chain.evolves_to.0.species.name": "ivysaur-updated",
-        // Add a new move
+        // Add a new move (Note that moves shouldn't be added this way but used as an example.)
         "moves_add": [
             {
                 "id": 500,
