@@ -18,12 +18,14 @@ def update_moves_with_pokemon(pokemon_data, moves_data):
             for move_name, move_data in moves_data.items():
                 if move_data['id'] == move_id:
                     matched = True
+                    # Check if the Pokémon is already in the list
                     if 'learned_by_pokemon' not in move_data:
                         move_data['learned_by_pokemon'] = []
-                    move_data['learned_by_pokemon'].append({
-                        'name': pokemon_name,
-                        'id': pokemon_info['id']
-                    })
+                    if not any(p['id'] == pokemon_info['id'] for p in move_data['learned_by_pokemon']):
+                        move_data['learned_by_pokemon'].append({
+                            'name': pokemon_name,
+                            'id': pokemon_info['id']
+                        })
                     break
             if not matched:
                 print(f"No matching ID found for move: {move['name']}")
