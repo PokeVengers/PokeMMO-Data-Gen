@@ -5,6 +5,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 DATA_SAVE_PATH = "./data/"
 POKEMON_DATA_FILE = 'pokemon-data.json'
 POKEMON_PATCH_FILE = 'patch_pokemon-data.json'
+ABILITIES_DATA_FILE = 'abilities-data.json'
 
 def load_json(filename):
     with open(filename, 'r', encoding='utf-8') as file:
@@ -32,18 +33,37 @@ def apply_patch(original_data, patch_data):
             else:
                 original_data[key][change_key] = value
 
+def replace_string_in_data(data, old_string, new_string):
+    if isinstance(data, dict):
+        for key, value in data.items():
+            if isinstance(value, (dict, list)):
+                replace_string_in_data(value, old_string, new_string)
+            elif isinstance(value, str) and old_string in value:
+                data[key] = value.replace(old_string, new_string)
+    elif isinstance(data, list):
+        for i, item in enumerate(data):
+            if isinstance(item, (dict, list)):
+                replace_string_in_data(item, old_string, new_string)
+            elif isinstance(item, str) and old_string in item:
+                data[i] = item.replace(old_string, new_string)
+
 def save_json(data, filename):
     with open(filename, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
 def main():
-
-
+    # Process Pokemon Data
     pokemon_original_data = load_json(DATA_SAVE_PATH + POKEMON_DATA_FILE)
     pokemon_patch_data = load_json(os.path.join(current_dir, POKEMON_PATCH_FILE))
 
     apply_patch(pokemon_original_data, pokemon_patch_data)
+    replace_string_in_data(pokemon_original_data, "neutralizing-gas", "reactive-gas")
     save_json(pokemon_original_data, DATA_SAVE_PATH + POKEMON_DATA_FILE)
+
+    # Process Abilities Data
+    abilities_data = load_json(DATA_SAVE_PATH + ABILITIES_DATA_FILE)
+    replace_string_in_data(abilities_data, "neutralizing-gas", "reactive-gas")
+    save_json(abilities_data, DATA_SAVE_PATH + ABILITIES_DATA_FILE)
 
 if __name__ == "__main__":
     main()
