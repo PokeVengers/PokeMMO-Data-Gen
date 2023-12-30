@@ -7,6 +7,8 @@ POKEMON_DATA_FILE = 'pokemon-data.json'
 POKEMON_PATCH_FILE = 'patch_pokemon-data.json'
 ABILITIES_DATA_FILE = 'abilities-data.json'
 ITEM_DATA_FILE = 'item-data.json'
+MOVES_DATA_FILE = 'moves-data.json'
+MOVES_PATCH_FILE = 'patch_move-data.json'
 
 def load_json(filename):
     with open(filename, 'r', encoding='utf-8') as file:
@@ -72,6 +74,12 @@ def main():
     item_data = load_json(DATA_SAVE_PATH + ITEM_DATA_FILE)
     replace_string_in_data(item_data, "assault-vest", "assault-gear")
     save_json(item_data, DATA_SAVE_PATH + ITEM_DATA_FILE)
+
+    # Process Move Data
+    moves_original_data = load_json(DATA_SAVE_PATH + MOVES_DATA_FILE)
+    moves_patch_data = load_json(os.path.join(current_dir, MOVES_PATCH_FILE))
+    apply_patch(moves_original_data, moves_patch_data)
+    save_json(moves_original_data, DATA_SAVE_PATH + MOVES_DATA_FILE)
 
 if __name__ == "__main__":
     main()
