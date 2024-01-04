@@ -32,6 +32,305 @@ EGG_GROUP_NAME_LOOKUP = {
     # Add any other egg groups that PokéMMO uses which aren't listed in the PokeAPI
 }
 
+alpha_list = [
+    "bulbasaur",
+    "ivysaur",
+    "venusaur",
+    "charmander",
+    "charmeleon",
+    "charizard",
+    "squirtle",
+    "wartortle",
+    "blastoise",
+    "caterpie",
+    "metapod",
+    "butterfree",
+    "pidgey",
+    "Pidgeotto",
+    "Pidgeot",
+    "rattata",
+    "raticate",
+    "spearow",
+    "fearow",
+    "ekans",
+    "arbok",
+    "pikachu",
+    "raichu",
+    "sandshrew",
+    "sandslash",
+    "nidoran-f",
+    "nidorina",
+    "nidoqueen",
+    "nidoran-m",
+    "nidorino",
+    "nidoking",
+    "clefairy",
+    "clefable",
+    "vulpix",
+    "ninetales",
+    "jigglypuff",
+    "wigglytuff",
+    "zubat",
+    "golbat",
+    "paras",
+    "parasect",
+    "venonat",
+    "venomoth",
+    "meowth",
+    "persian",
+    "psyduck",
+    "golduck",
+    "growlithe",
+    "arcanine",
+    "poliwag",
+    "poliwhirl",
+    "poliwrath",
+    "bellsprout",
+    "weepinbell",
+    "victreebel",
+    "tentacool",
+    "tentacruel",
+    "geodude",
+    "graveler",
+    "golem",
+    "ponyta",
+    "rapidash",
+    "magnemite",
+    "magneton",
+    "seel",
+    "dewgong",
+    "shellder",
+    "cloyster",
+    "gastly",
+    "haunter",
+    "gengar",
+    "onix",
+    "drowzee",
+    "hypno",
+    "krabby",
+    "kingler",
+    "voltorb",
+    "electrode",
+    "cubone",
+    "marowak",
+    "lickitung",
+    "rhyhorn",
+    "rhydon",
+    "chansey",
+    "kangaskhan",
+    "horsea",
+    "seadra",
+    "staryu",
+    "starmie",
+    "jynx",
+    "electabuzz",
+    "magmar",
+    "pinsir",
+    "tauros",
+    "magikarp",
+    "gyarados",
+    "lapras",
+    "ditto",
+    "eevee",
+    "vaporeon",
+    "jolteon",
+    "flareon",
+    "dratini",
+    "dragonair",
+    "dragonite",
+    "hoothoot",
+    "noctowl",
+    "ledyba",
+    "ledian",
+    "spinarak",
+    "ariados",
+    "crobat",
+    "pichu",
+    "cleffa",
+    "igglybuff",
+    "natu",
+    "xatu",
+    "mareep",
+    "flaaffy",
+    "ampharos",
+    "marill",
+    "azumarill",
+    "sudowoodo",
+    "politoed",
+    "aipom",
+    "sunkern",
+    "sunflora",
+    "yanma",
+    "wooper",
+    "quagsire",
+    "espeon",
+    "umbreon",
+    "murkrow",
+    "misdreavus",
+    "pineco",
+    "forretress",
+    "gligar",
+    "steelix",
+    "snubbull",
+    "granbull",
+    "qwilfish",
+    "sneasel",
+    "teddiursa",
+    "ursaring",
+    "swinub",
+    "piloswine",
+    "corsola",
+    "delibird",
+    "mantine",
+    "houndour",
+    "houndoom",
+    "kingdra",
+    "stantler",
+    "smoochum",
+    "elekid",
+    "magby",
+    "miltank",
+    "blissey",
+    "larvitar",
+    "pupitar",
+    "tyranitar",
+    "poochyena",
+    "mightyena",
+    "zigzagoon",
+    "linoone",
+    "wingull",
+    "pelipper",
+    "ralts",
+    "kirlia",
+    "gardevoir",
+    "shroomish",
+    "breloom",
+    "slakoth",
+    "vigoroth",
+    "slaking",
+    "whismur",
+    "loudred",
+    "exploud",
+    "makuhita",
+    "hariyama",
+    "azurill",
+    "sableye",
+    "aron",
+    "lairon",
+    "aggron",
+    "plusle",
+    "minun",
+    "roselia",
+    "carvanha",
+    "sharpedo",
+    "spoink",
+    "grumpig",
+    "spinda",
+    "swablu",
+    "altaria",
+    "seviper",
+    "corphish",
+    "crawdaunt",
+    "feebas",
+    "milotic",
+    "shuppet",
+    "banette",
+    "duskull",
+    "dusclops",
+    "tropius",
+    "snorunt",
+    "glalie",
+    "spheal",
+    "sealeo",
+    "walrein",
+    "bagon",
+    "shelgon",
+    "salamence",
+    "starly",
+    "staravia",
+    "staraptor",
+    "shinx",
+    "luxio",
+    "luxray",
+    "budew",
+    "roserade",
+    "buizel",
+    "floatzel",
+    "ambipom",
+    "drifloon",
+    "drifblim",
+    "buneary",
+    "lopunny",
+    "mismagius",
+    "honchkrow",
+    "glameow",
+    "purugly",
+    "stunky",
+    "skuntank",
+    "bronzor",
+    "bronzong",
+    "bonsly",
+    "happiny",
+    "spiritomb",
+    "gible",
+    "gabite",
+    "garchomp",
+    "riolu",
+    "lucario",
+    "skorupi",
+    "drapion",
+    "mantyke",
+    "snover",
+    "abomasnow",
+    "weavile",
+    "magnezone",
+    "lickilicky",
+    "rhyperior",
+    "electivire",
+    "magmortar",
+    "yanmega",
+    "leafeon",
+    "glaceon",
+    "gliscor",
+    "mamoswine",
+    "gallade",
+    "dusknoir",
+    "froslass",
+    "patrat",
+    "watchog",
+    "lillipup",
+    "herdier",
+    "stoutland",
+    "munna",
+    "musharna",
+    "blitzle",
+    "zebstrika",
+    "drilbur",
+    "excadrill",
+    "cottonee",
+    "whimsicott",
+    "sandile",
+    "krokorok",
+    "krookodile",
+    "zorua",
+    "zoroark",
+    "minccino",
+    "cinccino",
+    "vanillite",
+    "vanillish",
+    "vanilluxe",
+    "foongus",
+    "amoonguss",
+    "litwick",
+    "lampent",
+    "chandelure",
+    "cubchoo",
+    "beartic",
+    "cryogonal",
+    "rufflet",
+    "braviary",
+]
+
 
 def get_evolution_chain_data(evolution_chain_url):
     response = requests.get(evolution_chain_url)
@@ -64,7 +363,9 @@ def process_evolution_chain(chain):
 
     if "evolves_to" in chain:
         for evolves_to in chain["evolves_to"]:
-            process_evolution_chain(evolves_to)  # Recursively process the next evolution
+            process_evolution_chain(
+                evolves_to
+            )  # Recursively process the next evolution
 
             # Processing evolution details and species information
             if "evolution_details" in evolves_to:
@@ -76,26 +377,25 @@ def process_evolution_chain(chain):
                 evolves_to_species_id = int(evolves_to_species_url.split("/")[-2])
                 evolves_to["species"] = {
                     "name": evolves_to["species"]["name"],
-                    "id": evolves_to_species_id
+                    "id": evolves_to_species_id,
                 }
 
 
-
 def process_pokemon_egg_moves(pokemon_name, moves):
-    """ Process egg moves for a given Pokémon and update the database. """
+    """Process egg moves for a given Pokémon and update the database."""
     egg_moves = [move for move in moves if move["type"] == "egg_moves"]
     if egg_moves:
         egg_moves_database[pokemon_name] = egg_moves
 
 
 def add_egg_moves_to_evolutions(all_pokemon_data, pokemon_name, egg_moves):
-    """ Add egg moves to the evolutions of a given Pokémon if they don't have them. """
+    """Add egg moves to the evolutions of a given Pokémon if they don't have them."""
     updates = {}  # Initialize an empty dictionary to store updates
 
     if pokemon_name in all_pokemon_data:
         # Extract the top-level evolution data
         evolution_chain_data = all_pokemon_data[pokemon_name].get("evolution_chain", {})
-        
+
         # Traverse the evolution chain to find evolved forms
         current_stage = evolution_chain_data.get("chain", {})
         while current_stage:
@@ -105,11 +405,19 @@ def add_egg_moves_to_evolutions(all_pokemon_data, pokemon_name, egg_moves):
                 evolution_name = species_data.get("name")
                 if evolution_name in all_pokemon_data:
                     evolution_moves = all_pokemon_data[evolution_name].get("moves", [])
-                    existing_egg_move_ids = {move["id"] for move in evolution_moves if move["type"] == "egg_moves"}
-                    new_egg_moves = [move for move in egg_moves if move["id"] not in existing_egg_move_ids]
+                    existing_egg_move_ids = {
+                        move["id"]
+                        for move in evolution_moves
+                        if move["type"] == "egg_moves"
+                    }
+                    new_egg_moves = [
+                        move
+                        for move in egg_moves
+                        if move["id"] not in existing_egg_move_ids
+                    ]
                     if new_egg_moves:
                         updates[evolution_name] = evolution_moves + new_egg_moves
-            
+
             # Go to the next stage in the chain
             if len(evolves_to) > 0:
                 current_stage = evolves_to[0]
@@ -119,15 +427,16 @@ def add_egg_moves_to_evolutions(all_pokemon_data, pokemon_name, egg_moves):
     return updates
 
 
-
 def process_held_items(held_items):
     processed_items = []
     for item in held_items:
         item_id = int(item["item"]["url"].split("/")[-2])
-        processed_items.append({
-            "id": item_id,
-            "item_name": item["item"]["name"],
-        })
+        processed_items.append(
+            {
+                "id": item_id,
+                "item_name": item["item"]["name"],
+            }
+        )
     return processed_items
 
 
@@ -201,11 +510,11 @@ def process_varieties(species_id):
     response = requests.get(POKEMON_SPECIES_URL + str(species_id))
     if response.status_code == 200:
         species_data = response.json()
-        varieties = species_data['varieties']
+        varieties = species_data["varieties"]
 
         processed_varieties = []
         for variety in varieties:
-            name = variety['pokemon']['name']
+            name = variety["pokemon"]["name"]
 
             # Exclude specific variations
             if (
@@ -235,12 +544,10 @@ def process_varieties(species_id):
             ):
                 continue
 
-            variety_id = int(variety['pokemon']['url'].split('/')[-2])
-            processed_varieties.append({
-                "name": name,
-                "id": variety_id,
-                "is_default": variety["is_default"]
-            })
+            variety_id = int(variety["pokemon"]["url"].split("/")[-2])
+            processed_varieties.append(
+                {"name": name, "id": variety_id, "is_default": variety["is_default"]}
+            )
 
         return processed_varieties
 
@@ -250,7 +557,9 @@ def process_varieties(species_id):
 def process_abilities(abilities):
     return [
         {
-            "id": int(ability["ability"]["url"].split("/")[-2]), # Extracting the ID from the URL
+            "id": int(
+                ability["ability"]["url"].split("/")[-2]
+            ),  # Extracting the ID from the URL
             "ability_name": ability["ability"]["name"],
             "is_hidden": ability["is_hidden"],
             "slot": ability["slot"],
@@ -269,12 +578,12 @@ def save_all_data(all_data):
 
 
 def read_locations():
-    with open(LOCATIONS_FILE, 'r', encoding='utf-8') as file:
+    with open(LOCATIONS_FILE, "r", encoding="utf-8") as file:
         return json.load(file)
-    
+
 
 def read_moves():
-    with open(MOVES_FILE, 'r', encoding='utf-8') as file:
+    with open(MOVES_FILE, "r", encoding="utf-8") as file:
         return json.load(file)
 
 
@@ -318,6 +627,10 @@ def main():
                 species_data["growth_rate"]
             )
 
+            # Set 'alpha' field
+            pokemon_name = species_data["name"].lower()
+            species_data["alpha"] = "yes" if pokemon_name in alpha_list else "no"
+
             evolution_chain_url = species_data.get("evolution_chain", {}).get("url")
             if evolution_chain_url:
                 evolution_chain_data = get_evolution_chain_data(evolution_chain_url)
@@ -333,7 +646,9 @@ def main():
                     pokemon_name = pokemon_data["name"]
 
                     if "held_items" in pokemon_data:
-                        pokemon_data["held_items"] = process_held_items(pokemon_data["held_items"])
+                        pokemon_data["held_items"] = process_held_items(
+                            pokemon_data["held_items"]
+                        )
 
                     if "sprites" in pokemon_data:
                         pokemon_data["sprites"].pop("versions", None)
@@ -363,29 +678,34 @@ def main():
 
                     pokemon_name = species_data["name"]
                     if pokemon_name in locations_data:
-                        species_data["location_area_encounters"] = locations_data[pokemon_name]["locations"]
+                        species_data["location_area_encounters"] = locations_data[
+                            pokemon_name
+                        ]["locations"]
                     if pokemon_name in moves_data:
                         species_data["moves"] = moves_data[pokemon_name]["moves"]
                     if pokemon_name in moves_data:
-                        process_pokemon_egg_moves(pokemon_name, moves_data[pokemon_name]["moves"])
+                        process_pokemon_egg_moves(
+                            pokemon_name, moves_data[pokemon_name]["moves"]
+                        )
 
                     remove_urls(species_data)
                     remove_urls(pokemon_data)
 
                     # Merge species data with pokemon data for the specific variety
                     merged_data = {**species_data, **pokemon_data}
-                    merged_data['varieties'] = varieties
-                    merged_data.pop("species", None)  # Remove the 'species' key from merged data
+                    merged_data["varieties"] = varieties
+                    merged_data.pop(
+                        "species", None
+                    )  # Remove the 'species' key from merged data
                     merged_data.pop("forms", None)
 
                     # Store the data for this variety in the main dictionary
                     all_pokemon_data[variety_name] = merged_data
 
-    smeargle_moves = [{
-        "id": move_id,
-        "name": move_name,
-        "type": "sketch"
-    } for move_name, move_id in all_unique_moves]
+    smeargle_moves = [
+        {"id": move_id, "name": move_name, "type": "sketch"}
+        for move_name, move_id in all_unique_moves
+    ]
 
     # Check if Smeargle is in all_pokemon_data
     if "smeargle" not in all_pokemon_data:
@@ -395,8 +715,10 @@ def main():
     existing_smeargle_moves = all_pokemon_data["smeargle"].get("moves", [])
 
     # Merge unique moves with existing ones, avoiding duplicates
-    existing_move_names = {move['name'] for move in existing_smeargle_moves}
-    merged_moves = existing_smeargle_moves + [move for move in smeargle_moves if move['name'] not in existing_move_names]
+    existing_move_names = {move["name"] for move in existing_smeargle_moves}
+    merged_moves = existing_smeargle_moves + [
+        move for move in smeargle_moves if move["name"] not in existing_move_names
+    ]
 
     # Update Smeargle's moves in all_pokemon_data
     all_pokemon_data["smeargle"]["moves"] = merged_moves
