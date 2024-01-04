@@ -1,0 +1,4713 @@
+{
+    "bulbasaur": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ivysaur": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "venusaur": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "charmander": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "charmeleon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "charizard": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "squirtle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wartortle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "blastoise": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "caterpie": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "metapod": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "butterfree": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "weedle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kakuna": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "beedrill": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pidgey": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pidgeotto": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pidgeot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rattata": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "raticate": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "spearow": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "fearow": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ekans": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "arbok": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pikachu": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "raichu": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sandshrew": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sandslash": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "nidoran-f": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "nidorina": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "nidoqueen": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "nidoran-m": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "nidorino": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "nidoking": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "clefairy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "clefable": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "vulpix": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ninetales": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "jigglypuff": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wigglytuff": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "zubat": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "golbat": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "oddish": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gloom": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "vileplume": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "paras": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "parasect": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "venonat": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "venomoth": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "diglett": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dugtrio": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "meowth": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "persian": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "psyduck": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "golduck": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mankey": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "primeape": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "growlithe": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "arcanine": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "poliwag": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "poliwhirl": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "poliwrath": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "abra": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kadabra": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "alakazam": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "machop": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "machoke": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "machamp": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bellsprout": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "weepinbell": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "victreebel": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tentacool": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tentacruel": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "geodude": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "graveler": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "golem": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ponyta": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rapidash": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "slowpoke": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "slowbro": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "magnemite": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "magneton": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "farfetchd": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "doduo": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dodrio": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "seel": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dewgong": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "grimer": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "muk": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shellder": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cloyster": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gastly": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "haunter": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gengar": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "onix": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "drowzee": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "hypno": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "krabby": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kingler": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "voltorb": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "electrode": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "exeggcute": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "exeggutor": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cubone": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "marowak": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "hitmonlee": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "hitmonchan": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lickitung": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "koffing": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "weezing": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rhyhorn": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rhydon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "chansey": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tangela": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kangaskhan": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "horsea": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "seadra": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "goldeen": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "seaking": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "staryu": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "starmie": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mr-mime": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "scyther": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "jynx": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "electabuzz": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "magmar": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pinsir": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tauros": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "magikarp": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gyarados": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lapras": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ditto": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "eevee": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "vaporeon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "jolteon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "flareon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "porygon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "omanyte": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "omastar": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kabuto": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kabutops": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "aerodactyl": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "snorlax": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "articuno": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "zapdos": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "moltres": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dratini": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dragonair": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dragonite": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mewtwo": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mew": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "chikorita": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bayleef": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "meganium": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cyndaquil": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "quilava": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "typhlosion": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "totodile": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "croconaw": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "feraligatr": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sentret": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "furret": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "hoothoot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "noctowl": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ledyba": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ledian": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "spinarak": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ariados": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "crobat": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "chinchou": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lanturn": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pichu": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cleffa": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "igglybuff": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "togepi": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "togetic": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "natu": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "xatu": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mareep": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "flaaffy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ampharos": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bellossom": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "marill": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "azumarill": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sudowoodo": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "politoed": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "hoppip": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "skiploom": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "jumpluff": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "aipom": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sunkern": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sunflora": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "yanma": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wooper": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "quagsire": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "espeon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "umbreon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "murkrow": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "slowking": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "misdreavus": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "unown": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wobbuffet": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "girafarig": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pineco": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "forretress": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dunsparce": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gligar": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "steelix": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "snubbull": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "granbull": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "qwilfish": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "scizor": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shuckle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "heracross": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sneasel": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "teddiursa": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ursaring": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "slugma": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "magcargo": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "swinub": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "piloswine": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "corsola": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "remoraid": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "octillery": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "delibird": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mantine": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "skarmory": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "houndour": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "houndoom": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kingdra": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "phanpy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "donphan": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "porygon2": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "stantler": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "smeargle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tyrogue": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "hitmontop": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "smoochum": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "elekid": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "magby": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "miltank": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "blissey": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "raikou": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "entei": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "suicune": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "larvitar": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pupitar": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tyranitar": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lugia": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ho-oh": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "celebi": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "treecko": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "grovyle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sceptile": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "torchic": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "combusken": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "blaziken": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mudkip": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "marshtomp": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "swampert": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "poochyena": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mightyena": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "zigzagoon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "linoone": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wurmple": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "silcoon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "beautifly": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cascoon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dustox": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lotad": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lombre": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ludicolo": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "seedot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "nuzleaf": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shiftry": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "taillow": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "swellow": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wingull": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pelipper": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ralts": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kirlia": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gardevoir": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "surskit": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "masquerain": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shroomish": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "breloom": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "slakoth": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "vigoroth": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "slaking": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "nincada": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ninjask": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shedinja": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "whismur": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "loudred": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "exploud": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "makuhita": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "hariyama": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "azurill": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "nosepass": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "skitty": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "delcatty": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sableye": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mawile": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "aron": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lairon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "aggron": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "meditite": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "medicham": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "electrike": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "manectric": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "plusle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "minun": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "volbeat": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "illumise": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "roselia": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gulpin": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "swalot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "carvanha": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sharpedo": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wailmer": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wailord": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "numel": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "camerupt": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "torkoal": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "spoink": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "grumpig": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "spinda": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "trapinch": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "vibrava": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "flygon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cacnea": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cacturne": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "swablu": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "altaria": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "zangoose": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "seviper": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lunatone": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "solrock": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "barboach": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "whiscash": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "corphish": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "crawdaunt": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "baltoy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "claydol": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lileep": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cradily": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "anorith": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "armaldo": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "feebas": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "milotic": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "castform": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "castform-sunny": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "castform-rainy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "castform-snowy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kecleon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shuppet": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "banette": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "duskull": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dusclops": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tropius": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "chimecho": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "absol": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wynaut": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "snorunt": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "glalie": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "spheal": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sealeo": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "walrein": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "clamperl": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "huntail": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gorebyss": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "relicanth": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "luvdisc": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bagon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shelgon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "salamence": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "beldum": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "metang": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "metagross": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "regirock": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "regice": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "registeel": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "latias": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "latios": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kyogre": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "groudon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rayquaza": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "jirachi": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "deoxys-normal": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "deoxys-attack": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "deoxys-defense": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "deoxys-speed": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "turtwig": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "grotle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "torterra": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "chimchar": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "monferno": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "infernape": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "piplup": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "prinplup": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "empoleon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "starly": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "staravia": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "staraptor": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bidoof": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bibarel": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kricketot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kricketune": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shinx": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "luxio": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "luxray": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "budew": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "roserade": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cranidos": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rampardos": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shieldon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bastiodon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "burmy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wormadam-plant": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wormadam-sandy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wormadam-trash": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mothim": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "combee": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "vespiquen": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pachirisu": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "buizel": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "floatzel": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cherubi": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cherrim": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shellos": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gastrodon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ambipom": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "drifloon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "drifblim": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "buneary": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lopunny": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mismagius": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "honchkrow": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "glameow": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "purugly": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "chingling": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "stunky": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "skuntank": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bronzor": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bronzong": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bonsly": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mime-jr": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "happiny": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "chatot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "spiritomb": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gible": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gabite": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "garchomp": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "munchlax": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "riolu": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lucario": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "hippopotas": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "hippowdon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "skorupi": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "drapion": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "croagunk": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "toxicroak": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "carnivine": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "finneon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lumineon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mantyke": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "snover": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "abomasnow": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "weavile": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "magnezone": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lickilicky": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rhyperior": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tangrowth": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "electivire": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "magmortar": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "togekiss": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "yanmega": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "leafeon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "glaceon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gliscor": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mamoswine": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "porygon-z": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gallade": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "probopass": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dusknoir": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "froslass": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rotom": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rotom-heat": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rotom-wash": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rotom-frost": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rotom-fan": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rotom-mow": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "uxie": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mesprit": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "azelf": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dialga": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "palkia": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "heatran": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "regigigas": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "giratina-altered": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cresselia": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "phione": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "manaphy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "darkrai": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shaymin-land": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shaymin-sky": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "arceus": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "victini": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "snivy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "servine": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "serperior": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tepig": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pignite": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "emboar": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "oshawott": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dewott": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "samurott": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "patrat": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "watchog": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lillipup": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "herdier": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "stoutland": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "purrloin": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "liepard": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pansage": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "simisage": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pansear": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "simisear": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "panpour": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "simipour": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "munna": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "musharna": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pidove": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tranquill": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "unfezant": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "blitzle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "zebstrika": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "roggenrola": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "boldore": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gigalith": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "woobat": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "swoobat": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "drilbur": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "excadrill": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "audino": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "timburr": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gurdurr": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "conkeldurr": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tympole": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "palpitoad": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "seismitoad": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "throh": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sawk": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sewaddle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "swadloon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "leavanny": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "venipede": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "whirlipede": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "scolipede": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cottonee": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "whimsicott": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "petilil": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lilligant": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "basculin-red-striped": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "basculin-blue-striped": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "basculin-white-striped": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sandile": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "krokorok": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "krookodile": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "darumaka": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "darmanitan-standard": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "darmanitan-zen": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "maractus": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dwebble": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "crustle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "scraggy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "scrafty": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sigilyph": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "yamask": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cofagrigus": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tirtouga": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "carracosta": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "archen": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "archeops": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "trubbish": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "garbodor": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "zorua": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "zoroark": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "minccino": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cinccino": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gothita": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gothorita": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "gothitelle": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "solosis": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "duosion": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "reuniclus": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ducklett": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "swanna": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "vanillite": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "vanillish": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "vanilluxe": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "deerling": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "sawsbuck": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "emolga": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "karrablast": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "escavalier": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "foongus": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "amoonguss": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "frillish": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "jellicent": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "alomomola": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "joltik": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "galvantula": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ferroseed": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ferrothorn": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "klink": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "klang": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "klinklang": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tynamo": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "eelektrik": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "eelektross": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "elgyem": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "beheeyem": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "litwick": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "lampent": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "chandelure": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "axew": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "fraxure": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "haxorus": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cubchoo": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "beartic": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cryogonal": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "shelmet": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "accelgor": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "stunfisk": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mienfoo": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mienshao": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "druddigon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "golett": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "golurk": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pawniard": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bisharp": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bouffalant": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rufflet": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "braviary": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "vullaby": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mandibuzz": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "heatmor": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "durant": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "deino": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "zweilous": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "hydreigon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "larvesta": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "volcarona": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "cobalion": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "terrakion": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "virizion": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tornadus-incarnate": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "tornadus-therian": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "thundurus-incarnate": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "thundurus-therian": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "reshiram": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "zekrom": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "landorus-incarnate": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "landorus-therian": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kyurem": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kyurem-black": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "kyurem-white": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "keldeo-ordinary": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "keldeo-resolute": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "meloetta-aria": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "meloetta-pirouette": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "genesect": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    }
+}

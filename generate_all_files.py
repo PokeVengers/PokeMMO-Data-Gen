@@ -22,7 +22,8 @@ scripts_to_run = [
     os.path.join(current_dir, 'download_PokeAPI_abilities.py'),
     os.path.join(current_dir, 'patch_data_files.py'),
     os.path.join(current_dir, 'add_pokemon_to_moves.py'),
-    os.path.join(current_dir, 'add_pokemon_to_abilities.py')
+    os.path.join(current_dir, 'add_pokemon_to_abilities.py'),
+    os.path.join(current_dir, 'add_pvp_to_pokemon.py')
     ]
 
 for script in scripts_to_run:
