@@ -25,7 +25,8 @@ scripts_to_run = [
     os.path.join(current_dir, 'add_pokemon_to_abilities.py'),
     os.path.join(current_dir, 'add_pvp_to_pokemon.py'),
     os.path.join(current_dir, 'generate_pvp_data.py'),
-    os.path.join(current_dir, 'generate_types_data.py')
+    os.path.join(current_dir, 'generate_types_data.py'),
+    os.path.join(current_dir, 'generate_location_data.py')
     ]
 
 for script in scripts_to_run:
