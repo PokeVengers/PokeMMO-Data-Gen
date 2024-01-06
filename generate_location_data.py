@@ -10,7 +10,8 @@ def generate_location_data(pokemon_data):
     for pokemon, data in pokemon_data.items():
         pokemon_id = data['id']  # Extract the Pokémon ID
         for encounter in data.get('location_area_encounters', []):
-            location = encounter['location'].replace(' ', '_')  # Replace spaces with underscores
+            replacements = {' ': '_', '/': '_', '(': '_', ')': '_'}  # Add more replacements as needed
+            location = ''.join(replacements.get(char, char) for char in encounter['location'])
             display_name = encounter['location']  # Store the original location name
             if location not in location_data:
                 location_data[location] = {"name": display_name, "encounters": []}
