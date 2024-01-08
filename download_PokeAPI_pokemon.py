@@ -707,6 +707,9 @@ def main():
         for move_name, move_id in all_unique_moves
     ]
 
+    # Sort Smeargle's moves by their ID to maintain consistent order
+    smeargle_moves.sort(key=lambda move: move["id"])
+
     # Check if Smeargle is in all_pokemon_data
     if "smeargle" not in all_pokemon_data:
         all_pokemon_data["smeargle"] = {"name": "smeargle", "moves": []}
