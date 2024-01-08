@@ -47,8 +47,8 @@ def process_pokemon_species(pokemon_species_list):
     for species in pokemon_species_list:
         species_id = species["url"].split("/")[-2]
         if is_in_first_five_generations(species_id):
-            species.pop("url", None)
-            filtered_species.append(species)
+            species_data = {"name": species["name"], "id": int(species_id)}
+            filtered_species.append(species_data)
     return filtered_species
 
 
@@ -69,14 +69,17 @@ def get_egg_group_data():
         if egg_group_response.status_code == 200:
             egg_group_data = egg_group_response.json()
 
+            # Initialize processed_egg_group_data
+            processed_egg_group_data = {"id": i, "name": egg_group_data["name"]}
+
             # Replace the egg group name using the lookup table
-            egg_group_name = egg_group_data["name"]
-            if egg_group_name in EGG_GROUP_NAME_LOOKUP:
-                egg_group_name = EGG_GROUP_NAME_LOOKUP[egg_group_name]
-                egg_group_data["name"] = egg_group_name
+            if processed_egg_group_data["name"] in EGG_GROUP_NAME_LOOKUP:
+                processed_egg_group_data["name"] = EGG_GROUP_NAME_LOOKUP[
+                    processed_egg_group_data["name"]
+                ]
             else:
                 print(
-                    f"Warning: Egg group name '{egg_group_name}' not found in lookup table"
+                    f"Warning: Egg group name '{processed_egg_group_data['name']}' not found in lookup table"
                 )
 
             # Remove the 'names' field
@@ -84,12 +87,12 @@ def get_egg_group_data():
 
             # Process and filter pokemon_species for generations 1-5
             if "pokemon_species" in egg_group_data:
-                egg_group_data["pokemon_species"] = process_pokemon_species(
+                processed_egg_group_data["pokemon_species"] = process_pokemon_species(
                     egg_group_data["pokemon_species"]
                 )
 
             # Add modified egg group data to all egg groups
-            all_egg_groups[f"egg_group_{i}"] = egg_group_data
+            all_egg_groups[f"egg_group_{i}"] = processed_egg_group_data
 
     return all_egg_groups
 
