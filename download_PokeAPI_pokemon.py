@@ -540,7 +540,8 @@ def process_varieties(species_id):
                 or "-primal" in name
                 or "-paldea" in name
                 or "-totem" in name
-                or "-origin" in name
+                or "palkia-origin" in name
+                or "dialga-origin" in name
                 or "basculin-white-striped" in name
             ):
                 continue
