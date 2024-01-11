@@ -10,6 +10,7 @@ DATA_SAVE_PATH = "./data/"
 ALL_POKEMON_FILE = "pokemon-data.json"
 LOCATIONS_FILE = os.path.join(current_dir, "locations.json")
 MOVES_FILE = os.path.join(current_dir, "pokemon_moves.json")  # Path to the moves file
+OBTAINABLE_FILE = os.path.join(current_dir, "obtainable_pokemon.json")
 egg_moves_database = {}
 
 # Lookup table to map API egg group names to PokéMMO egg group names
@@ -589,6 +590,11 @@ def read_moves():
         return json.load(file)
 
 
+def read_obtainable_pokemon():
+    with open(OBTAINABLE_FILE, "r", encoding="utf-8") as file:
+        return json.load(file)
+
+
 def get_all_unique_moves(moves_data):
     unique_moves = set()
     for pokemon, data in moves_data.items():
@@ -602,6 +608,7 @@ def main():
     locations_data = read_locations()
     moves_data = read_moves()
     all_unique_moves = get_all_unique_moves(moves_data)
+    obtainable_pokemon = read_obtainable_pokemon()
 
     response = requests.get(POKEMON_BASE_URL)
     total_count = response.json()["count"]
@@ -632,6 +639,9 @@ def main():
             # Set 'alpha' field
             pokemon_name = species_data["name"].lower()
             species_data["alpha"] = "yes" if pokemon_name in alpha_list else "no"
+            species_data["obtainable"] = obtainable_pokemon.get(pokemon_name, {}).get(
+                "obtainable", False
+            )
 
             evolution_chain_url = species_data.get("evolution_chain", {}).get("url")
             if evolution_chain_url:
