@@ -8,5 +8,65 @@
                 "slot": 3
             }
         ]
+    },
+    "farfetchd": {
+        "obtainable": true
+    },
+    "mr-mime": {
+        "obtainable": true
+    },
+    "castform": {
+        "obtainable": true
+    },
+    "castform-sunny": {
+        "obtainable": true
+    },
+    "castform-rainy": {
+        "obtainable": true
+    },
+    "castform-snowy": {
+        "obtainable": true
+    },
+    "mime-jr": {
+        "obtainable": true
+    },
+    "rotom": {
+        "obtainable": true
+    },
+    "rotom-heat": {
+        "obtainable": true
+    },
+    "rotom-wash": {
+        "obtainable": true
+    },
+    "rotom-frost": {
+        "obtainable": true
+    },
+    "rotom-fan": {
+        "obtainable": true
+    },
+    "rotom-mow": {
+        "obtainable": true
+    },
+    "shaymin-land": {
+        "obtainable": true
+    },
+    "basculin-red-striped": {
+        "obtainable": true
+    },
+    "basculin-blue-striped": {
+        "obtainable": true
+    },
+    "darmanitan-standard": {
+        "obtainable": true
+    },
+    "darmanitan-zen": {
+        "obtainable": true
+    },
+    "keldeo-ordinary": {
+        "obtainable": false
+    },
+    "keldeo-resolute": {
+        "obtainable": false
     }
 }
