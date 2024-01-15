@@ -359,27 +359,26 @@ def process_evolution_chain(chain):
         species_url = chain["species"].get("url")
         if species_url:
             species_id = int(species_url.split("/")[-2])
-            chain["species"]["id"] = species_id
-            del chain["species"]["url"]
+            generation_id = get_pokemon_generation(species_id)
+            if generation_id is not None and generation_id <= 5:
+                chain["species"]["id"] = species_id
+                del chain["species"]["url"]
+            else:
+                return  # Skip processing if the Pokémon is not from Gen 1-5
 
     if "evolves_to" in chain:
+        filtered_evolves_to = []
         for evolves_to in chain["evolves_to"]:
-            process_evolution_chain(
-                evolves_to
-            )  # Recursively process the next evolution
-
-            # Processing evolution details and species information
-            if "evolution_details" in evolves_to:
-                for detail in evolves_to["evolution_details"]:
-                    remove_urls(detail)
-
-            evolves_to_species_url = evolves_to["species"].get("url")
-            if evolves_to_species_url:
-                evolves_to_species_id = int(evolves_to_species_url.split("/")[-2])
-                evolves_to["species"] = {
-                    "name": evolves_to["species"]["name"],
-                    "id": evolves_to_species_id,
-                }
+            species_url = evolves_to["species"].get("url")
+            if species_url:
+                species_id = int(species_url.split("/")[-2])
+                generation_id = get_pokemon_generation(species_id)
+                if generation_id is not None and generation_id <= 5:
+                    process_evolution_chain(
+                        evolves_to
+                    )  # Recursively process the next evolution
+                    filtered_evolves_to.append(evolves_to)
+        chain["evolves_to"] = filtered_evolves_to  # Update with filtered evolutions
 
 
 def process_pokemon_egg_moves(pokemon_name, moves):
