@@ -84,7 +84,12 @@ def main():
 
     breeding_chains = {}
     for pokemon, moves in egg_moves.items():
-        breeding_chains[pokemon] = {move: list(set(map(tuple, find_breeding_chains(pokemon, move, pokemon_data, egg_groups_data)))) for move in moves}
+        breeding_chains[pokemon] = {
+            move: sorted(
+                list(set(map(tuple, find_breeding_chains(pokemon, move, pokemon_data, egg_groups_data)))),
+                key=lambda chain: len(chain)
+            ) for move in moves
+        }
 
     write_json(breeding_chains, OUTPUT_FILE)
 
