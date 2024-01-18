@@ -44,34 +44,38 @@ def find_breeding_chains(pokemon, move, all_pokemon, egg_groups_data):
     chains = []
     pokemon_egg_groups = list(get_pokemon_egg_groups(pokemon, egg_groups_data))
 
+    # Function to check if a species can participate in breeding
+    def can_breed(species_name):
+        species_egg_groups = list(get_pokemon_egg_groups(species_name, egg_groups_data))
+        return 'ditto' not in species_egg_groups and 'cannot-breed' not in species_egg_groups
+
+    # Function to check if a species can learn the move
+    def can_learn(species_name):
+        return move in extract_egg_moves(all_pokemon).get(species_name, []) or can_learn_move_naturally(species_name, move, all_pokemon)
+
     # Check for the earliest evolution of the Pokémon
     earliest_pokemon = find_earliest_evolution(pokemon, all_pokemon)
-    
-    for egg_group_key, egg_group_info in egg_groups_data.items():
-        if egg_group_info['name'] in pokemon_egg_groups:
-            for species in egg_group_info['pokemon_species']:
-                species_name = species['name']
-                earliest_species = find_earliest_evolution(species_name, all_pokemon)
-                if earliest_species != earliest_pokemon and earliest_species in all_pokemon and can_learn_move_naturally(earliest_species, move, all_pokemon):
-                    chains.append([earliest_pokemon, earliest_species])
 
-    if len(pokemon_egg_groups) > 1:
-        for egg_group_key, egg_group_info in egg_groups_data.items():
-            if egg_group_info['name'] in pokemon_egg_groups:
-                for species in egg_group_info['pokemon_species']:
-                    species_name = species['name']
-                    earliest_species = find_earliest_evolution(species_name, all_pokemon)
-                    if earliest_species != earliest_pokemon and earliest_species in all_pokemon:
-                        species_egg_groups = list(get_pokemon_egg_groups(earliest_species, egg_groups_data))
-                        for secondary_egg_group_key, secondary_egg_group_info in egg_groups_data.items():
-                            if secondary_egg_group_info['name'] in species_egg_groups and secondary_egg_group_info['name'] != egg_group_info['name']:
-                                for secondary_species in secondary_egg_group_info['pokemon_species']:
-                                    secondary_species_name = secondary_species['name']
-                                    earliest_secondary_species = find_earliest_evolution(secondary_species_name, all_pokemon)
-                                    if earliest_secondary_species != earliest_species and earliest_secondary_species in all_pokemon and can_learn_move_naturally(earliest_secondary_species, move, all_pokemon):
-                                        chains.append([earliest_pokemon, earliest_species, earliest_secondary_species])
+    # Find potential breeding partners within and across egg groups
+    for egg_group_info in egg_groups_data.values():
+        for species in egg_group_info['pokemon_species']:
+            species_name = species['name']
+            earliest_species = find_earliest_evolution(species_name, all_pokemon)
+            if earliest_species != earliest_pokemon and can_breed(earliest_species) and can_learn(earliest_species):
+                if not any(earliest_species in chain for chain in chains):  # Avoid redundancy
+                    chains.append([earliest_pokemon, earliest_species])
+                    # Limiting to one level of chain breeding to avoid complexity
+                    species_egg_groups = list(get_pokemon_egg_groups(earliest_species, egg_groups_data))
+                    for secondary_egg_group_info in egg_groups_data.values():
+                        for secondary_species in secondary_egg_group_info['pokemon_species']:
+                            secondary_species_name = secondary_species['name']
+                            earliest_secondary_species = find_earliest_evolution(secondary_species_name, all_pokemon)
+                            if earliest_secondary_species != earliest_species and can_breed(earliest_secondary_species) and can_learn(earliest_secondary_species):
+                                if not any(earliest_secondary_species in chain for chain in chains):  # Avoid redundancy
+                                    chains.append([earliest_pokemon, earliest_species, earliest_secondary_species])
 
     return chains
+
 
 def write_json(data, filename):
     with open(DATA_SAVE_PATH + filename, 'w', encoding='utf-8') as file:
