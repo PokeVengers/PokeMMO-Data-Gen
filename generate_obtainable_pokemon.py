@@ -9,6 +9,9 @@ info_directory = os.path.join(current_dir, "dump/info")
 name_change_lookup = {
     'nidoran♀': 'nidoran-f',
     'nidoran♂': 'nidoran-m',
+    "farfetch'd" : "farfetchd",
+    "mr. mime" : "mr-mime",
+    "mime jr." : "mime-jr"
     # Add more name mappings as needed
 }
 
