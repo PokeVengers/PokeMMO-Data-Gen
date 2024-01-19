@@ -8,7 +8,7 @@ If you would like to contribute, please note that changes should not be made dir
 It is very important that data in this project be as accurate as possible. If you see something that is not correct, please open an issue and it will be addressed as soon as humanly possible.
 
 # Files
-- `generate_all_files.py`: This is the main "build" script. If you are trying to generate the data yourself, you should use this file. It will run the other scripts in the needed order.
+- `generate_all_files.py`: This is the main "build" script. If you are trying to generate the data yourself, you should use this file. It will run the other scripts in the needed order. Be warned that it can take a long time to generate the complete data. Results will vary based on your specs.
 - `download_PokeAPI_pokemon.py`: This script generates pokemon-data.json.
 - `download_PokeAPI_moves.py`: This script generates moves-data.json.
 - `download_PokeAPI_egg-group.py`: This script generates egg-groups-data.json.
