@@ -1,4 +1,5 @@
 import json
+import concurrent.futures
 
 DATA_SAVE_PATH = "./data/"
 INPUT_FILE = "pokemon-data.json"
@@ -81,21 +82,36 @@ def write_json(data, filename):
     with open(DATA_SAVE_PATH + filename, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
 
+def process_pokemon(pokemon, moves, pokemon_data, egg_groups_data):
+    return {
+        move: sorted(
+            list(set(map(tuple, find_breeding_chains(pokemon, move, pokemon_data, egg_groups_data)))),
+            key=lambda chain: len(chain)
+        ) for move in moves
+    }
+
 def main():
     pokemon_data = load_json(INPUT_FILE)
     egg_groups_data = load_json(EGG_GROUPS_FILE)
     egg_moves = extract_egg_moves(pokemon_data)
 
     breeding_chains = {}
-    for pokemon, moves in egg_moves.items():
-        breeding_chains[pokemon] = {
-            move: sorted(
-                list(set(map(tuple, find_breeding_chains(pokemon, move, pokemon_data, egg_groups_data)))),
-                key=lambda chain: len(chain)
-            ) for move in moves
-        }
 
-    write_json(breeding_chains, OUTPUT_FILE)
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        # Create and map futures to Pokemon names
+        futures = {executor.submit(process_pokemon, pokemon, moves, pokemon_data, egg_groups_data): pokemon for pokemon, moves in egg_moves.items()}
+        
+        # Collect results from futures
+        for future in concurrent.futures.as_completed(futures):
+            pokemon = futures[future]
+            result = future.result()
+            breeding_chains[pokemon] = result
+
+    # Sort the final output alphabetically by Pokémon name
+    sorted_breeding_chains = dict(sorted(breeding_chains.items()))
+
+    write_json(sorted_breeding_chains, OUTPUT_FILE)
+
 
 if __name__ == "__main__":
     main()
