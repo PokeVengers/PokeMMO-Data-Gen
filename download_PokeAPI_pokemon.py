@@ -332,6 +332,11 @@ alpha_list = [
     "braviary",
 ]
 
+egg_group_updates = {
+    "shedinja": "cannot-breed"
+    # Add more Pokémon and their updated egg groups here
+}
+
 
 def get_evolution_chain_data(evolution_chain_url):
     response = requests.get(evolution_chain_url)
@@ -471,6 +476,12 @@ def process_egg_groups(egg_groups):
     return [
         EGG_GROUP_NAME_LOOKUP.get(group["name"], group["name"]) for group in egg_groups
     ]
+
+
+def update_egg_groups(all_pokemon_data, egg_group_updates):
+    for pokemon_name, new_egg_group in egg_group_updates.items():
+        if pokemon_name in all_pokemon_data:
+            all_pokemon_data[pokemon_name]["egg_groups"] = [new_egg_group]
 
 
 def process_growth_rate(growth_rate):
@@ -744,6 +755,8 @@ def main():
         for evolution_name, moves in updates.items():
             all_pokemon_data[evolution_name]["moves"] = moves
 
+    update_egg_groups(all_pokemon_data, egg_group_updates)
+    
     save_all_data(all_pokemon_data)
 
 

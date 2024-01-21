@@ -27,6 +27,11 @@ EGG_GROUP_NAME_LOOKUP = {
     # Add any other egg groups that PokéMMO uses which aren't listed in the PokeAPI
 }
 
+species_egg_group_updates = {
+    "shedinja": 15  # Assuming egg group 14 corresponds to 'cannot-breed'
+    # Add more species and their new egg group IDs here
+}
+
 
 def save_data(data, file_name):
     with open(DATA_SAVE_PATH + file_name, "w", encoding="utf-8") as file:
@@ -50,6 +55,23 @@ def process_pokemon_species(pokemon_species_list):
             species_data = {"name": species["name"], "id": int(species_id)}
             filtered_species.append(species_data)
     return filtered_species
+
+
+def update_species_egg_groups(all_egg_groups, species_egg_group_updates):
+    # Remove species from all egg groups first
+    for egg_group in all_egg_groups.values():
+        egg_group["pokemon_species"] = [
+            species
+            for species in egg_group["pokemon_species"]
+            if species["name"] not in species_egg_group_updates
+        ]
+
+    # Add species to the specified egg groups
+    for species_name, new_egg_group in species_egg_group_updates.items():
+        if f"egg_group_{new_egg_group}" in all_egg_groups:
+            all_egg_groups[f"egg_group_{new_egg_group}"]["pokemon_species"].append(
+                {"name": species_name, "id": None}  # Add species ID if available
+            )
 
 
 def get_egg_group_data():
@@ -99,6 +121,9 @@ def get_egg_group_data():
 
 def main():
     all_egg_groups_data = get_egg_group_data()
+
+    update_species_egg_groups(all_egg_groups_data, species_egg_group_updates)
+
     save_data(all_egg_groups_data, ALL_EGG_GROUPS_FILE)
 
 
