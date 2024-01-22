@@ -28,7 +28,9 @@ EGG_GROUP_NAME_LOOKUP = {
 }
 
 species_egg_group_updates = {
-    "shedinja": 15  # Assuming egg group 14 corresponds to 'cannot-breed'
+    292: {"name": "shedinja", "egg_groups": [15]},  # Shedinja
+    30: {"name": "nidorina", "egg_groups": [1, 5]},  # Nidorina
+    31: {"name": "nidoqueen", "egg_groups": [1, 5]}  # Nidoqueen
     # Add more species and their new egg group IDs here
 }
 
@@ -63,15 +65,18 @@ def update_species_egg_groups(all_egg_groups, species_egg_group_updates):
         egg_group["pokemon_species"] = [
             species
             for species in egg_group["pokemon_species"]
-            if species["name"] not in species_egg_group_updates
+            if species["id"] not in species_egg_group_updates
         ]
 
     # Add species to the specified egg groups
-    for species_name, new_egg_group in species_egg_group_updates.items():
-        if f"egg_group_{new_egg_group}" in all_egg_groups:
-            all_egg_groups[f"egg_group_{new_egg_group}"]["pokemon_species"].append(
-                {"name": species_name, "id": None}  # Add species ID if available
-            )
+    for species_id, new_egg_group_info in species_egg_group_updates.items():
+        new_egg_groups = new_egg_group_info["egg_groups"]
+        species_name = new_egg_group_info["name"]
+        for new_egg_group in new_egg_groups:
+            if f"egg_group_{new_egg_group}" in all_egg_groups:
+                all_egg_groups[f"egg_group_{new_egg_group}"]["pokemon_species"].append(
+                    {"name": species_name, "id": species_id}
+                )
 
 
 def get_egg_group_data():

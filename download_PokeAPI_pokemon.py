@@ -333,7 +333,9 @@ alpha_list = [
 ]
 
 egg_group_updates = {
-    "shedinja": "cannot-breed"
+    "shedinja": ["cannot-breed"],
+    "nidorina": ["monster", "field"],
+    "nidoqueen": ["monster", "field"]
     # Add more Pokémon and their updated egg groups here
 }
 
@@ -479,9 +481,9 @@ def process_egg_groups(egg_groups):
 
 
 def update_egg_groups(all_pokemon_data, egg_group_updates):
-    for pokemon_name, new_egg_group in egg_group_updates.items():
+    for pokemon_name, new_egg_groups in egg_group_updates.items():
         if pokemon_name in all_pokemon_data:
-            all_pokemon_data[pokemon_name]["egg_groups"] = [new_egg_group]
+            all_pokemon_data[pokemon_name]["egg_groups"] = new_egg_groups
 
 
 def process_growth_rate(growth_rate):
