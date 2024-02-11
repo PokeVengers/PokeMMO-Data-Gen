@@ -61,13 +61,9 @@ def find_breeding_chains(pokemon, move, all_pokemon, egg_groups_data):
     chains = []
     pokemon_egg_groups = list(get_pokemon_egg_groups(pokemon, egg_groups_data))
 
-    # Function to check if a species can participate in breeding
     def can_breed(species_name):
         species_egg_groups = list(get_pokemon_egg_groups(species_name, egg_groups_data))
-        return (
-            "ditto" not in species_egg_groups
-            and "cannot-breed" not in species_egg_groups
-        )
+        return species_egg_groups and "cannot-breed" not in species_egg_groups
 
     # Function to check if a species can learn the move
     def can_learn(species_name):
@@ -88,9 +84,7 @@ def find_breeding_chains(pokemon, move, all_pokemon, egg_groups_data):
                 and can_breed(earliest_species)
                 and can_learn(earliest_species)
             ):
-                if not any(
-                    earliest_species in chain for chain in chains
-                ):  # Avoid redundancy
+                if not any(earliest_species in chain for chain in chains):
                     chains.append([earliest_pokemon, earliest_species])
                     # Limiting to one level of chain breeding to avoid complexity
                     species_egg_groups = list(
