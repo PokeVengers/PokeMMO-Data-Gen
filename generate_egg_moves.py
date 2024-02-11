@@ -63,18 +63,20 @@ def find_breeding_chains(pokemon, move, all_pokemon, egg_groups_data):
 
     def can_breed(species_name):
         species_egg_groups = list(get_pokemon_egg_groups(species_name, egg_groups_data))
-        return species_egg_groups and "cannot-breed" not in species_egg_groups
+        return bool(species_egg_groups) and "cannot-breed" not in species_egg_groups
 
-    # Function to check if a species can learn the move
+    # Adjusted function to check if a species can learn the move naturally
+    def can_learn_naturally(species_name):
+        return can_learn_move_naturally(species_name, move, all_pokemon)
+
     def can_learn(species_name):
         return move in extract_egg_moves(all_pokemon).get(
             species_name, []
-        ) or can_learn_move_naturally(species_name, move, all_pokemon)
+        ) or can_learn_naturally(species_name)
 
     # Check for the earliest evolution of the Pokémon
     earliest_pokemon = find_earliest_evolution(pokemon, all_pokemon)
 
-    # Find potential breeding partners within and across egg groups
     for egg_group_info in egg_groups_data.values():
         for species in egg_group_info["pokemon_species"]:
             species_name = species["name"]
@@ -84,12 +86,12 @@ def find_breeding_chains(pokemon, move, all_pokemon, egg_groups_data):
                 and can_breed(earliest_species)
                 and can_learn(earliest_species)
             ):
-                if not any(earliest_species in chain for chain in chains):
-                    chains.append([earliest_pokemon, earliest_species])
-                    # Limiting to one level of chain breeding to avoid complexity
-                    species_egg_groups = list(
-                        get_pokemon_egg_groups(earliest_species, egg_groups_data)
-                    )
+                # For the last parent, ensure it can learn the move naturally
+                if can_learn_naturally(earliest_species):
+                    if not any(earliest_species in chain for chain in chains):
+                        chains.append([earliest_pokemon, earliest_species])
+                else:
+                    # Process for chain breeding, ensuring the last in the chain can learn move naturally
                     for secondary_egg_group_info in egg_groups_data.values():
                         for secondary_species in secondary_egg_group_info[
                             "pokemon_species"
@@ -101,7 +103,7 @@ def find_breeding_chains(pokemon, move, all_pokemon, egg_groups_data):
                             if (
                                 earliest_secondary_species != earliest_species
                                 and can_breed(earliest_secondary_species)
-                                and can_learn(earliest_secondary_species)
+                                and can_learn_naturally(earliest_secondary_species)
                             ):
                                 if not any(
                                     earliest_secondary_species in chain
