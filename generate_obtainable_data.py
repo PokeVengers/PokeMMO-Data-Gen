@@ -12,7 +12,8 @@ def generate_obtainable_data(pokemon_data):
     for pokemon, data in pokemon_data.items():
         obtainable = data.get("obtainable", False)
         key = "true" if obtainable else "false"
-        obtainable_data[key].append(pokemon)
+        # Include both name and ID in the appended data
+        obtainable_data[key].append({"name": pokemon, "id": data["id"]})
     return obtainable_data
 
 
