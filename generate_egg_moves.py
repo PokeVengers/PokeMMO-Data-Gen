@@ -144,6 +144,27 @@ def process_pokemon(pokemon, moves, pokemon_data, egg_groups_data):
     }
 
 
+def filter_incompatible_chains(breeding_chains, egg_groups_data):
+    def can_pokemon_breed(pokemon1, pokemon2):
+        egg_groups1 = set(get_pokemon_egg_groups(pokemon1, egg_groups_data))
+        egg_groups2 = set(get_pokemon_egg_groups(pokemon2, egg_groups_data))
+        return not egg_groups1.isdisjoint(egg_groups2)
+
+    filtered_chains = {}
+    for pokemon, chains in breeding_chains.items():
+        filtered_chains[pokemon] = {}
+        for move, move_chains in chains.items():
+            valid_chains = []
+            for chain in move_chains:
+                if all(
+                    can_pokemon_breed(chain[i], chain[i + 1])
+                    for i in range(len(chain) - 1)
+                ):
+                    valid_chains.append(chain)
+            filtered_chains[pokemon][move] = valid_chains
+    return filtered_chains
+
+
 def main():
     pokemon_data = load_json(INPUT_FILE)
     egg_groups_data = load_json(EGG_GROUPS_FILE)
@@ -166,8 +187,13 @@ def main():
             result = future.result()
             breeding_chains[pokemon] = result
 
+    # Filter out incompatible chains
+    compatible_breeding_chains = filter_incompatible_chains(
+        breeding_chains, egg_groups_data
+    )
+
     # Sort the final output alphabetically by Pokémon name
-    sorted_breeding_chains = dict(sorted(breeding_chains.items()))
+    sorted_breeding_chains = dict(sorted(compatible_breeding_chains.items()))
 
     write_json(sorted_breeding_chains, OUTPUT_FILE)
 
