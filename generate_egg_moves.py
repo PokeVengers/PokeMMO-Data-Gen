@@ -19,7 +19,8 @@ name_change_lookup = {
     'nidoran♂': 'nidoran-m',
     "farfetch'd": "farfetchd",
     "mr. mime": "mr-mime",
-    "mime jr.": "mime-jr"
+    "mime jr.": "mime-jr",
+    "basculin" : "basculin-blue-striped"
     # Add more name mappings as needed
 }
 
