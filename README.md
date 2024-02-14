@@ -19,6 +19,7 @@ It is very important that data in this project be as accurate as possible. If yo
 - `add_pokemon_to_moves.py`: Adds Pokemon to their moves in moves-data.json.
 - `add_pvp_to_pokemon.py`: Adds PVP tiers to the pokemon data.
 - `generate_egg_moves.py`: This script generates egg-moves-data.json.
+- `generate_egg_moves_exp.py`: This is an experimental script that generates egg-moves-data.json by performing all calculations.
 - `generate_location_data.py`: This script generates location-data.json.
 - `generate_pokemon_moves.py`: This script generates pokemon_moves.json.
 - `generate_pvp_data.py`: This script generates pvp-data.json.
