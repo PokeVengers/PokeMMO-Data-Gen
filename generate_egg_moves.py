@@ -38,8 +38,14 @@ with open(EGG_MOVES_FILE, "r", encoding="utf-8") as file:
         pokemon = clean_name(pokemon)  # Clean and lowercase pokemon name, apply name changes
         move = move.rstrip("]")  # Remove closing bracket from move
 
-        chain = [clean_name(part) for part in parts[1].split(", ")]  # Clean each name in the chain, apply name changes
-        chain.insert(0, pokemon)  # Insert the current Pokémon at the beginning of the chain
+        # Initialize an empty list to store the chain
+        chain = []
+        # Iterate over all parts of the chain to clean names and apply changes
+        for part in parts[1:]:
+            chain.extend([clean_name(p) for p in part.split(" <= ")])  # Split on " <= " and clean each name
+
+        # Prepend the original Pokémon to the chain
+        chain.insert(0, pokemon)
 
         # Ensure pokemon entry exists
         if pokemon not in egg_moves:
