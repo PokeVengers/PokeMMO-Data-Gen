@@ -3436,7 +3436,7 @@
             }
         ]
     },
-    "shaymin-land": {
+    "shaymin": {
         "pvp": [
             {
                 "tier": "UB"
@@ -4770,6 +4770,237 @@
         "pvp": [
             {
                 "tier": "UN"
+            }
+        ]
+    },
+    "castform-sunny": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "castform-rainy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "castform-snowy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "deoxys-normal": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "deoxys-attack": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "deoxys-defense": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "deoxys-speed": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "wormadam-sandy": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "wormadam-trash": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rotom-heat": {
+        "pvp": [
+            {
+                "tier": "UU"
+            }
+        ]
+    },
+    "rotom-wash": {
+        "pvp": [
+            {
+                "tier": "UU"
+            }
+        ]
+    },
+    "rotom-frost": {
+        "pvp": [
+            {
+                "tier": "UU"
+            }
+        ]
+    },
+    "rotom-fan": {
+        "pvp": [
+            {
+                "tier": "UU"
+            }
+        ]
+    },
+    "rotom-mow": {
+        "pvp": [
+            {
+                "tier": "UU"
+            }
+        ]
+    },
+    "giratina-altered": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "giratina-origin": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "shaymin-sky": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "shaymin-land": {
+        "pvp": [
+            {
+                "tier": "OU"
+            }
+        ]
+    },
+    "basculin-blue-striped": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "darmanitan-standard": {
+        "pvp": [
+            {
+                "tier": "OU"
+            }
+        ]
+    },
+    "darmanitan-zen": {
+        "pvp": [
+            {
+                "tier": "OU"
+            }
+        ]
+    },
+    "tornadus-incarnate": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "tornadus-therian": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "thundurus-incarnate": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "thundurus-therian": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "landorus-incarnate": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "landorus-therian": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "kyurem-black": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "kyurem-white": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "keldeo-ordinary": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "keldeo-resolute": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "meloetta-aria": {
+        "pvp": [
+            {
+                "tier": "UB"
+            }
+        ]
+    },
+    "meloetta-pirouette": {
+        "pvp": [
+            {
+                "tier": "UB"
             }
         ]
     }
