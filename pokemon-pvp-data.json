@@ -688,7 +688,7 @@
     "kingler": {
         "pvp": [
             {
-                "tier": "NU"
+                "tier": "UN"
             }
         ]
     },
@@ -1017,7 +1017,7 @@
     "moltres": {
         "pvp": [
             {
-                "tier": "UB"
+                "tier": "UU"
             }
         ]
     },
@@ -2456,27 +2456,6 @@
             }
         ]
     },
-    "castform-sunny": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "castform-rainy": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "castform-snowy": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
     "kecleon": {
         "pvp": [
             {
@@ -2715,31 +2694,10 @@
             }
         ]
     },
-    "deoxys-normal": {
+    "deoxys": {
         "pvp": [
             {
-                "tier": "UN"
-            }
-        ]
-    },
-    "deoxys-attack": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "deoxys-defense": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "deoxys-speed": {
-        "pvp": [
-            {
-                "tier": "UN"
+                "tier": "UB"
             }
         ]
     },
@@ -2926,20 +2884,6 @@
         ]
     },
     "wormadam-plant": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "wormadam-sandy": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "wormadam-trash": {
         "pvp": [
             {
                 "tier": "UN"
@@ -3404,42 +3348,7 @@
     "rotom": {
         "pvp": [
             {
-                "tier": "NU"
-            }
-        ]
-    },
-    "rotom-heat": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "rotom-wash": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "rotom-frost": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "rotom-fan": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "rotom-mow": {
-        "pvp": [
-            {
-                "tier": "UN"
+                "tier": "UU"
             }
         ]
     },
@@ -3492,7 +3401,7 @@
             }
         ]
     },
-    "giratina-altered": {
+    "giratina": {
         "pvp": [
             {
                 "tier": "UN"
@@ -3528,13 +3437,6 @@
         ]
     },
     "shaymin-land": {
-        "pvp": [
-            {
-                "tier": "OU"
-            }
-        ]
-    },
-    "shaymin-sky": {
         "pvp": [
             {
                 "tier": "UB"
@@ -3947,20 +3849,6 @@
             }
         ]
     },
-    "basculin-blue-striped": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "basculin-white-striped": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
     "sandile": {
         "pvp": [
             {
@@ -3989,14 +3877,7 @@
             }
         ]
     },
-    "darmanitan-standard": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "darmanitan-zen": {
+    "darmanitan": {
         "pvp": [
             {
                 "tier": "UN"
@@ -4598,31 +4479,17 @@
             }
         ]
     },
-    "tornadus-incarnate": {
+    "tornadus": {
         "pvp": [
             {
-                "tier": "UN"
+                "tier": "UB"
             }
         ]
     },
-    "tornadus-therian": {
+    "thundurus": {
         "pvp": [
             {
-                "tier": "UN"
-            }
-        ]
-    },
-    "thundurus-incarnate": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "thundurus-therian": {
-        "pvp": [
-            {
-                "tier": "UN"
+                "tier": "UB"
             }
         ]
     },
@@ -4640,17 +4507,10 @@
             }
         ]
     },
-    "landorus-incarnate": {
+    "landorus": {
         "pvp": [
             {
-                "tier": "UN"
-            }
-        ]
-    },
-    "landorus-therian": {
-        "pvp": [
-            {
-                "tier": "UN"
+                "tier": "UB"
             }
         ]
     },
@@ -4661,42 +4521,14 @@
             }
         ]
     },
-    "kyurem-black": {
+    "keldeo": {
         "pvp": [
             {
-                "tier": "UN"
+                "tier": "UB"
             }
         ]
     },
-    "kyurem-white": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "keldeo-ordinary": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "keldeo-resolute": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "meloetta-aria": {
-        "pvp": [
-            {
-                "tier": "UN"
-            }
-        ]
-    },
-    "meloetta-pirouette": {
+    "meloetta": {
         "pvp": [
             {
                 "tier": "UN"
@@ -4707,6 +4539,237 @@
         "pvp": [
             {
                 "tier": "UB"
+            }
+        ]
+    },
+    "pumpking": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "fighting elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "flying elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "poison elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ground elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "rock elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "bug elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ghost elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "steel elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "fire elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "water elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "grass elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "electric elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "psychic elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "ice elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dragon elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "dark elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pumprince": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pumprincess": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "li'l pump": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "???": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "nian": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "jumpeon": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "circuitree": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "robosanta": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "mountain muncher": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "normal elfbot": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pumpaladin": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pumpmage": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pumpreaper": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "botcracker": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "pumpthief": {
+        "pvp": [
+            {
+                "tier": "UN"
+            }
+        ]
+    },
+    "debug_st1000": {
+        "pvp": [
+            {
+                "tier": "UN"
             }
         ]
     }

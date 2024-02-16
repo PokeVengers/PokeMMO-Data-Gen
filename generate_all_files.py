@@ -40,6 +40,7 @@ scripts_to_run = [
     os.path.join(current_dir, "generate_obtainable_pokemon.py"),
     os.path.join(current_dir, "generate_pokemon_moves.py"),
     os.path.join(current_dir, "generate_locations.py"),
+    os.path.join(current_dir, "generate_pvp_data_Input.py"),
     os.path.join(current_dir, "download_PokeAPI_pokemon.py"),
     os.path.join(current_dir, "download_PokeAPI_egg-group.py"),
     os.path.join(current_dir, "download_PokeAPI_moves.py"),
