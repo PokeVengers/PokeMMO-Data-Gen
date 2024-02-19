@@ -68,5 +68,14 @@
     },
     "keldeo-resolute": {
         "obtainable": false
+    },
+    "wormadam-plant": {
+        "obtainable": true
+    },
+    "wormadam-sandy": {
+        "obtainable": true
+    },
+    "wormadam-trash": {
+        "obtainable": true
     }
 }
