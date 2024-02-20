@@ -8419,7 +8419,7 @@
 	"name": "Dragon Antlers",
 	"desc": "A cosmetic item which can be used to\nmodify your appearance.",
 	"region_id": 10,
-	"icon_id": 30011,
+	"icon_id": 30014,
 	"name_string_id": 21073,
 	"desc_string_id": 19999
 },
@@ -10507,7 +10507,7 @@
 	"name": "Golden Dragon Tail",
 	"desc": "A cosmetic item which can be used to\nmodify your appearance.",
 	"region_id": 10,
-	"icon_id": 30051,
+	"icon_id": 30054,
 	"name_string_id": 25034,
 	"desc_string_id": 19999
 },
