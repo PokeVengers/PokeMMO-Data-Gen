@@ -2011,7 +2011,7 @@
 	"name": "TM - Focus Punch",
 	"desc": "The user focuses its mind before\nlaunching a punch. It will fail if\nthe user is hit before it is used.",
 	"region_id": 0,
-	"icon_id": 289,
+	"icon_id": 5335,
 	"name_string_id": 900289,
 	"desc_string_id": 965825
 },
@@ -2020,7 +2020,7 @@
 	"name": "TM - Dragon Claw",
 	"desc": "The user slashes the target with\nhuge, sharp claws.",
 	"region_id": 0,
-	"icon_id": 290,
+	"icon_id": 5329,
 	"name_string_id": 900290,
 	"desc_string_id": 965826
 },
@@ -2029,7 +2029,7 @@
 	"name": "TM - Water Pulse",
 	"desc": "The user attacks the target with a\npulsing blast of water. It may also\nconfuse the target.",
 	"region_id": 0,
-	"icon_id": 291,
+	"icon_id": 5345,
 	"name_string_id": 900291,
 	"desc_string_id": 965827
 },
@@ -2038,7 +2038,7 @@
 	"name": "TM - Calm Mind",
 	"desc": "The user quietly focuses its mind\nand calms its spirit to raise its\nSp. Atk and Sp. Def stats.",
 	"region_id": 0,
-	"icon_id": 292,
+	"icon_id": 5330,
 	"name_string_id": 900292,
 	"desc_string_id": 965828
 },
@@ -2047,7 +2047,7 @@
 	"name": "TM - Roar",
 	"desc": "The target is scared off and\nreplaced by another Pokémon in its\nparty. In the wild, the battle\nends.",
 	"region_id": 0,
-	"icon_id": 293,
+	"icon_id": 5332,
 	"name_string_id": 900293,
 	"desc_string_id": 965829
 },
@@ -2056,7 +2056,7 @@
 	"name": "TM - Toxic",
 	"desc": "A move that leaves the target badly\npoisoned. Its poison damage worsens\nevery turn.",
 	"region_id": 0,
-	"icon_id": 294,
+	"icon_id": 5411,
 	"name_string_id": 900294,
 	"desc_string_id": 965830
 },
@@ -2065,7 +2065,7 @@
 	"name": "TM - Snowscape",
 	"desc": "A snowstorm forms on the field for 5\nturns. Snow boosts the Defense stat\nof Ice-types by 50%.",
 	"region_id": 0,
-	"icon_id": 295,
+	"icon_id": 5340,
 	"name_string_id": 900295,
 	"desc_string_id": 965831
 },
@@ -2074,7 +2074,7 @@
 	"name": "TM - Bulk Up",
 	"desc": "The user tenses its muscles to bulk\nup its body, boosting both its\nAttack and Defense stats.",
 	"region_id": 0,
-	"icon_id": 296,
+	"icon_id": 5335,
 	"name_string_id": 900296,
 	"desc_string_id": 965832
 },
@@ -2083,7 +2083,7 @@
 	"name": "TM - Bullet Seed",
 	"desc": "The user forcefully shoots seeds at\nthe target. Two to five seeds are\nshot in rapid succession.",
 	"region_id": 0,
-	"icon_id": 297,
+	"icon_id": 5349,
 	"name_string_id": 900297,
 	"desc_string_id": 965833
 },
@@ -2092,7 +2092,7 @@
 	"name": "TM - Hidden Power",
 	"desc": "An attack which varies in type\ndepending on its user. Its type may\nbe changed with 40 Gems.",
 	"region_id": 0,
-	"icon_id": 298,
+	"icon_id": 5332,
 	"name_string_id": 900298,
 	"desc_string_id": 965834
 },
@@ -2101,7 +2101,7 @@
 	"name": "TM - Sunny Day",
 	"desc": "The user intensifies the sun for\nfive turns, powering up Fire-type\nmoves.",
 	"region_id": 0,
-	"icon_id": 299,
+	"icon_id": 5362,
 	"name_string_id": 900299,
 	"desc_string_id": 965835
 },
@@ -2110,7 +2110,7 @@
 	"name": "TM - Taunt",
 	"desc": "The target is taunted into a rage\nthat allows it to use only attack\nmoves for three turns.",
 	"region_id": 0,
-	"icon_id": 300,
+	"icon_id": 5328,
 	"name_string_id": 900300,
 	"desc_string_id": 965836
 },
@@ -2119,7 +2119,7 @@
 	"name": "TM - Ice Beam",
 	"desc": "The target is struck with an\nicy-cold beam of energy. It may\nalso freeze the target solid.",
 	"region_id": 0,
-	"icon_id": 301,
+	"icon_id": 5340,
 	"name_string_id": 900301,
 	"desc_string_id": 965837
 },
@@ -2128,7 +2128,7 @@
 	"name": "TM - Blizzard",
 	"desc": "A howling blizzard is summoned to\nstrike the opposing team. It may\nalso freeze them solid.",
 	"region_id": 0,
-	"icon_id": 302,
+	"icon_id": 5340,
 	"name_string_id": 900302,
 	"desc_string_id": 965838
 },
@@ -2137,7 +2137,7 @@
 	"name": "TM - Hyper Beam",
 	"desc": "The target is attacked with a\npowerful beam. The user must rest\non the next turn to regain its\nenergy.",
 	"region_id": 0,
-	"icon_id": 303,
+	"icon_id": 5332,
 	"name_string_id": 900303,
 	"desc_string_id": 965839
 },
@@ -2146,7 +2146,7 @@
 	"name": "TM - Light Screen",
 	"desc": "A wondrous wall of light is put up\nto suppress damage from special\nattacks for five turns.",
 	"region_id": 0,
-	"icon_id": 304,
+	"icon_id": 5330,
 	"name_string_id": 900304,
 	"desc_string_id": 965840
 },
@@ -2155,7 +2155,7 @@
 	"name": "TM - Protect",
 	"desc": "It enables the user to evade all\nattacks. Its chance of failing\nrises if it is used in succession.",
 	"region_id": 0,
-	"icon_id": 305,
+	"icon_id": 5332,
 	"name_string_id": 900305,
 	"desc_string_id": 965841
 },
@@ -2164,7 +2164,7 @@
 	"name": "TM - Rain Dance",
 	"desc": "The user summons a heavy rain that\nfalls for five turns, powering up\nWater-type moves.",
 	"region_id": 0,
-	"icon_id": 306,
+	"icon_id": 5345,
 	"name_string_id": 900306,
 	"desc_string_id": 965842
 },
@@ -2173,7 +2173,7 @@
 	"name": "TM - Giga Drain",
 	"desc": "A nutrient-draining attack. The\nuser's HP is restored by half the\ndamage taken by the target.",
 	"region_id": 0,
-	"icon_id": 307,
+	"icon_id": 5349,
 	"name_string_id": 900307,
 	"desc_string_id": 965843
 },
@@ -2182,7 +2182,7 @@
 	"name": "TM - Safeguard",
 	"desc": "The user creates a protective field\nthat prevents status problems for\nfive turns.",
 	"region_id": 0,
-	"icon_id": 308,
+	"icon_id": 5332,
 	"name_string_id": 900308,
 	"desc_string_id": 965844
 },
@@ -2191,7 +2191,7 @@
 	"name": "TM - Frustration",
 	"desc": "A full-power attack that grows more\npowerful the less the user likes\nits Trainer.",
 	"region_id": 0,
-	"icon_id": 309,
+	"icon_id": 5332,
 	"name_string_id": 900309,
 	"desc_string_id": 965845
 },
@@ -2200,7 +2200,7 @@
 	"name": "TM - SolarBeam",
 	"desc": "A two-turn attack. The user gathers\nlight, then blasts a bundled beam\non the second turn.",
 	"region_id": 0,
-	"icon_id": 310,
+	"icon_id": 5349,
 	"name_string_id": 900310,
 	"desc_string_id": 965846
 },
@@ -2209,7 +2209,7 @@
 	"name": "TM - Iron Tail",
 	"desc": "The target is slammed with a\nsteel-hard tail. It may also lower\nthe target's Defense stat.",
 	"region_id": 0,
-	"icon_id": 311,
+	"icon_id": 5401,
 	"name_string_id": 900311,
 	"desc_string_id": 965847
 },
@@ -2218,7 +2218,7 @@
 	"name": "TM - Thunderbolt",
 	"desc": "A strong electric blast is loosed at\nthe target. It may also leave the\ntarget with paralysis.",
 	"region_id": 0,
-	"icon_id": 312,
+	"icon_id": 5351,
 	"name_string_id": 900312,
 	"desc_string_id": 965848
 },
@@ -2227,7 +2227,7 @@
 	"name": "TM - Thunder",
 	"desc": "A wicked thunderbolt is dropped on\nthe target to inflict damage. It\nmay also leave the target with\nparalysis.",
 	"region_id": 0,
-	"icon_id": 313,
+	"icon_id": 5351,
 	"name_string_id": 900313,
 	"desc_string_id": 965849
 },
@@ -2236,7 +2236,7 @@
 	"name": "TM - Earthquake",
 	"desc": "The user sets off an earthquake that\nstrikes those around it.",
 	"region_id": 0,
-	"icon_id": 314,
+	"icon_id": 5353,
 	"name_string_id": 900314,
 	"desc_string_id": 965850
 },
@@ -2245,7 +2245,7 @@
 	"name": "TM - Return",
 	"desc": "A full-power attack that grows more\npowerful the more the user likes\nits Trainer.",
 	"region_id": 0,
-	"icon_id": 315,
+	"icon_id": 5332,
 	"name_string_id": 900315,
 	"desc_string_id": 965851
 },
@@ -2254,7 +2254,7 @@
 	"name": "TM - Dig",
 	"desc": "The user burrows, then attacks on\nthe second turn. It can also be\nused to exit dungeons.",
 	"region_id": 0,
-	"icon_id": 316,
+	"icon_id": 5353,
 	"name_string_id": 900316,
 	"desc_string_id": 965852
 },
@@ -2263,7 +2263,7 @@
 	"name": "TM - Psychic",
 	"desc": "The target is hit by a strong\ntelekinetic force. It may also\nreduce the target's Sp. Def stat.",
 	"region_id": 0,
-	"icon_id": 317,
+	"icon_id": 5330,
 	"name_string_id": 900317,
 	"desc_string_id": 965853
 },
@@ -2272,7 +2272,7 @@
 	"name": "TM - Shadow Ball",
 	"desc": "The user hurls a shadowy blob at the\ntarget. It may also lower the\ntarget's Sp. Def stat.",
 	"region_id": 0,
-	"icon_id": 318,
+	"icon_id": 5392,
 	"name_string_id": 900318,
 	"desc_string_id": 965854
 },
@@ -2281,7 +2281,7 @@
 	"name": "TM - Brick Break",
 	"desc": "The user attacks with a swift chop.\nIt can also break any barrier such\nas Light Screen and Reflect.",
 	"region_id": 0,
-	"icon_id": 319,
+	"icon_id": 5335,
 	"name_string_id": 900319,
 	"desc_string_id": 965855
 },
@@ -2290,7 +2290,7 @@
 	"name": "TM - Double Team",
 	"desc": "By moving rapidly, the user makes\nillusory copies of itself to raise\nits evasiveness.",
 	"region_id": 0,
-	"icon_id": 320,
+	"icon_id": 5332,
 	"name_string_id": 900320,
 	"desc_string_id": 965856
 },
@@ -2299,7 +2299,7 @@
 	"name": "TM - Reflect",
 	"desc": "A wondrous wall of light is put up\nto suppress damage from physical\nattacks for five turns.",
 	"region_id": 0,
-	"icon_id": 321,
+	"icon_id": 5330,
 	"name_string_id": 900321,
 	"desc_string_id": 965857
 },
@@ -2308,7 +2308,7 @@
 	"name": "TM - Shock Wave",
 	"desc": "The user strikes the target with a\nquick jolt of electricity. This\nattack cannot be evaded.",
 	"region_id": 0,
-	"icon_id": 322,
+	"icon_id": 5351,
 	"name_string_id": 900322,
 	"desc_string_id": 965858
 },
@@ -2317,7 +2317,7 @@
 	"name": "TM - Flamethrower",
 	"desc": "The target is scorched with an\nintense blast of fire. It may also\nleave the target with a burn.",
 	"region_id": 0,
-	"icon_id": 323,
+	"icon_id": 5362,
 	"name_string_id": 900323,
 	"desc_string_id": 965859
 },
@@ -2326,7 +2326,7 @@
 	"name": "TM - Sludge Bomb",
 	"desc": "Unsanitary sludge is hurled at the\ntarget. It may also poison the\ntarget.",
 	"region_id": 0,
-	"icon_id": 324,
+	"icon_id": 5411,
 	"name_string_id": 900324,
 	"desc_string_id": 965860
 },
@@ -2335,7 +2335,7 @@
 	"name": "TM - Sandstorm",
 	"desc": "A five-turn sandstorm is summoned to\nhurt all combatants except the\nRock, Ground, and Steel types.",
 	"region_id": 0,
-	"icon_id": 325,
+	"icon_id": 5350,
 	"name_string_id": 900325,
 	"desc_string_id": 965861
 },
@@ -2344,7 +2344,7 @@
 	"name": "TM - Fire Blast",
 	"desc": "The target is attacked with an\nintense blast of all-consuming\nfire. It may also leave the target\nwith a burn.",
 	"region_id": 0,
-	"icon_id": 326,
+	"icon_id": 5362,
 	"name_string_id": 900326,
 	"desc_string_id": 965862
 },
@@ -2353,7 +2353,7 @@
 	"name": "TM - Rock Tomb",
 	"desc": "Boulders are hurled at the target.\nIt also lowers the target's Speed\nby preventing its movement.",
 	"region_id": 0,
-	"icon_id": 327,
+	"icon_id": 5350,
 	"name_string_id": 900327,
 	"desc_string_id": 965863
 },
@@ -2362,7 +2362,7 @@
 	"name": "TM - Aerial Ace",
 	"desc": "The user confounds the target with\nspeed, then slashes. The attack\nlands without fail.",
 	"region_id": 0,
-	"icon_id": 328,
+	"icon_id": 5367,
 	"name_string_id": 900328,
 	"desc_string_id": 965864
 },
@@ -2371,7 +2371,7 @@
 	"name": "TM - Torment",
 	"desc": "The user torments and enrages the\ntarget, making it incapable of\nusing the same move twice in a\nrow.",
 	"region_id": 0,
-	"icon_id": 329,
+	"icon_id": 5328,
 	"name_string_id": 900329,
 	"desc_string_id": 965865
 },
@@ -2380,7 +2380,7 @@
 	"name": "TM - Facade",
 	"desc": "An attack move that doubles its\npower if the user is poisoned,\nburned, or has paralysis.",
 	"region_id": 0,
-	"icon_id": 330,
+	"icon_id": 5332,
 	"name_string_id": 900330,
 	"desc_string_id": 965866
 },
@@ -2389,7 +2389,7 @@
 	"name": "TM - Secret Power",
 	"desc": "The user attacks the target with a\nsecret power. Its added effects\nvary depending on the user's\nenvironment.",
 	"region_id": 0,
-	"icon_id": 331,
+	"icon_id": 5332,
 	"name_string_id": 900331,
 	"desc_string_id": 965867
 },
@@ -2398,7 +2398,7 @@
 	"name": "TM - Rest",
 	"desc": "The user goes to sleep for two\nturns. It fully restores the user's\nHP and heals any status problem.",
 	"region_id": 0,
-	"icon_id": 332,
+	"icon_id": 5330,
 	"name_string_id": 900332,
 	"desc_string_id": 965868
 },
@@ -2407,7 +2407,7 @@
 	"name": "TM - Attract",
 	"desc": "If it is the opposite gender of the\nuser, the target becomes infatuated\nand less likely to attack.",
 	"region_id": 0,
-	"icon_id": 333,
+	"icon_id": 5332,
 	"name_string_id": 900333,
 	"desc_string_id": 965869
 },
@@ -2416,7 +2416,7 @@
 	"name": "TM - Thief",
 	"desc": "An attack which steals the foe's\nheld item if the user isn't already\nholding one. Its effects are\ntemporary when stealing from\nTrainers.",
 	"region_id": 0,
-	"icon_id": 334,
+	"icon_id": 5328,
 	"name_string_id": 900334,
 	"desc_string_id": 965870
 },
@@ -2425,7 +2425,7 @@
 	"name": "TM - Steel Wing",
 	"desc": "The target is hit with wings of\nsteel. It may also raise the user's\nDefense stat.",
 	"region_id": 0,
-	"icon_id": 335,
+	"icon_id": 5401,
 	"name_string_id": 900335,
 	"desc_string_id": 965871
 },
@@ -2434,7 +2434,7 @@
 	"name": "TM - Skill Swap",
 	"desc": "The user employs its psychic power\nto exchange Abilities with the\ntarget.",
 	"region_id": 0,
-	"icon_id": 336,
+	"icon_id": 5330,
 	"name_string_id": 900336,
 	"desc_string_id": 965872
 },
@@ -2443,7 +2443,7 @@
 	"name": "TM - Snatch",
 	"desc": "The user steals the effects of any\nhealing or stat-changing move the\nopponent attempts to use.",
 	"region_id": 0,
-	"icon_id": 337,
+	"icon_id": 5328,
 	"name_string_id": 900337,
 	"desc_string_id": 965873
 },
@@ -2452,7 +2452,7 @@
 	"name": "TM - Overheat",
 	"desc": "The user attacks the target at full\npower. The attack's recoil harshly\nreduces the user's Sp. Atk stat.",
 	"region_id": 0,
-	"icon_id": 338,
+	"icon_id": 5362,
 	"name_string_id": 900338,
 	"desc_string_id": 965874
 },
@@ -3487,7 +3487,7 @@
 	"name": "Berry Powder",
 	"desc": "A sweet powder which can be used to\ncraft medicine.",
 	"region_id": 10,
-	"icon_id": 30,
+	"icon_id": 5034,
 	"name_string_id": 101112,
 	"desc_string_id": 101113
 },
@@ -3505,7 +3505,7 @@
 	"name": "Unknown Item",
 	"desc": "Your client does not currently\nsupport\nthis item.\nPlease verify you have all required\nroms.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1121,
 	"name_string_id": 1450,
 	"desc_string_id": 1451
 },
@@ -4000,7 +4000,7 @@
 	"name": "Cut Ocarina",
 	"desc": "Summons a Pokémon which will use Cut\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1180,
 	"name_string_id": 101300,
 	"desc_string_id": 101301
 },
@@ -4009,7 +4009,7 @@
 	"name": "Fly Ocarina",
 	"desc": "Summons a Pokémon which will use Fly\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1181,
 	"name_string_id": 101302,
 	"desc_string_id": 101303
 },
@@ -4018,7 +4018,7 @@
 	"name": "Surf Ocarina",
 	"desc": "Summons a Pokémon which will use Surf\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1182,
 	"name_string_id": 101304,
 	"desc_string_id": 101305
 },
@@ -4027,7 +4027,7 @@
 	"name": "Strength Ocarina",
 	"desc": "Summons a Pokémon which will use\nStrength outside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1183,
 	"name_string_id": 101306,
 	"desc_string_id": 101307
 },
@@ -4036,7 +4036,7 @@
 	"name": "Flash Ocarina",
 	"desc": "Summons a Pokémon which will use Flash\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1184,
 	"name_string_id": 101308,
 	"desc_string_id": 101309
 },
@@ -4045,7 +4045,7 @@
 	"name": "Rock Smash Ocarina",
 	"desc": "Summons a Pokémon which will use Rock\nSmash outside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1185,
 	"name_string_id": 101310,
 	"desc_string_id": 101311
 },
@@ -4054,7 +4054,7 @@
 	"name": "Waterfall Ocarina",
 	"desc": "Summons a Pokémon which will use\nWaterfall outside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1186,
 	"name_string_id": 101312,
 	"desc_string_id": 101313
 },
@@ -4063,7 +4063,7 @@
 	"name": "Dive Ocarina",
 	"desc": "Summons a Pokémon which will use Dive\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1187,
 	"name_string_id": 101314,
 	"desc_string_id": 101315
 },
@@ -4072,7 +4072,7 @@
 	"name": "Rock Climb Ocarina",
 	"desc": "Summons a Pokémon which will use Rock\nClimb outside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1188,
 	"name_string_id": 101316,
 	"desc_string_id": 101317
 },
@@ -4081,7 +4081,7 @@
 	"name": "Defog Ocarina",
 	"desc": "Summons a Pokémon which will use Defog\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1189,
 	"name_string_id": 101318,
 	"desc_string_id": 101319
 },
@@ -4135,7 +4135,7 @@
 	"name": "Whirlpool Ocarina",
 	"desc": "Summons a Pokémon which will use\nWhirlpool outside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1195,
 	"name_string_id": 101320,
 	"desc_string_id": 101321
 },
@@ -4144,7 +4144,7 @@
 	"name": "Dig Ocarina",
 	"desc": "Summons a Pokémon which will use Dig\noutside of a battle.\n\nCannot be used in certain instances.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1196,
 	"name_string_id": 101322,
 	"desc_string_id": 101323
 },
@@ -4153,7 +4153,7 @@
 	"name": "Teleport Ocarina",
 	"desc": "Summons a Pokémon which will use\nTeleport outside of a battle.\n\nCannot be used in certain instances.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1197,
 	"name_string_id": 101324,
 	"desc_string_id": 101325
 },
@@ -4162,7 +4162,7 @@
 	"name": "Headbutt Ocarina",
 	"desc": "Summons a Pokémon which will use\nHeadbutt outside of a battle.\n\nCannot be used in certain instances.\n\nThis item may only be used in Johto.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1198,
 	"name_string_id": 101326,
 	"desc_string_id": 101327
 },
@@ -5026,7 +5026,7 @@
 	"name": "Hitodama Particle Effect",
 	"desc": "Spirits dance around you.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1302,
 	"name_string_id": 11002,
 	"desc_string_id": 11402
 },
@@ -5035,7 +5035,7 @@
 	"name": "Bats Particle Effect",
 	"desc": "Summons flying bats.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1303,
 	"name_string_id": 11003,
 	"desc_string_id": 11403
 },
@@ -5044,7 +5044,7 @@
 	"name": "Ghosts Particle Effect",
 	"desc": "Haunted by the ghosts.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1304,
 	"name_string_id": 11004,
 	"desc_string_id": 11404
 },
@@ -5053,7 +5053,7 @@
 	"name": "The Eye Particle Effect",
 	"desc": "Nothing escapes the eye.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1305,
 	"name_string_id": 11005,
 	"desc_string_id": 11405
 },
@@ -5062,7 +5062,7 @@
 	"name": "Pumpking's Delight Particle Effect",
 	"desc": "Pumpking shares the spoils.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1306,
 	"name_string_id": 11006,
 	"desc_string_id": 11406
 },
@@ -5071,7 +5071,7 @@
 	"name": "Rising Star Particle Effect",
 	"desc": "A dancing star glitters around you.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1307,
 	"name_string_id": 11007,
 	"desc_string_id": 11407
 },
@@ -5080,7 +5080,7 @@
 	"name": "Snowflake Particle Effect",
 	"desc": "Snow falls gently.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1308,
 	"name_string_id": 11008,
 	"desc_string_id": 11408
 },
@@ -5089,7 +5089,7 @@
 	"name": "Present Particle Effect",
 	"desc": "What could be inside?\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1309,
 	"name_string_id": 11009,
 	"desc_string_id": 11409
 },
@@ -5098,7 +5098,7 @@
 	"name": "Paper Lantern Particle Effect",
 	"desc": "Paper lanterns float into the sky.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1310,
 	"name_string_id": 11010,
 	"desc_string_id": 11410
 },
@@ -5107,7 +5107,7 @@
 	"name": "Fireworks Particle Effect",
 	"desc": "A celebratory Firework.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1311,
 	"name_string_id": 11011,
 	"desc_string_id": 11411
 },
@@ -5116,7 +5116,7 @@
 	"name": "Pungent Stench Particle Effect",
 	"desc": "Your stench overwhelms the enemy.\nAnd everything else.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1312,
 	"name_string_id": 11012,
 	"desc_string_id": 11412
 },
@@ -5125,7 +5125,7 @@
 	"name": "Black Hole Particle Effect",
 	"desc": "The beginning, or the end?\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1313,
 	"name_string_id": 11013,
 	"desc_string_id": 11413
 },
@@ -5134,7 +5134,7 @@
 	"name": "Witch's Haze Particle Effect",
 	"desc": "A fateful ceremony.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1314,
 	"name_string_id": 11014,
 	"desc_string_id": 11414
 },
@@ -5143,7 +5143,7 @@
 	"name": "Pumpkid's Treat Particle Effect",
 	"desc": "Twirling treat tornadoes tantalize the\ntastebuds.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1315,
 	"name_string_id": 11015,
 	"desc_string_id": 11415
 },
@@ -5152,7 +5152,7 @@
 	"name": "Witch's Cat Particle Effect",
 	"desc": "Wait, where'd you come from?\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1316,
 	"name_string_id": 11016,
 	"desc_string_id": 11416
 },
@@ -5161,7 +5161,7 @@
 	"name": "Pumpcat Particle Effect",
 	"desc": "Pumpking's favorite pest.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1317,
 	"name_string_id": 11017,
 	"desc_string_id": 11417
 },
@@ -5170,7 +5170,7 @@
 	"name": "White Kitty Particle Effect",
 	"desc": "Wait, where'd you come from?\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1318,
 	"name_string_id": 11018,
 	"desc_string_id": 11418
 },
@@ -5179,7 +5179,7 @@
 	"name": "Spinning Scythe Particle Effect",
 	"desc": "Incoming!\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1319,
 	"name_string_id": 11019,
 	"desc_string_id": 11419
 },
@@ -5188,7 +5188,7 @@
 	"name": "Spider's Web Particle Effect",
 	"desc": "Don't get bit.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1320,
 	"name_string_id": 11020,
 	"desc_string_id": 11420
 },
@@ -5197,7 +5197,7 @@
 	"name": "Zombie Grip Particle Effect",
 	"desc": "Watch your step.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1321,
 	"name_string_id": 11021,
 	"desc_string_id": 11421
 },
@@ -5206,7 +5206,7 @@
 	"name": "Zodiac Particle Effect",
 	"desc": "Celebrating the new year.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1322,
 	"name_string_id": 11022,
 	"desc_string_id": 11422
 },
@@ -5215,7 +5215,7 @@
 	"name": "Eerie Howl Particle Effect",
 	"desc": "One of the pack.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1323,
 	"name_string_id": 11023,
 	"desc_string_id": 11423
 },
@@ -5224,7 +5224,7 @@
 	"name": "Graveyard Particle Effect",
 	"desc": "Ghouls only.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1324,
 	"name_string_id": 11024,
 	"desc_string_id": 11424
 },
@@ -5233,7 +5233,7 @@
 	"name": "King's Fall Particle Effect",
 	"desc": "A bountiful harvest.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1325,
 	"name_string_id": 11025,
 	"desc_string_id": 11425
 },
@@ -5242,7 +5242,7 @@
 	"name": "Red Dragon Particle Effect",
 	"desc": "Enter the dragon.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1326,
 	"name_string_id": 11026,
 	"desc_string_id": 11426
 },
@@ -5251,7 +5251,7 @@
 	"name": "Anniversary Cake Particle Effect",
 	"desc": "Happy Birthday, PokeMMO!\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1327,
 	"name_string_id": 11027,
 	"desc_string_id": 11427
 },
@@ -5260,7 +5260,7 @@
 	"name": "Kanto Friends Particle Effect",
 	"desc": "The Classic Trio\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1328,
 	"name_string_id": 11028,
 	"desc_string_id": 11428
 },
@@ -5269,7 +5269,7 @@
 	"name": "Shiny Kanto Friends Particle Effect",
 	"desc": "The Classic Trio\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1329,
 	"name_string_id": 11029,
 	"desc_string_id": 11429
 },
@@ -5278,7 +5278,7 @@
 	"name": "Menacing Spirit Particle Effect",
 	"desc": "An intimidating foe.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1330,
 	"name_string_id": 11030,
 	"desc_string_id": 11430
 },
@@ -5287,7 +5287,7 @@
 	"name": "Shiny Menacing Spirit Particle Effect",
 	"desc": "An intimidating foe.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1331,
 	"name_string_id": 11031,
 	"desc_string_id": 11431
 },
@@ -5296,7 +5296,7 @@
 	"name": "Xmas Decorations Particle Effect",
 	"desc": "A festive occasion.\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1332,
 	"name_string_id": 11032,
 	"desc_string_id": 11432
 },
@@ -5305,7 +5305,7 @@
 	"name": "Spirit of Spring Particle Effect",
 	"desc": "Spring's blessings\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1333,
 	"name_string_id": 11033,
 	"desc_string_id": 11433
 },
@@ -5314,7 +5314,7 @@
 	"name": "Phantom Particle Effect",
 	"desc": "Purranormal activity\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1335,
 	"name_string_id": 11035,
 	"desc_string_id": 11435
 },
@@ -5323,7 +5323,7 @@
 	"name": "Shiny Phantom Particle Effect",
 	"desc": "Purranormal activity\n\nUse to assign this particle to a\nPokémon.\n\nCan only be used once.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 1336,
 	"name_string_id": 11036,
 	"desc_string_id": 11436
 },
@@ -7717,7 +7717,7 @@
 	"name": "TM - Endeavor",
 	"desc": "An attack move that cuts down the\ntarget's HP to equal the user's\nHP.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 5332,
 	"name_string_id": 901760,
 	"desc_string_id": 967296
 },
@@ -7726,7 +7726,7 @@
 	"name": "TM - Pain Split",
 	"desc": "The user adds its HP to the target's\nHP, then equally shares the\ncombined HP with the target.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 5332,
 	"name_string_id": 901761,
 	"desc_string_id": 967297
 },
@@ -7735,7 +7735,7 @@
 	"name": "TM - FeatherDance",
 	"desc": "The user covers the target's body\nwith a mass of down that harshly\nlowers its Attack stat.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 5367,
 	"name_string_id": 901762,
 	"desc_string_id": 967298
 },
@@ -7744,7 +7744,7 @@
 	"name": "TM - Metal Sound",
 	"desc": "A horrible sound like scraping metal\nharshly reduces the target's Sp.\nDef stat.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 5401,
 	"name_string_id": 901763,
 	"desc_string_id": 967299
 },
@@ -7753,7 +7753,7 @@
 	"name": "TM - Electroweb",
 	"desc": "The user captures and attacks\nopposing Pokémon by using an\nelectric net. It reduces the\ntargets' Speed stat.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 5351,
 	"name_string_id": 901764,
 	"desc_string_id": 967300
 },
@@ -12514,7 +12514,7 @@
 	"name": "Unknown Item",
 	"desc": "Your client does not currently\nsupport\nthis item.\nPlease verify you have all required\nroms.",
 	"region_id": 10,
-	"icon_id": 0,
+	"icon_id": 3792,
 	"name_string_id": 1450,
 	"desc_string_id": 1451
 },
@@ -16681,7 +16681,7 @@
 	"name": "TM - Calm Mind",
 	"desc": "The user quietly focuses its mind\nand calms its spirit to raise its\nSp. Atk and Sp. Def stats.",
 	"region_id": 2,
-	"icon_id": 5331,
+	"icon_id": 5330,
 	"name_string_id": 905331,
 	"desc_string_id": 970867
 },
@@ -16699,7 +16699,7 @@
 	"name": "TM - Toxic",
 	"desc": "A move that leaves the target badly\npoisoned. Its poison damage worsens\nevery turn.",
 	"region_id": 2,
-	"icon_id": 5333,
+	"icon_id": 5411,
 	"name_string_id": 905333,
 	"desc_string_id": 970869
 },
@@ -16708,7 +16708,7 @@
 	"name": "TM - Snowscape",
 	"desc": "A snowstorm forms on the field for 5\nturns. Snow boosts the Defense stat\nof Ice-types by 50%.",
 	"region_id": 2,
-	"icon_id": 5334,
+	"icon_id": 5340,
 	"name_string_id": 905334,
 	"desc_string_id": 970870
 },
@@ -16726,7 +16726,7 @@
 	"name": "TM - Venoshock",
 	"desc": "The user drenches the target in a\nspecial poisonous liquid. Its power\nis doubled if the target is\npoisoned.",
 	"region_id": 2,
-	"icon_id": 5336,
+	"icon_id": 5411,
 	"name_string_id": 905336,
 	"desc_string_id": 970872
 },
@@ -16735,7 +16735,7 @@
 	"name": "TM - Hidden Power",
 	"desc": "An attack which varies in type\ndepending on its user. Its type may\nbe changed with 40 Gems.",
 	"region_id": 2,
-	"icon_id": 5337,
+	"icon_id": 5332,
 	"name_string_id": 905337,
 	"desc_string_id": 970873
 },
@@ -16744,7 +16744,7 @@
 	"name": "TM - Sunny Day",
 	"desc": "The user intensifies the sun for\nfive turns, powering up Fire-type\nmoves.",
 	"region_id": 2,
-	"icon_id": 5338,
+	"icon_id": 5362,
 	"name_string_id": 905338,
 	"desc_string_id": 970874
 },
@@ -16753,7 +16753,7 @@
 	"name": "TM - Taunt",
 	"desc": "The target is taunted into a rage\nthat allows it to use only attack\nmoves for three turns.",
 	"region_id": 2,
-	"icon_id": 5339,
+	"icon_id": 5328,
 	"name_string_id": 905339,
 	"desc_string_id": 970875
 },
@@ -16771,7 +16771,7 @@
 	"name": "TM - Blizzard",
 	"desc": "A howling blizzard is summoned to\nstrike the opposing team. It may\nalso freeze them solid.",
 	"region_id": 2,
-	"icon_id": 5341,
+	"icon_id": 5340,
 	"name_string_id": 905341,
 	"desc_string_id": 970877
 },
@@ -16780,7 +16780,7 @@
 	"name": "TM - Hyper Beam",
 	"desc": "The target is attacked with a\npowerful beam. The user must rest\non the next turn to regain its\nenergy.",
 	"region_id": 2,
-	"icon_id": 5342,
+	"icon_id": 5332,
 	"name_string_id": 905342,
 	"desc_string_id": 970878
 },
@@ -16789,7 +16789,7 @@
 	"name": "TM - Light Screen",
 	"desc": "A wondrous wall of light is put up\nto suppress damage from special\nattacks for five turns.",
 	"region_id": 2,
-	"icon_id": 5343,
+	"icon_id": 5330,
 	"name_string_id": 905343,
 	"desc_string_id": 970879
 },
@@ -16798,7 +16798,7 @@
 	"name": "TM - Protect",
 	"desc": "It enables the user to evade all\nattacks. Its chance of failing\nrises if it is used in succession.",
 	"region_id": 2,
-	"icon_id": 5344,
+	"icon_id": 5332,
 	"name_string_id": 905344,
 	"desc_string_id": 970880
 },
@@ -16816,7 +16816,7 @@
 	"name": "TM - Telekinesis",
 	"desc": "The user makes the target float with\nits psychic power. The target is\neasier to hit for three turns.",
 	"region_id": 2,
-	"icon_id": 5346,
+	"icon_id": 5330,
 	"name_string_id": 905346,
 	"desc_string_id": 970882
 },
@@ -16825,7 +16825,7 @@
 	"name": "TM - Safeguard",
 	"desc": "The user creates a protective field\nthat prevents status problems for\nfive turns.",
 	"region_id": 2,
-	"icon_id": 5347,
+	"icon_id": 5332,
 	"name_string_id": 905347,
 	"desc_string_id": 970883
 },
@@ -16834,7 +16834,7 @@
 	"name": "TM - Frustration",
 	"desc": "A full-power attack that grows more\npowerful the less the user likes\nits Trainer.",
 	"region_id": 2,
-	"icon_id": 5348,
+	"icon_id": 5332,
 	"name_string_id": 905348,
 	"desc_string_id": 970884
 },
@@ -16870,7 +16870,7 @@
 	"name": "TM - Thunder",
 	"desc": "A wicked thunderbolt is dropped on\nthe target to inflict damage. It\nmay also leave the target with\nparalysis.",
 	"region_id": 2,
-	"icon_id": 5352,
+	"icon_id": 5351,
 	"name_string_id": 905352,
 	"desc_string_id": 970888
 },
@@ -16888,7 +16888,7 @@
 	"name": "TM - Return",
 	"desc": "A full-power attack that grows more\npowerful the more the user likes\nits Trainer.",
 	"region_id": 2,
-	"icon_id": 5354,
+	"icon_id": 5332,
 	"name_string_id": 905354,
 	"desc_string_id": 970890
 },
@@ -16897,7 +16897,7 @@
 	"name": "TM - Dig",
 	"desc": "The user burrows, then attacks on\nthe second turn. It can also be\nused to exit dungeons.",
 	"region_id": 2,
-	"icon_id": 5355,
+	"icon_id": 5353,
 	"name_string_id": 905355,
 	"desc_string_id": 970891
 },
@@ -16906,7 +16906,7 @@
 	"name": "TM - Psychic",
 	"desc": "The target is hit by a strong\ntelekinetic force. It may also\nreduce the target's Sp. Def stat.",
 	"region_id": 2,
-	"icon_id": 5356,
+	"icon_id": 5330,
 	"name_string_id": 905356,
 	"desc_string_id": 970892
 },
@@ -16915,7 +16915,7 @@
 	"name": "TM - Shadow Ball",
 	"desc": "The user hurls a shadowy blob at the\ntarget. It may also lower the\ntarget's Sp. Def stat.",
 	"region_id": 2,
-	"icon_id": 5357,
+	"icon_id": 5392,
 	"name_string_id": 905357,
 	"desc_string_id": 970893
 },
@@ -16924,7 +16924,7 @@
 	"name": "TM - Brick Break",
 	"desc": "The user attacks with a swift chop.\nIt can also break any barrier such\nas Light Screen and Reflect.",
 	"region_id": 2,
-	"icon_id": 5358,
+	"icon_id": 5335,
 	"name_string_id": 905358,
 	"desc_string_id": 970894
 },
@@ -16933,7 +16933,7 @@
 	"name": "TM - Double Team",
 	"desc": "By moving rapidly, the user makes\nillusory copies of itself to raise\nits evasiveness.",
 	"region_id": 2,
-	"icon_id": 5359,
+	"icon_id": 5332,
 	"name_string_id": 905359,
 	"desc_string_id": 970895
 },
@@ -16942,7 +16942,7 @@
 	"name": "TM - Reflect",
 	"desc": "A wondrous wall of light is put up\nto suppress damage from physical\nattacks for five turns.",
 	"region_id": 2,
-	"icon_id": 5360,
+	"icon_id": 5330,
 	"name_string_id": 905360,
 	"desc_string_id": 970896
 },
@@ -16951,7 +16951,7 @@
 	"name": "TM - Sludge Wave",
 	"desc": "It swamps the area around the user\nwith a giant sludge wave. It may\nalso poison those hit.",
 	"region_id": 2,
-	"icon_id": 5361,
+	"icon_id": 5411,
 	"name_string_id": 905361,
 	"desc_string_id": 970897
 },
@@ -16969,7 +16969,7 @@
 	"name": "TM - Sludge Bomb",
 	"desc": "Unsanitary sludge is hurled at the\ntarget. It may also poison the\ntarget.",
 	"region_id": 2,
-	"icon_id": 5363,
+	"icon_id": 5411,
 	"name_string_id": 905363,
 	"desc_string_id": 970899
 },
@@ -16978,7 +16978,7 @@
 	"name": "TM - Sandstorm",
 	"desc": "A five-turn sandstorm is summoned to\nhurt all combatants except the\nRock, Ground, and Steel types.",
 	"region_id": 2,
-	"icon_id": 5364,
+	"icon_id": 5350,
 	"name_string_id": 905364,
 	"desc_string_id": 970900
 },
@@ -16987,7 +16987,7 @@
 	"name": "TM - Fire Blast",
 	"desc": "The target is attacked with an\nintense blast of all-consuming\nfire. It may also leave the target\nwith a burn.",
 	"region_id": 2,
-	"icon_id": 5365,
+	"icon_id": 5362,
 	"name_string_id": 905365,
 	"desc_string_id": 970901
 },
@@ -16996,7 +16996,7 @@
 	"name": "TM - Rock Tomb",
 	"desc": "Boulders are hurled at the target.\nIt also lowers the target's Speed\nby preventing its movement.",
 	"region_id": 2,
-	"icon_id": 5366,
+	"icon_id": 5350,
 	"name_string_id": 905366,
 	"desc_string_id": 970902
 },
@@ -17014,7 +17014,7 @@
 	"name": "TM - Torment",
 	"desc": "The user torments and enrages the\ntarget, making it incapable of\nusing the same move twice in a\nrow.",
 	"region_id": 2,
-	"icon_id": 5368,
+	"icon_id": 5328,
 	"name_string_id": 905368,
 	"desc_string_id": 970904
 },
@@ -17023,7 +17023,7 @@
 	"name": "TM - Facade",
 	"desc": "An attack move that doubles its\npower if the user is poisoned,\nburned, or has paralysis.",
 	"region_id": 2,
-	"icon_id": 5369,
+	"icon_id": 5332,
 	"name_string_id": 905369,
 	"desc_string_id": 970905
 },
@@ -17032,7 +17032,7 @@
 	"name": "TM - Flame Charge",
 	"desc": "The user cloaks itself with flame\nand attacks. Building up more\npower, it raises the user's Speed\nstat.",
 	"region_id": 2,
-	"icon_id": 5370,
+	"icon_id": 5362,
 	"name_string_id": 905370,
 	"desc_string_id": 970906
 },
@@ -17041,7 +17041,7 @@
 	"name": "TM - Rest",
 	"desc": "The user goes to sleep for two\nturns. It fully restores the user's\nHP and heals any status problem.",
 	"region_id": 2,
-	"icon_id": 5371,
+	"icon_id": 5330,
 	"name_string_id": 905371,
 	"desc_string_id": 970907
 },
@@ -17050,7 +17050,7 @@
 	"name": "TM - Attract",
 	"desc": "If it is the opposite gender of the\nuser, the target becomes infatuated\nand less likely to attack.",
 	"region_id": 2,
-	"icon_id": 5372,
+	"icon_id": 5332,
 	"name_string_id": 905372,
 	"desc_string_id": 970908
 },
@@ -17059,7 +17059,7 @@
 	"name": "TM - Thief",
 	"desc": "An attack which steals the foe's\nheld item if the user isn't already\nholding one. Its effects are\ntemporary when stealing from\nTrainers.",
 	"region_id": 2,
-	"icon_id": 5373,
+	"icon_id": 5328,
 	"name_string_id": 905373,
 	"desc_string_id": 970909
 },
@@ -17068,7 +17068,7 @@
 	"name": "TM - Low Sweep",
 	"desc": "The user attacks the target's legs\nswiftly, reducing the target's\nSpeed stat.",
 	"region_id": 2,
-	"icon_id": 5374,
+	"icon_id": 5335,
 	"name_string_id": 905374,
 	"desc_string_id": 970910
 },
@@ -17077,7 +17077,7 @@
 	"name": "TM - Round",
 	"desc": "The user attacks the target with a\nsong. Others can join in the Round\nand make the attack do greater\ndamage.",
 	"region_id": 2,
-	"icon_id": 5375,
+	"icon_id": 5332,
 	"name_string_id": 905375,
 	"desc_string_id": 970911
 },
@@ -17086,7 +17086,7 @@
 	"name": "TM - Echoed Voice",
 	"desc": "The user attacks the target with an\nechoing voice. If this move is used\nevery turn, it does greater\ndamage.",
 	"region_id": 2,
-	"icon_id": 5376,
+	"icon_id": 5332,
 	"name_string_id": 905376,
 	"desc_string_id": 970912
 },
@@ -17095,7 +17095,7 @@
 	"name": "TM - Overheat",
 	"desc": "The user attacks the target at full\npower. The attack's recoil harshly\nreduces the user's Sp. Atk stat.",
 	"region_id": 2,
-	"icon_id": 5377,
+	"icon_id": 5362,
 	"name_string_id": 905377,
 	"desc_string_id": 970913
 },
@@ -17104,7 +17104,7 @@
 	"name": "TM - Ally Switch",
 	"desc": "The user teleports, switching places\nwith its adjacent ally. It may fail\nif used consecutively.",
 	"region_id": 2,
-	"icon_id": 5378,
+	"icon_id": 5330,
 	"name_string_id": 905378,
 	"desc_string_id": 970914
 },
@@ -17113,7 +17113,7 @@
 	"name": "TM - Focus Blast",
 	"desc": "The user heightens its mental focus\nand unleashes its power. It may\nalso lower the target's Sp. Def.",
 	"region_id": 2,
-	"icon_id": 5379,
+	"icon_id": 5335,
 	"name_string_id": 905379,
 	"desc_string_id": 970915
 },
@@ -17122,7 +17122,7 @@
 	"name": "TM - Energy Ball",
 	"desc": "The user draws power from nature and\nfires it at the target. It may also\nlower the target's Sp. Def.",
 	"region_id": 2,
-	"icon_id": 5380,
+	"icon_id": 5349,
 	"name_string_id": 905380,
 	"desc_string_id": 970916
 },
@@ -17131,7 +17131,7 @@
 	"name": "TM - False Swipe",
 	"desc": "A restrained attack that prevents\nthe target from fainting. The\ntarget is left with at least 1 HP.",
 	"region_id": 2,
-	"icon_id": 5381,
+	"icon_id": 5332,
 	"name_string_id": 905381,
 	"desc_string_id": 970917
 },
@@ -17140,7 +17140,7 @@
 	"name": "TM - Scald",
 	"desc": "The user shoots boiling hot water at\nits target. It may also leave the\ntarget with a burn.",
 	"region_id": 2,
-	"icon_id": 5382,
+	"icon_id": 5345,
 	"name_string_id": 905382,
 	"desc_string_id": 970918
 },
@@ -17149,7 +17149,7 @@
 	"name": "TM - Fling",
 	"desc": "The user flings its item at the foe,\ndestroying it. In PvP, only\nconsumable items are destroyed\npermanently. The move's power and\neffects vary depending on what item\nis thrown.",
 	"region_id": 2,
-	"icon_id": 5383,
+	"icon_id": 5328,
 	"name_string_id": 905383,
 	"desc_string_id": 970919
 },
@@ -17158,7 +17158,7 @@
 	"name": "TM - Charge Beam",
 	"desc": "The user attacks with an electric\ncharge. The user may use any\nremaining electricity to raise its\nSp. Atk stat.",
 	"region_id": 2,
-	"icon_id": 5384,
+	"icon_id": 5351,
 	"name_string_id": 905384,
 	"desc_string_id": 970920
 },
@@ -17167,7 +17167,7 @@
 	"name": "TM - Sky Drop",
 	"desc": "The user takes the target into the\nsky, then drops it during the next\nturn. The target cannot attack\nwhile in the sky.",
 	"region_id": 2,
-	"icon_id": 5385,
+	"icon_id": 5367,
 	"name_string_id": 905385,
 	"desc_string_id": 970921
 },
@@ -17176,7 +17176,7 @@
 	"name": "TM - Incinerate",
 	"desc": "The user attacks the target with\nfire. If the target is holding a\nBerry, the Berry becomes burnt up\nand unusable.",
 	"region_id": 2,
-	"icon_id": 5386,
+	"icon_id": 5362,
 	"name_string_id": 905386,
 	"desc_string_id": 970922
 },
@@ -17185,7 +17185,7 @@
 	"name": "TM - Quash",
 	"desc": "The user suppresses the target and\nmakes its move go last.",
 	"region_id": 2,
-	"icon_id": 5387,
+	"icon_id": 5328,
 	"name_string_id": 905387,
 	"desc_string_id": 970923
 },
@@ -17194,7 +17194,7 @@
 	"name": "TM - Will-O-Wisp",
 	"desc": "The user shoots a sinister,\nbluish-white flame at the target to\ninflict a burn.",
 	"region_id": 2,
-	"icon_id": 5388,
+	"icon_id": 5362,
 	"name_string_id": 905388,
 	"desc_string_id": 970924
 },
@@ -17203,7 +17203,7 @@
 	"name": "TM - Acrobatics",
 	"desc": "The user nimbly strikes the target.\nIf the user is not holding an item,\nthis attack inflicts massive\ndamage.",
 	"region_id": 2,
-	"icon_id": 5389,
+	"icon_id": 5367,
 	"name_string_id": 905389,
 	"desc_string_id": 970925
 },
@@ -17212,7 +17212,7 @@
 	"name": "TM - Embargo",
 	"desc": "It prevents the target from using\nits held item. Its Trainer is also\nprevented from using items on it.",
 	"region_id": 2,
-	"icon_id": 5390,
+	"icon_id": 5328,
 	"name_string_id": 905390,
 	"desc_string_id": 970926
 },
@@ -17221,7 +17221,7 @@
 	"name": "TM - Explosion",
 	"desc": "The user explodes to inflict damage\non those around it. The user faints\nupon using this move.",
 	"region_id": 2,
-	"icon_id": 5391,
+	"icon_id": 5332,
 	"name_string_id": 905391,
 	"desc_string_id": 970927
 },
@@ -17239,7 +17239,7 @@
 	"name": "TM - Payback",
 	"desc": "If the user moves after the target,\nthis attack's power will be\ndoubled.",
 	"region_id": 2,
-	"icon_id": 5393,
+	"icon_id": 5328,
 	"name_string_id": 905393,
 	"desc_string_id": 970929
 },
@@ -17248,7 +17248,7 @@
 	"name": "TM - Retaliate",
 	"desc": "The user gets revenge for a fainted\nally. If an ally fainted in the\nprevious turn, this attack's damage\nincreases.",
 	"region_id": 2,
-	"icon_id": 5394,
+	"icon_id": 5332,
 	"name_string_id": 905394,
 	"desc_string_id": 970930
 },
@@ -17257,7 +17257,7 @@
 	"name": "TM - Giga Impact",
 	"desc": "The user charges at the target using\nevery bit of its power. The user\nmust rest on the next turn.",
 	"region_id": 2,
-	"icon_id": 5395,
+	"icon_id": 5332,
 	"name_string_id": 905395,
 	"desc_string_id": 970931
 },
@@ -17266,7 +17266,7 @@
 	"name": "TM - Rock Polish",
 	"desc": "The user polishes its body to reduce\ndrag. It can sharply raise the\nSpeed stat.",
 	"region_id": 2,
-	"icon_id": 5396,
+	"icon_id": 5350,
 	"name_string_id": 905396,
 	"desc_string_id": 970932
 },
@@ -17275,7 +17275,7 @@
 	"name": "TM - Flash",
 	"desc": "The user flashes a bright light that\ncuts the target's accuracy. It can\nalso be used to illuminate caves.",
 	"region_id": 2,
-	"icon_id": 5397,
+	"icon_id": 5332,
 	"name_string_id": 905397,
 	"desc_string_id": 970933
 },
@@ -17284,7 +17284,7 @@
 	"name": "TM - Stone Edge",
 	"desc": "The user stabs the foe with\nsharpened stones from below. It has\na high critical-hit ratio.",
 	"region_id": 2,
-	"icon_id": 5398,
+	"icon_id": 5350,
 	"name_string_id": 905398,
 	"desc_string_id": 970934
 },
@@ -17293,7 +17293,7 @@
 	"name": "TM - Volt Switch",
 	"desc": "After making its attack, the user\nrushes back to switch places with a\nparty Pokémon in waiting.",
 	"region_id": 2,
-	"icon_id": 5399,
+	"icon_id": 5351,
 	"name_string_id": 905399,
 	"desc_string_id": 970935
 },
@@ -17302,7 +17302,7 @@
 	"name": "TM - Thunder Wave",
 	"desc": "A weak electric charge is launched\nat the target. It causes paralysis\nif it hits.",
 	"region_id": 2,
-	"icon_id": 5400,
+	"icon_id": 5351,
 	"name_string_id": 905400,
 	"desc_string_id": 970936
 },
@@ -17320,7 +17320,7 @@
 	"name": "TM - Swords Dance",
 	"desc": "A frenetic dance to uplift the\nfighting spirit. It sharply raises\nthe user's Attack stat.",
 	"region_id": 2,
-	"icon_id": 5402,
+	"icon_id": 5332,
 	"name_string_id": 905402,
 	"desc_string_id": 970938
 },
@@ -17338,7 +17338,7 @@
 	"name": "TM - Psych Up",
 	"desc": "The user hypnotizes itself into\ncopying any stat change made by the\ntarget.",
 	"region_id": 2,
-	"icon_id": 5404,
+	"icon_id": 5332,
 	"name_string_id": 905404,
 	"desc_string_id": 970940
 },
@@ -17347,7 +17347,7 @@
 	"name": "TM - Bulldoze",
 	"desc": "The user stomps down on the ground\nand attacks everything in the area.\nHit Pokémon's Speed stat is\nreduced.",
 	"region_id": 2,
-	"icon_id": 5405,
+	"icon_id": 5353,
 	"name_string_id": 905405,
 	"desc_string_id": 970941
 },
@@ -17356,7 +17356,7 @@
 	"name": "TM - Frost Breath",
 	"desc": "The user blows a cold breath on the\ntarget. This attack always results\nin a critical hit.",
 	"region_id": 2,
-	"icon_id": 5406,
+	"icon_id": 5340,
 	"name_string_id": 905406,
 	"desc_string_id": 970942
 },
@@ -17365,7 +17365,7 @@
 	"name": "TM - Rock Slide",
 	"desc": "Large boulders are hurled at the\nopposing team to inflict damage. It\nmay also make the targets flinch.",
 	"region_id": 2,
-	"icon_id": 5407,
+	"icon_id": 5350,
 	"name_string_id": 905407,
 	"desc_string_id": 970943
 },
@@ -17374,7 +17374,7 @@
 	"name": "TM - X-Scissor",
 	"desc": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
 	"region_id": 2,
-	"icon_id": 5408,
+	"icon_id": 5403,
 	"name_string_id": 905408,
 	"desc_string_id": 970944
 },
@@ -17383,7 +17383,7 @@
 	"name": "TM - Dragon Tail",
 	"desc": "The user knocks away the target and\ndrags out another Pokémon in its\nparty. In the wild, the battle\nends.",
 	"region_id": 2,
-	"icon_id": 5409,
+	"icon_id": 5329,
 	"name_string_id": 905409,
 	"desc_string_id": 970945
 },
@@ -17392,7 +17392,7 @@
 	"name": "TM - Work Up",
 	"desc": "The user is roused, and its Attack\nand Sp. Atk stats increase.",
 	"region_id": 2,
-	"icon_id": 5410,
+	"icon_id": 5332,
 	"name_string_id": 905410,
 	"desc_string_id": 970946
 },
@@ -17410,7 +17410,7 @@
 	"name": "TM - Dream Eater",
 	"desc": "The user eats the dreams of a\nsleeping target. It absorbs half\nthe damage caused to heal the\nuser's HP.",
 	"region_id": 2,
-	"icon_id": 5412,
+	"icon_id": 5330,
 	"name_string_id": 905412,
 	"desc_string_id": 970948
 },
@@ -17419,7 +17419,7 @@
 	"name": "TM - Grass Knot",
 	"desc": "The user snares the target with\ngrass and trips it. The heavier the\ntarget, the greater the damage.",
 	"region_id": 2,
-	"icon_id": 5413,
+	"icon_id": 5349,
 	"name_string_id": 905413,
 	"desc_string_id": 970949
 },
@@ -17428,7 +17428,7 @@
 	"name": "TM - Swagger",
 	"desc": "The user enrages and confuses the\ntarget. However, it also sharply\nraises the target's Attack stat.",
 	"region_id": 2,
-	"icon_id": 5414,
+	"icon_id": 5332,
 	"name_string_id": 905414,
 	"desc_string_id": 970950
 },
@@ -17437,7 +17437,7 @@
 	"name": "TM - Pluck",
 	"desc": "The user pecks the target. If the\ntarget is holding a Berry, the user\neats it and gains its effect.",
 	"region_id": 2,
-	"icon_id": 5415,
+	"icon_id": 5367,
 	"name_string_id": 905415,
 	"desc_string_id": 970951
 },
@@ -17446,7 +17446,7 @@
 	"name": "TM - U-turn",
 	"desc": "After making its attack, the user\nrushes back to switch places with a\nparty Pokémon in waiting.",
 	"region_id": 2,
-	"icon_id": 5416,
+	"icon_id": 5403,
 	"name_string_id": 905416,
 	"desc_string_id": 970952
 },
@@ -17455,7 +17455,7 @@
 	"name": "TM - Substitute",
 	"desc": "The user makes a copy of itself\nusing some of its HP. The copy\nserves as the user's decoy.",
 	"region_id": 2,
-	"icon_id": 5417,
+	"icon_id": 5332,
 	"name_string_id": 905417,
 	"desc_string_id": 970953
 },
@@ -17464,7 +17464,7 @@
 	"name": "TM - Flash Cannon",
 	"desc": "The user gathers all its light\nenergy and releases it at once. It\nmay also lower the target's Sp. Def\nstat.",
 	"region_id": 2,
-	"icon_id": 5418,
+	"icon_id": 5401,
 	"name_string_id": 905418,
 	"desc_string_id": 970954
 },
@@ -17473,7 +17473,7 @@
 	"name": "TM - Trick Room",
 	"desc": "The user creates a bizarre area in\nwhich slower Pokémon get to move\nfirst for five turns.",
 	"region_id": 2,
-	"icon_id": 5419,
+	"icon_id": 5330,
 	"name_string_id": 905419,
 	"desc_string_id": 970955
 },
@@ -19264,7 +19264,7 @@
 	"name": "TM - Wild Charge",
 	"desc": "The user shrouds itself in\nelectricity and smashes into its\ntarget. It also damages the user a\nlittle.",
 	"region_id": 2,
-	"icon_id": 5618,
+	"icon_id": 5351,
 	"name_string_id": 905618,
 	"desc_string_id": 971154
 },
@@ -19273,7 +19273,7 @@
 	"name": "TM - Rock Smash",
 	"desc": "The user attacks with a punch that\ncan shatter a rock. It may also\nlower the target's Defense stat.",
 	"region_id": 2,
-	"icon_id": 5619,
+	"icon_id": 5335,
 	"name_string_id": 905619,
 	"desc_string_id": 971155
 },
@@ -19282,7 +19282,7 @@
 	"name": "TM - Snarl",
 	"desc": "The user yells as if it is ranting\nabout something, making the\ntarget's Sp. Atk stat decrease.",
 	"region_id": 2,
-	"icon_id": 5620,
+	"icon_id": 5328,
 	"name_string_id": 905620,
 	"desc_string_id": 971156
 },
@@ -21928,7 +21928,7 @@
 	"name": "TM - Calm Mind",
 	"desc": "The user quietly focuses its mind\nand calms its spirit to raise its\nSp. Atk and Sp. Def stats.",
 	"region_id": 2,
-	"icon_id": 5331,
+	"icon_id": 5330,
 	"name_string_id": 906331,
 	"desc_string_id": 971867
 },
@@ -21946,7 +21946,7 @@
 	"name": "TM - Toxic",
 	"desc": "A move that leaves the target badly\npoisoned. Its poison damage worsens\nevery turn.",
 	"region_id": 2,
-	"icon_id": 5333,
+	"icon_id": 5411,
 	"name_string_id": 906333,
 	"desc_string_id": 971869
 },
@@ -21955,7 +21955,7 @@
 	"name": "TM - Snowscape",
 	"desc": "A snowstorm forms on the field for 5\nturns. Snow boosts the Defense stat\nof Ice-types by 50%.",
 	"region_id": 2,
-	"icon_id": 5334,
+	"icon_id": 5340,
 	"name_string_id": 906334,
 	"desc_string_id": 971870
 },
@@ -21973,7 +21973,7 @@
 	"name": "TM - Venoshock",
 	"desc": "The user drenches the target in a\nspecial poisonous liquid. Its power\nis doubled if the target is\npoisoned.",
 	"region_id": 2,
-	"icon_id": 5336,
+	"icon_id": 5411,
 	"name_string_id": 906336,
 	"desc_string_id": 971872
 },
@@ -21982,7 +21982,7 @@
 	"name": "TM - Hidden Power",
 	"desc": "An attack which varies in type\ndepending on its user. Its type may\nbe changed with 40 Gems.",
 	"region_id": 2,
-	"icon_id": 5337,
+	"icon_id": 5332,
 	"name_string_id": 906337,
 	"desc_string_id": 971873
 },
@@ -21991,7 +21991,7 @@
 	"name": "TM - Sunny Day",
 	"desc": "The user intensifies the sun for\nfive turns, powering up Fire-type\nmoves.",
 	"region_id": 2,
-	"icon_id": 5338,
+	"icon_id": 5362,
 	"name_string_id": 906338,
 	"desc_string_id": 971874
 },
@@ -22000,7 +22000,7 @@
 	"name": "TM - Taunt",
 	"desc": "The target is taunted into a rage\nthat allows it to use only attack\nmoves for three turns.",
 	"region_id": 2,
-	"icon_id": 5339,
+	"icon_id": 5328,
 	"name_string_id": 906339,
 	"desc_string_id": 971875
 },
@@ -22018,7 +22018,7 @@
 	"name": "TM - Blizzard",
 	"desc": "A howling blizzard is summoned to\nstrike the opposing team. It may\nalso freeze them solid.",
 	"region_id": 2,
-	"icon_id": 5341,
+	"icon_id": 5340,
 	"name_string_id": 906341,
 	"desc_string_id": 971877
 },
@@ -22027,7 +22027,7 @@
 	"name": "TM - Hyper Beam",
 	"desc": "The target is attacked with a\npowerful beam. The user must rest\non the next turn to regain its\nenergy.",
 	"region_id": 2,
-	"icon_id": 5342,
+	"icon_id": 5332,
 	"name_string_id": 906342,
 	"desc_string_id": 971878
 },
@@ -22036,7 +22036,7 @@
 	"name": "TM - Light Screen",
 	"desc": "A wondrous wall of light is put up\nto suppress damage from special\nattacks for five turns.",
 	"region_id": 2,
-	"icon_id": 5343,
+	"icon_id": 5330,
 	"name_string_id": 906343,
 	"desc_string_id": 971879
 },
@@ -22045,7 +22045,7 @@
 	"name": "TM - Protect",
 	"desc": "It enables the user to evade all\nattacks. Its chance of failing\nrises if it is used in succession.",
 	"region_id": 2,
-	"icon_id": 5344,
+	"icon_id": 5332,
 	"name_string_id": 906344,
 	"desc_string_id": 971880
 },
@@ -22063,7 +22063,7 @@
 	"name": "TM - Telekinesis",
 	"desc": "The user makes the target float with\nits psychic power. The target is\neasier to hit for three turns.",
 	"region_id": 2,
-	"icon_id": 5346,
+	"icon_id": 5330,
 	"name_string_id": 906346,
 	"desc_string_id": 971882
 },
@@ -22072,7 +22072,7 @@
 	"name": "TM - Safeguard",
 	"desc": "The user creates a protective field\nthat prevents status problems for\nfive turns.",
 	"region_id": 2,
-	"icon_id": 5347,
+	"icon_id": 5332,
 	"name_string_id": 906347,
 	"desc_string_id": 971883
 },
@@ -22081,7 +22081,7 @@
 	"name": "TM - Frustration",
 	"desc": "A full-power attack that grows more\npowerful the less the user likes\nits Trainer.",
 	"region_id": 2,
-	"icon_id": 5348,
+	"icon_id": 5332,
 	"name_string_id": 906348,
 	"desc_string_id": 971884
 },
@@ -22117,7 +22117,7 @@
 	"name": "TM - Thunder",
 	"desc": "A wicked thunderbolt is dropped on\nthe target to inflict damage. It\nmay also leave the target with\nparalysis.",
 	"region_id": 2,
-	"icon_id": 5352,
+	"icon_id": 5351,
 	"name_string_id": 906352,
 	"desc_string_id": 971888
 },
@@ -22135,7 +22135,7 @@
 	"name": "TM - Return",
 	"desc": "A full-power attack that grows more\npowerful the more the user likes\nits Trainer.",
 	"region_id": 2,
-	"icon_id": 5354,
+	"icon_id": 5332,
 	"name_string_id": 906354,
 	"desc_string_id": 971890
 },
@@ -22144,7 +22144,7 @@
 	"name": "TM - Dig",
 	"desc": "The user burrows, then attacks on\nthe second turn. It can also be\nused to exit dungeons.",
 	"region_id": 2,
-	"icon_id": 5355,
+	"icon_id": 5353,
 	"name_string_id": 906355,
 	"desc_string_id": 971891
 },
@@ -22153,7 +22153,7 @@
 	"name": "TM - Psychic",
 	"desc": "The target is hit by a strong\ntelekinetic force. It may also\nreduce the target's Sp. Def stat.",
 	"region_id": 2,
-	"icon_id": 5356,
+	"icon_id": 5330,
 	"name_string_id": 906356,
 	"desc_string_id": 971892
 },
@@ -22162,7 +22162,7 @@
 	"name": "TM - Shadow Ball",
 	"desc": "The user hurls a shadowy blob at the\ntarget. It may also lower the\ntarget's Sp. Def stat.",
 	"region_id": 2,
-	"icon_id": 5357,
+	"icon_id": 5392,
 	"name_string_id": 906357,
 	"desc_string_id": 971893
 },
@@ -22171,7 +22171,7 @@
 	"name": "TM - Brick Break",
 	"desc": "The user attacks with a swift chop.\nIt can also break any barrier such\nas Light Screen and Reflect.",
 	"region_id": 2,
-	"icon_id": 5358,
+	"icon_id": 5335,
 	"name_string_id": 906358,
 	"desc_string_id": 971894
 },
@@ -22180,7 +22180,7 @@
 	"name": "TM - Double Team",
 	"desc": "By moving rapidly, the user makes\nillusory copies of itself to raise\nits evasiveness.",
 	"region_id": 2,
-	"icon_id": 5359,
+	"icon_id": 5332,
 	"name_string_id": 906359,
 	"desc_string_id": 971895
 },
@@ -22189,7 +22189,7 @@
 	"name": "TM - Reflect",
 	"desc": "A wondrous wall of light is put up\nto suppress damage from physical\nattacks for five turns.",
 	"region_id": 2,
-	"icon_id": 5360,
+	"icon_id": 5330,
 	"name_string_id": 906360,
 	"desc_string_id": 971896
 },
@@ -22198,7 +22198,7 @@
 	"name": "TM - Sludge Wave",
 	"desc": "It swamps the area around the user\nwith a giant sludge wave. It may\nalso poison those hit.",
 	"region_id": 2,
-	"icon_id": 5361,
+	"icon_id": 5411,
 	"name_string_id": 906361,
 	"desc_string_id": 971897
 },
@@ -22216,7 +22216,7 @@
 	"name": "TM - Sludge Bomb",
 	"desc": "Unsanitary sludge is hurled at the\ntarget. It may also poison the\ntarget.",
 	"region_id": 2,
-	"icon_id": 5363,
+	"icon_id": 5411,
 	"name_string_id": 906363,
 	"desc_string_id": 971899
 },
@@ -22225,7 +22225,7 @@
 	"name": "TM - Sandstorm",
 	"desc": "A five-turn sandstorm is summoned to\nhurt all combatants except the\nRock, Ground, and Steel types.",
 	"region_id": 2,
-	"icon_id": 5364,
+	"icon_id": 5350,
 	"name_string_id": 906364,
 	"desc_string_id": 971900
 },
@@ -22234,7 +22234,7 @@
 	"name": "TM - Fire Blast",
 	"desc": "The target is attacked with an\nintense blast of all-consuming\nfire. It may also leave the target\nwith a burn.",
 	"region_id": 2,
-	"icon_id": 5365,
+	"icon_id": 5362,
 	"name_string_id": 906365,
 	"desc_string_id": 971901
 },
@@ -22243,7 +22243,7 @@
 	"name": "TM - Rock Tomb",
 	"desc": "Boulders are hurled at the target.\nIt also lowers the target's Speed\nby preventing its movement.",
 	"region_id": 2,
-	"icon_id": 5366,
+	"icon_id": 5350,
 	"name_string_id": 906366,
 	"desc_string_id": 971902
 },
@@ -22261,7 +22261,7 @@
 	"name": "TM - Torment",
 	"desc": "The user torments and enrages the\ntarget, making it incapable of\nusing the same move twice in a\nrow.",
 	"region_id": 2,
-	"icon_id": 5368,
+	"icon_id": 5328,
 	"name_string_id": 906368,
 	"desc_string_id": 971904
 },
@@ -22270,7 +22270,7 @@
 	"name": "TM - Facade",
 	"desc": "An attack move that doubles its\npower if the user is poisoned,\nburned, or has paralysis.",
 	"region_id": 2,
-	"icon_id": 5369,
+	"icon_id": 5332,
 	"name_string_id": 906369,
 	"desc_string_id": 971905
 },
@@ -22279,7 +22279,7 @@
 	"name": "TM - Flame Charge",
 	"desc": "The user cloaks itself with flame\nand attacks. Building up more\npower, it raises the user's Speed\nstat.",
 	"region_id": 2,
-	"icon_id": 5370,
+	"icon_id": 5362,
 	"name_string_id": 906370,
 	"desc_string_id": 971906
 },
@@ -22288,7 +22288,7 @@
 	"name": "TM - Rest",
 	"desc": "The user goes to sleep for two\nturns. It fully restores the user's\nHP and heals any status problem.",
 	"region_id": 2,
-	"icon_id": 5371,
+	"icon_id": 5330,
 	"name_string_id": 906371,
 	"desc_string_id": 971907
 },
@@ -22297,7 +22297,7 @@
 	"name": "TM - Attract",
 	"desc": "If it is the opposite gender of the\nuser, the target becomes infatuated\nand less likely to attack.",
 	"region_id": 2,
-	"icon_id": 5372,
+	"icon_id": 5332,
 	"name_string_id": 906372,
 	"desc_string_id": 971908
 },
@@ -22306,7 +22306,7 @@
 	"name": "TM - Thief",
 	"desc": "An attack which steals the foe's\nheld item if the user isn't already\nholding one. Its effects are\ntemporary when stealing from\nTrainers.",
 	"region_id": 2,
-	"icon_id": 5373,
+	"icon_id": 5328,
 	"name_string_id": 906373,
 	"desc_string_id": 971909
 },
@@ -22315,7 +22315,7 @@
 	"name": "TM - Low Sweep",
 	"desc": "The user attacks the target's legs\nswiftly, reducing the target's\nSpeed stat.",
 	"region_id": 2,
-	"icon_id": 5374,
+	"icon_id": 5335,
 	"name_string_id": 906374,
 	"desc_string_id": 971910
 },
@@ -22324,7 +22324,7 @@
 	"name": "TM - Round",
 	"desc": "The user attacks the target with a\nsong. Others can join in the Round\nand make the attack do greater\ndamage.",
 	"region_id": 2,
-	"icon_id": 5375,
+	"icon_id": 5332,
 	"name_string_id": 906375,
 	"desc_string_id": 971911
 },
@@ -22333,7 +22333,7 @@
 	"name": "TM - Echoed Voice",
 	"desc": "The user attacks the target with an\nechoing voice. If this move is used\nevery turn, it does greater\ndamage.",
 	"region_id": 2,
-	"icon_id": 5376,
+	"icon_id": 5332,
 	"name_string_id": 906376,
 	"desc_string_id": 971912
 },
@@ -22342,7 +22342,7 @@
 	"name": "TM - Overheat",
 	"desc": "The user attacks the target at full\npower. The attack's recoil harshly\nreduces the user's Sp. Atk stat.",
 	"region_id": 2,
-	"icon_id": 5377,
+	"icon_id": 5362,
 	"name_string_id": 906377,
 	"desc_string_id": 971913
 },
@@ -22351,7 +22351,7 @@
 	"name": "TM - Ally Switch",
 	"desc": "The user teleports, switching places\nwith its adjacent ally. It may fail\nif used consecutively.",
 	"region_id": 2,
-	"icon_id": 5378,
+	"icon_id": 5330,
 	"name_string_id": 906378,
 	"desc_string_id": 971914
 },
@@ -22360,7 +22360,7 @@
 	"name": "TM - Focus Blast",
 	"desc": "The user heightens its mental focus\nand unleashes its power. It may\nalso lower the target's Sp. Def.",
 	"region_id": 2,
-	"icon_id": 5379,
+	"icon_id": 5335,
 	"name_string_id": 906379,
 	"desc_string_id": 971915
 },
@@ -22369,7 +22369,7 @@
 	"name": "TM - Energy Ball",
 	"desc": "The user draws power from nature and\nfires it at the target. It may also\nlower the target's Sp. Def.",
 	"region_id": 2,
-	"icon_id": 5380,
+	"icon_id": 5349,
 	"name_string_id": 906380,
 	"desc_string_id": 971916
 },
@@ -22378,7 +22378,7 @@
 	"name": "TM - False Swipe",
 	"desc": "A restrained attack that prevents\nthe target from fainting. The\ntarget is left with at least 1 HP.",
 	"region_id": 2,
-	"icon_id": 5381,
+	"icon_id": 5332,
 	"name_string_id": 906381,
 	"desc_string_id": 971917
 },
@@ -22387,7 +22387,7 @@
 	"name": "TM - Scald",
 	"desc": "The user shoots boiling hot water at\nits target. It may also leave the\ntarget with a burn.",
 	"region_id": 2,
-	"icon_id": 5382,
+	"icon_id": 5345,
 	"name_string_id": 906382,
 	"desc_string_id": 971918
 },
@@ -22396,7 +22396,7 @@
 	"name": "TM - Fling",
 	"desc": "The user flings its item at the foe,\ndestroying it. In PvP, only\nconsumable items are destroyed\npermanently. The move's power and\neffects vary depending on what item\nis thrown.",
 	"region_id": 2,
-	"icon_id": 5383,
+	"icon_id": 5328,
 	"name_string_id": 906383,
 	"desc_string_id": 971919
 },
@@ -22405,7 +22405,7 @@
 	"name": "TM - Charge Beam",
 	"desc": "The user attacks with an electric\ncharge. The user may use any\nremaining electricity to raise its\nSp. Atk stat.",
 	"region_id": 2,
-	"icon_id": 5384,
+	"icon_id": 5351,
 	"name_string_id": 906384,
 	"desc_string_id": 971920
 },
@@ -22414,7 +22414,7 @@
 	"name": "TM - Sky Drop",
 	"desc": "The user takes the target into the\nsky, then drops it during the next\nturn. The target cannot attack\nwhile in the sky.",
 	"region_id": 2,
-	"icon_id": 5385,
+	"icon_id": 5367,
 	"name_string_id": 906385,
 	"desc_string_id": 971921
 },
@@ -22423,7 +22423,7 @@
 	"name": "TM - Incinerate",
 	"desc": "The user attacks the target with\nfire. If the target is holding a\nBerry, the Berry becomes burnt up\nand unusable.",
 	"region_id": 2,
-	"icon_id": 5386,
+	"icon_id": 5362,
 	"name_string_id": 906386,
 	"desc_string_id": 971922
 },
@@ -22432,7 +22432,7 @@
 	"name": "TM - Quash",
 	"desc": "The user suppresses the target and\nmakes its move go last.",
 	"region_id": 2,
-	"icon_id": 5387,
+	"icon_id": 5328,
 	"name_string_id": 906387,
 	"desc_string_id": 971923
 },
@@ -22441,7 +22441,7 @@
 	"name": "TM - Will-O-Wisp",
 	"desc": "The user shoots a sinister,\nbluish-white flame at the target to\ninflict a burn.",
 	"region_id": 2,
-	"icon_id": 5388,
+	"icon_id": 5362,
 	"name_string_id": 906388,
 	"desc_string_id": 971924
 },
@@ -22450,7 +22450,7 @@
 	"name": "TM - Acrobatics",
 	"desc": "The user nimbly strikes the target.\nIf the user is not holding an item,\nthis attack inflicts massive\ndamage.",
 	"region_id": 2,
-	"icon_id": 5389,
+	"icon_id": 5367,
 	"name_string_id": 906389,
 	"desc_string_id": 971925
 },
@@ -22459,7 +22459,7 @@
 	"name": "TM - Embargo",
 	"desc": "It prevents the target from using\nits held item. Its Trainer is also\nprevented from using items on it.",
 	"region_id": 2,
-	"icon_id": 5390,
+	"icon_id": 5328,
 	"name_string_id": 906390,
 	"desc_string_id": 971926
 },
@@ -22468,7 +22468,7 @@
 	"name": "TM - Explosion",
 	"desc": "The user explodes to inflict damage\non those around it. The user faints\nupon using this move.",
 	"region_id": 2,
-	"icon_id": 5391,
+	"icon_id": 5332,
 	"name_string_id": 906391,
 	"desc_string_id": 971927
 },
@@ -22486,7 +22486,7 @@
 	"name": "TM - Payback",
 	"desc": "If the user moves after the target,\nthis attack's power will be\ndoubled.",
 	"region_id": 2,
-	"icon_id": 5393,
+	"icon_id": 5328,
 	"name_string_id": 906393,
 	"desc_string_id": 971929
 },
@@ -22495,7 +22495,7 @@
 	"name": "TM - Retaliate",
 	"desc": "The user gets revenge for a fainted\nally. If an ally fainted in the\nprevious turn, this attack's damage\nincreases.",
 	"region_id": 2,
-	"icon_id": 5394,
+	"icon_id": 5332,
 	"name_string_id": 906394,
 	"desc_string_id": 971930
 },
@@ -22504,7 +22504,7 @@
 	"name": "TM - Giga Impact",
 	"desc": "The user charges at the target using\nevery bit of its power. The user\nmust rest on the next turn.",
 	"region_id": 2,
-	"icon_id": 5395,
+	"icon_id": 5332,
 	"name_string_id": 906395,
 	"desc_string_id": 971931
 },
@@ -22513,7 +22513,7 @@
 	"name": "TM - Rock Polish",
 	"desc": "The user polishes its body to reduce\ndrag. It can sharply raise the\nSpeed stat.",
 	"region_id": 2,
-	"icon_id": 5396,
+	"icon_id": 5350,
 	"name_string_id": 906396,
 	"desc_string_id": 971932
 },
@@ -22522,7 +22522,7 @@
 	"name": "TM - Flash",
 	"desc": "The user flashes a bright light that\ncuts the target's accuracy. It can\nalso be used to illuminate caves.",
 	"region_id": 2,
-	"icon_id": 5397,
+	"icon_id": 5332,
 	"name_string_id": 906397,
 	"desc_string_id": 971933
 },
@@ -22531,7 +22531,7 @@
 	"name": "TM - Stone Edge",
 	"desc": "The user stabs the foe with\nsharpened stones from below. It has\na high critical-hit ratio.",
 	"region_id": 2,
-	"icon_id": 5398,
+	"icon_id": 5350,
 	"name_string_id": 906398,
 	"desc_string_id": 971934
 },
@@ -22540,7 +22540,7 @@
 	"name": "TM - Volt Switch",
 	"desc": "After making its attack, the user\nrushes back to switch places with a\nparty Pokémon in waiting.",
 	"region_id": 2,
-	"icon_id": 5399,
+	"icon_id": 5351,
 	"name_string_id": 906399,
 	"desc_string_id": 971935
 },
@@ -22549,7 +22549,7 @@
 	"name": "TM - Thunder Wave",
 	"desc": "A weak electric charge is launched\nat the target. It causes paralysis\nif it hits.",
 	"region_id": 2,
-	"icon_id": 5400,
+	"icon_id": 5351,
 	"name_string_id": 906400,
 	"desc_string_id": 971936
 },
@@ -22567,7 +22567,7 @@
 	"name": "TM - Swords Dance",
 	"desc": "A frenetic dance to uplift the\nfighting spirit. It sharply raises\nthe user's Attack stat.",
 	"region_id": 2,
-	"icon_id": 5402,
+	"icon_id": 5332,
 	"name_string_id": 906402,
 	"desc_string_id": 971938
 },
@@ -22585,7 +22585,7 @@
 	"name": "TM - Psych Up",
 	"desc": "The user hypnotizes itself into\ncopying any stat change made by the\ntarget.",
 	"region_id": 2,
-	"icon_id": 5404,
+	"icon_id": 5332,
 	"name_string_id": 906404,
 	"desc_string_id": 971940
 },
@@ -22594,7 +22594,7 @@
 	"name": "TM - Bulldoze",
 	"desc": "The user stomps down on the ground\nand attacks everything in the area.\nHit Pokémon's Speed stat is\nreduced.",
 	"region_id": 2,
-	"icon_id": 5405,
+	"icon_id": 5353,
 	"name_string_id": 906405,
 	"desc_string_id": 971941
 },
@@ -22603,7 +22603,7 @@
 	"name": "TM - Frost Breath",
 	"desc": "The user blows a cold breath on the\ntarget. This attack always results\nin a critical hit.",
 	"region_id": 2,
-	"icon_id": 5406,
+	"icon_id": 5340,
 	"name_string_id": 906406,
 	"desc_string_id": 971942
 },
@@ -22612,7 +22612,7 @@
 	"name": "TM - Rock Slide",
 	"desc": "Large boulders are hurled at the\nopposing team to inflict damage. It\nmay also make the targets flinch.",
 	"region_id": 2,
-	"icon_id": 5407,
+	"icon_id": 5350,
 	"name_string_id": 906407,
 	"desc_string_id": 971943
 },
@@ -22621,7 +22621,7 @@
 	"name": "TM - X-Scissor",
 	"desc": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
 	"region_id": 2,
-	"icon_id": 5408,
+	"icon_id": 5403,
 	"name_string_id": 906408,
 	"desc_string_id": 971944
 },
@@ -22630,7 +22630,7 @@
 	"name": "TM - Dragon Tail",
 	"desc": "The user knocks away the target and\ndrags out another Pokémon in its\nparty. In the wild, the battle\nends.",
 	"region_id": 2,
-	"icon_id": 5409,
+	"icon_id": 5329,
 	"name_string_id": 906409,
 	"desc_string_id": 971945
 },
@@ -22639,7 +22639,7 @@
 	"name": "TM - Work Up",
 	"desc": "The user is roused, and its Attack\nand Sp. Atk stats increase.",
 	"region_id": 2,
-	"icon_id": 5410,
+	"icon_id": 5332,
 	"name_string_id": 906410,
 	"desc_string_id": 971946
 },
@@ -22657,7 +22657,7 @@
 	"name": "TM - Dream Eater",
 	"desc": "The user eats the dreams of a\nsleeping target. It absorbs half\nthe damage caused to heal the\nuser's HP.",
 	"region_id": 2,
-	"icon_id": 5412,
+	"icon_id": 5330,
 	"name_string_id": 906412,
 	"desc_string_id": 971948
 },
@@ -22666,7 +22666,7 @@
 	"name": "TM - Grass Knot",
 	"desc": "The user snares the target with\ngrass and trips it. The heavier the\ntarget, the greater the damage.",
 	"region_id": 2,
-	"icon_id": 5413,
+	"icon_id": 5349,
 	"name_string_id": 906413,
 	"desc_string_id": 971949
 },
@@ -22675,7 +22675,7 @@
 	"name": "TM - Swagger",
 	"desc": "The user enrages and confuses the\ntarget. However, it also sharply\nraises the target's Attack stat.",
 	"region_id": 2,
-	"icon_id": 5414,
+	"icon_id": 5332,
 	"name_string_id": 906414,
 	"desc_string_id": 971950
 },
@@ -22684,7 +22684,7 @@
 	"name": "TM - Pluck",
 	"desc": "The user pecks the target. If the\ntarget is holding a Berry, the user\neats it and gains its effect.",
 	"region_id": 2,
-	"icon_id": 5415,
+	"icon_id": 5367,
 	"name_string_id": 906415,
 	"desc_string_id": 971951
 },
@@ -22693,7 +22693,7 @@
 	"name": "TM - U-turn",
 	"desc": "After making its attack, the user\nrushes back to switch places with a\nparty Pokémon in waiting.",
 	"region_id": 2,
-	"icon_id": 5416,
+	"icon_id": 5403,
 	"name_string_id": 906416,
 	"desc_string_id": 971952
 },
@@ -22702,7 +22702,7 @@
 	"name": "TM - Substitute",
 	"desc": "The user makes a copy of itself\nusing some of its HP. The copy\nserves as the user's decoy.",
 	"region_id": 2,
-	"icon_id": 5417,
+	"icon_id": 5332,
 	"name_string_id": 906417,
 	"desc_string_id": 971953
 },
@@ -22711,7 +22711,7 @@
 	"name": "TM - Flash Cannon",
 	"desc": "The user gathers all its light\nenergy and releases it at once. It\nmay also lower the target's Sp. Def\nstat.",
 	"region_id": 2,
-	"icon_id": 5418,
+	"icon_id": 5401,
 	"name_string_id": 906418,
 	"desc_string_id": 971954
 },
@@ -22720,7 +22720,7 @@
 	"name": "TM - Trick Room",
 	"desc": "The user creates a bizarre area in\nwhich slower Pokémon get to move\nfirst for five turns.",
 	"region_id": 2,
-	"icon_id": 5419,
+	"icon_id": 5330,
 	"name_string_id": 906419,
 	"desc_string_id": 971955
 },
@@ -23179,7 +23179,7 @@
 	"name": "TM - Wild Charge",
 	"desc": "The user shrouds itself in\nelectricity and smashes into its\ntarget. It also damages the user a\nlittle.",
 	"region_id": 2,
-	"icon_id": 5618,
+	"icon_id": 5351,
 	"name_string_id": 906618,
 	"desc_string_id": 972154
 },
@@ -23188,7 +23188,7 @@
 	"name": "TM - Rock Smash",
 	"desc": "The user attacks with a punch that\ncan shatter a rock. It may also\nlower the target's Defense stat.",
 	"region_id": 2,
-	"icon_id": 5619,
+	"icon_id": 5335,
 	"name_string_id": 906619,
 	"desc_string_id": 972155
 },
@@ -23197,7 +23197,7 @@
 	"name": "TM - Snarl",
 	"desc": "The user yells as if it is ranting\nabout something, making the\ntarget's Sp. Atk stat decrease.",
 	"region_id": 2,
-	"icon_id": 5620,
+	"icon_id": 5328,
 	"name_string_id": 906620,
 	"desc_string_id": 972156
 },
@@ -23377,7 +23377,7 @@
 	"name": "Cut Ocarina",
 	"desc": "Summons a Pokémon which will use Cut\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1180,
 	"name_string_id": 101300,
 	"desc_string_id": 101301
 },
@@ -23386,7 +23386,7 @@
 	"name": "Fly Ocarina",
 	"desc": "Summons a Pokémon which will use Fly\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1181,
 	"name_string_id": 101302,
 	"desc_string_id": 101303
 },
@@ -23395,7 +23395,7 @@
 	"name": "Surf Ocarina",
 	"desc": "Summons a Pokémon which will use Surf\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1182,
 	"name_string_id": 101304,
 	"desc_string_id": 101305
 },
@@ -23404,7 +23404,7 @@
 	"name": "Strength Ocarina",
 	"desc": "Summons a Pokémon which will use\nStrength outside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1183,
 	"name_string_id": 101306,
 	"desc_string_id": 101307
 },
@@ -23413,7 +23413,7 @@
 	"name": "Flash Ocarina",
 	"desc": "Summons a Pokémon which will use Flash\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1184,
 	"name_string_id": 101308,
 	"desc_string_id": 101309
 },
@@ -23422,7 +23422,7 @@
 	"name": "Rock Smash Ocarina",
 	"desc": "Summons a Pokémon which will use Rock\nSmash outside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1185,
 	"name_string_id": 101310,
 	"desc_string_id": 101311
 },
@@ -23431,7 +23431,7 @@
 	"name": "Waterfall Ocarina",
 	"desc": "Summons a Pokémon which will use\nWaterfall outside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1186,
 	"name_string_id": 101312,
 	"desc_string_id": 101313
 },
@@ -23440,7 +23440,7 @@
 	"name": "Dive Ocarina",
 	"desc": "Summons a Pokémon which will use Dive\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1187,
 	"name_string_id": 101314,
 	"desc_string_id": 101315
 },
@@ -23449,7 +23449,7 @@
 	"name": "Rock Climb Ocarina",
 	"desc": "Summons a Pokémon which will use Rock\nClimb outside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1188,
 	"name_string_id": 101316,
 	"desc_string_id": 101317
 },
@@ -23458,7 +23458,7 @@
 	"name": "Defog Ocarina",
 	"desc": "Summons a Pokémon which will use Defog\noutside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1189,
 	"name_string_id": 101318,
 	"desc_string_id": 101319
 },
@@ -23512,7 +23512,7 @@
 	"name": "Whirlpool Ocarina",
 	"desc": "Summons a Pokémon which will use\nWhirlpool outside of a battle.\n\nCannot be used in certain instances.\n\nRequires a certain badge in each\nregion to use.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1195,
 	"name_string_id": 101320,
 	"desc_string_id": 101321
 },
@@ -23521,7 +23521,7 @@
 	"name": "Dig Ocarina",
 	"desc": "Summons a Pokémon which will use Dig\noutside of a battle.\n\nCannot be used in certain instances.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1196,
 	"name_string_id": 101322,
 	"desc_string_id": 101323
 },
@@ -23530,7 +23530,7 @@
 	"name": "Teleport Ocarina",
 	"desc": "Summons a Pokémon which will use\nTeleport outside of a battle.\n\nCannot be used in certain instances.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1197,
 	"name_string_id": 101324,
 	"desc_string_id": 101325
 },
@@ -23539,7 +23539,7 @@
 	"name": "Headbutt Ocarina",
 	"desc": "Summons a Pokémon which will use\nHeadbutt outside of a battle.\n\nCannot be used in certain instances.\n\nThis item may only be used in Johto.",
 	"region_id": 10,
-	"icon_id": 350,
+	"icon_id": 1198,
 	"name_string_id": 101326,
 	"desc_string_id": 101327
 },
@@ -27949,7 +27949,7 @@
 	"name": "TM - Focus Punch",
 	"desc": "The user focuses its mind before\nlaunching a punch. It will fail if\nthe user is hit before it is used.",
 	"region_id": 3,
-	"icon_id": 8328,
+	"icon_id": 5335,
 	"name_string_id": 908328,
 	"desc_string_id": 973864
 },
@@ -27958,7 +27958,7 @@
 	"name": "TM - Dragon Claw",
 	"desc": "The user slashes the target with\nhuge, sharp claws.",
 	"region_id": 3,
-	"icon_id": 8329,
+	"icon_id": 5329,
 	"name_string_id": 908329,
 	"desc_string_id": 973865
 },
@@ -27967,7 +27967,7 @@
 	"name": "TM - Water Pulse",
 	"desc": "The user attacks the target with a\npulsing blast of water. It may also\nconfuse the target.",
 	"region_id": 3,
-	"icon_id": 8330,
+	"icon_id": 5345,
 	"name_string_id": 908330,
 	"desc_string_id": 973866
 },
@@ -27976,7 +27976,7 @@
 	"name": "TM - Calm Mind",
 	"desc": "The user quietly focuses its mind\nand calms its spirit to raise its\nSp. Atk and Sp. Def stats.",
 	"region_id": 3,
-	"icon_id": 8331,
+	"icon_id": 5330,
 	"name_string_id": 908331,
 	"desc_string_id": 973867
 },
@@ -27985,7 +27985,7 @@
 	"name": "TM - Roar",
 	"desc": "The target is scared off and\nreplaced by another Pokémon in its\nparty. In the wild, the battle\nends.",
 	"region_id": 3,
-	"icon_id": 8332,
+	"icon_id": 5332,
 	"name_string_id": 908332,
 	"desc_string_id": 973868
 },
@@ -27994,7 +27994,7 @@
 	"name": "TM - Toxic",
 	"desc": "A move that leaves the target badly\npoisoned. Its poison damage worsens\nevery turn.",
 	"region_id": 3,
-	"icon_id": 8333,
+	"icon_id": 5411,
 	"name_string_id": 908333,
 	"desc_string_id": 973869
 },
@@ -28003,7 +28003,7 @@
 	"name": "TM - Snowscape",
 	"desc": "A snowstorm forms on the field for 5\nturns. Snow boosts the Defense stat\nof Ice-types by 50%.",
 	"region_id": 3,
-	"icon_id": 8334,
+	"icon_id": 5340,
 	"name_string_id": 908334,
 	"desc_string_id": 973870
 },
@@ -28012,7 +28012,7 @@
 	"name": "TM - Bulk Up",
 	"desc": "The user tenses its muscles to bulk\nup its body, boosting both its\nAttack and Defense stats.",
 	"region_id": 3,
-	"icon_id": 8335,
+	"icon_id": 5335,
 	"name_string_id": 908335,
 	"desc_string_id": 973871
 },
@@ -28021,7 +28021,7 @@
 	"name": "TM - Bullet Seed",
 	"desc": "The user forcefully shoots seeds at\nthe target. Two to five seeds are\nshot in rapid succession.",
 	"region_id": 3,
-	"icon_id": 8336,
+	"icon_id": 5349,
 	"name_string_id": 908336,
 	"desc_string_id": 973872
 },
@@ -28030,7 +28030,7 @@
 	"name": "TM - Hidden Power",
 	"desc": "An attack which varies in type\ndepending on its user. Its type may\nbe changed with 40 Gems.",
 	"region_id": 3,
-	"icon_id": 8337,
+	"icon_id": 5332,
 	"name_string_id": 908337,
 	"desc_string_id": 973873
 },
@@ -28039,7 +28039,7 @@
 	"name": "TM - Sunny Day",
 	"desc": "The user intensifies the sun for\nfive turns, powering up Fire-type\nmoves.",
 	"region_id": 3,
-	"icon_id": 8338,
+	"icon_id": 5362,
 	"name_string_id": 908338,
 	"desc_string_id": 973874
 },
@@ -28048,7 +28048,7 @@
 	"name": "TM - Taunt",
 	"desc": "The target is taunted into a rage\nthat allows it to use only attack\nmoves for three turns.",
 	"region_id": 3,
-	"icon_id": 8339,
+	"icon_id": 5328,
 	"name_string_id": 908339,
 	"desc_string_id": 973875
 },
@@ -28057,7 +28057,7 @@
 	"name": "TM - Ice Beam",
 	"desc": "The target is struck with an\nicy-cold beam of energy. It may\nalso freeze the target solid.",
 	"region_id": 3,
-	"icon_id": 8340,
+	"icon_id": 5340,
 	"name_string_id": 908340,
 	"desc_string_id": 973876
 },
@@ -28066,7 +28066,7 @@
 	"name": "TM - Blizzard",
 	"desc": "A howling blizzard is summoned to\nstrike the opposing team. It may\nalso freeze them solid.",
 	"region_id": 3,
-	"icon_id": 8341,
+	"icon_id": 5340,
 	"name_string_id": 908341,
 	"desc_string_id": 973877
 },
@@ -28075,7 +28075,7 @@
 	"name": "TM - Hyper Beam",
 	"desc": "The target is attacked with a\npowerful beam. The user must rest\non the next turn to regain its\nenergy.",
 	"region_id": 3,
-	"icon_id": 8342,
+	"icon_id": 5332,
 	"name_string_id": 908342,
 	"desc_string_id": 973878
 },
@@ -28084,7 +28084,7 @@
 	"name": "TM - Light Screen",
 	"desc": "A wondrous wall of light is put up\nto suppress damage from special\nattacks for five turns.",
 	"region_id": 3,
-	"icon_id": 8343,
+	"icon_id": 5330,
 	"name_string_id": 908343,
 	"desc_string_id": 973879
 },
@@ -28093,7 +28093,7 @@
 	"name": "TM - Protect",
 	"desc": "It enables the user to evade all\nattacks. Its chance of failing\nrises if it is used in succession.",
 	"region_id": 3,
-	"icon_id": 8344,
+	"icon_id": 5332,
 	"name_string_id": 908344,
 	"desc_string_id": 973880
 },
@@ -28102,7 +28102,7 @@
 	"name": "TM - Rain Dance",
 	"desc": "The user summons a heavy rain that\nfalls for five turns, powering up\nWater-type moves.",
 	"region_id": 3,
-	"icon_id": 8345,
+	"icon_id": 5345,
 	"name_string_id": 908345,
 	"desc_string_id": 973881
 },
@@ -28111,7 +28111,7 @@
 	"name": "TM - Giga Drain",
 	"desc": "A nutrient-draining attack. The\nuser's HP is restored by half the\ndamage taken by the target.",
 	"region_id": 3,
-	"icon_id": 8346,
+	"icon_id": 5349,
 	"name_string_id": 908346,
 	"desc_string_id": 973882
 },
@@ -28120,7 +28120,7 @@
 	"name": "TM - Safeguard",
 	"desc": "The user creates a protective field\nthat prevents status problems for\nfive turns.",
 	"region_id": 3,
-	"icon_id": 8347,
+	"icon_id": 5332,
 	"name_string_id": 908347,
 	"desc_string_id": 973883
 },
@@ -28129,7 +28129,7 @@
 	"name": "TM - Frustration",
 	"desc": "A full-power attack that grows more\npowerful the less the user likes\nits Trainer.",
 	"region_id": 3,
-	"icon_id": 8348,
+	"icon_id": 5332,
 	"name_string_id": 908348,
 	"desc_string_id": 973884
 },
@@ -28138,7 +28138,7 @@
 	"name": "TM - SolarBeam",
 	"desc": "A two-turn attack. The user gathers\nlight, then blasts a bundled beam\non the second turn.",
 	"region_id": 3,
-	"icon_id": 8349,
+	"icon_id": 5349,
 	"name_string_id": 908349,
 	"desc_string_id": 973885
 },
@@ -28147,7 +28147,7 @@
 	"name": "TM - Iron Tail",
 	"desc": "The target is slammed with a\nsteel-hard tail. It may also lower\nthe target's Defense stat.",
 	"region_id": 3,
-	"icon_id": 8350,
+	"icon_id": 5401,
 	"name_string_id": 908350,
 	"desc_string_id": 973886
 },
@@ -28156,7 +28156,7 @@
 	"name": "TM - Thunderbolt",
 	"desc": "A strong electric blast is loosed at\nthe target. It may also leave the\ntarget with paralysis.",
 	"region_id": 3,
-	"icon_id": 8351,
+	"icon_id": 5351,
 	"name_string_id": 908351,
 	"desc_string_id": 973887
 },
@@ -28165,7 +28165,7 @@
 	"name": "TM - Thunder",
 	"desc": "A wicked thunderbolt is dropped on\nthe target to inflict damage. It\nmay also leave the target with\nparalysis.",
 	"region_id": 3,
-	"icon_id": 8352,
+	"icon_id": 5351,
 	"name_string_id": 908352,
 	"desc_string_id": 973888
 },
@@ -28174,7 +28174,7 @@
 	"name": "TM - Earthquake",
 	"desc": "The user sets off an earthquake that\nstrikes those around it.",
 	"region_id": 3,
-	"icon_id": 8353,
+	"icon_id": 5353,
 	"name_string_id": 908353,
 	"desc_string_id": 973889
 },
@@ -28183,7 +28183,7 @@
 	"name": "TM - Return",
 	"desc": "A full-power attack that grows more\npowerful the more the user likes\nits Trainer.",
 	"region_id": 3,
-	"icon_id": 8354,
+	"icon_id": 5332,
 	"name_string_id": 908354,
 	"desc_string_id": 973890
 },
@@ -28192,7 +28192,7 @@
 	"name": "TM - Dig",
 	"desc": "The user burrows, then attacks on\nthe second turn. It can also be\nused to exit dungeons.",
 	"region_id": 3,
-	"icon_id": 8355,
+	"icon_id": 5353,
 	"name_string_id": 908355,
 	"desc_string_id": 973891
 },
@@ -28201,7 +28201,7 @@
 	"name": "TM - Psychic",
 	"desc": "The target is hit by a strong\ntelekinetic force. It may also\nreduce the target's Sp. Def stat.",
 	"region_id": 3,
-	"icon_id": 8356,
+	"icon_id": 5330,
 	"name_string_id": 908356,
 	"desc_string_id": 973892
 },
@@ -28210,7 +28210,7 @@
 	"name": "TM - Shadow Ball",
 	"desc": "The user hurls a shadowy blob at the\ntarget. It may also lower the\ntarget's Sp. Def stat.",
 	"region_id": 3,
-	"icon_id": 8357,
+	"icon_id": 5392,
 	"name_string_id": 908357,
 	"desc_string_id": 973893
 },
@@ -28219,7 +28219,7 @@
 	"name": "TM - Brick Break",
 	"desc": "The user attacks with a swift chop.\nIt can also break any barrier such\nas Light Screen and Reflect.",
 	"region_id": 3,
-	"icon_id": 8358,
+	"icon_id": 5335,
 	"name_string_id": 908358,
 	"desc_string_id": 973894
 },
@@ -28228,7 +28228,7 @@
 	"name": "TM - Double Team",
 	"desc": "By moving rapidly, the user makes\nillusory copies of itself to raise\nits evasiveness.",
 	"region_id": 3,
-	"icon_id": 8359,
+	"icon_id": 5332,
 	"name_string_id": 908359,
 	"desc_string_id": 973895
 },
@@ -28237,7 +28237,7 @@
 	"name": "TM - Reflect",
 	"desc": "A wondrous wall of light is put up\nto suppress damage from physical\nattacks for five turns.",
 	"region_id": 3,
-	"icon_id": 8360,
+	"icon_id": 5330,
 	"name_string_id": 908360,
 	"desc_string_id": 973896
 },
@@ -28246,7 +28246,7 @@
 	"name": "TM - Shock Wave",
 	"desc": "The user strikes the target with a\nquick jolt of electricity. This\nattack cannot be evaded.",
 	"region_id": 3,
-	"icon_id": 8361,
+	"icon_id": 5351,
 	"name_string_id": 908361,
 	"desc_string_id": 973897
 },
@@ -28255,7 +28255,7 @@
 	"name": "TM - Flamethrower",
 	"desc": "The target is scorched with an\nintense blast of fire. It may also\nleave the target with a burn.",
 	"region_id": 3,
-	"icon_id": 8362,
+	"icon_id": 5362,
 	"name_string_id": 908362,
 	"desc_string_id": 973898
 },
@@ -28264,7 +28264,7 @@
 	"name": "TM - Sludge Bomb",
 	"desc": "Unsanitary sludge is hurled at the\ntarget. It may also poison the\ntarget.",
 	"region_id": 3,
-	"icon_id": 8363,
+	"icon_id": 5411,
 	"name_string_id": 908363,
 	"desc_string_id": 973899
 },
@@ -28273,7 +28273,7 @@
 	"name": "TM - Sandstorm",
 	"desc": "A five-turn sandstorm is summoned to\nhurt all combatants except the\nRock, Ground, and Steel types.",
 	"region_id": 3,
-	"icon_id": 8364,
+	"icon_id": 5350,
 	"name_string_id": 908364,
 	"desc_string_id": 973900
 },
@@ -28282,7 +28282,7 @@
 	"name": "TM - Fire Blast",
 	"desc": "The target is attacked with an\nintense blast of all-consuming\nfire. It may also leave the target\nwith a burn.",
 	"region_id": 3,
-	"icon_id": 8365,
+	"icon_id": 5362,
 	"name_string_id": 908365,
 	"desc_string_id": 973901
 },
@@ -28291,7 +28291,7 @@
 	"name": "TM - Rock Tomb",
 	"desc": "Boulders are hurled at the target.\nIt also lowers the target's Speed\nby preventing its movement.",
 	"region_id": 3,
-	"icon_id": 8366,
+	"icon_id": 5350,
 	"name_string_id": 908366,
 	"desc_string_id": 973902
 },
@@ -28300,7 +28300,7 @@
 	"name": "TM - Aerial Ace",
 	"desc": "The user confounds the target with\nspeed, then slashes. The attack\nlands without fail.",
 	"region_id": 3,
-	"icon_id": 8367,
+	"icon_id": 5367,
 	"name_string_id": 908367,
 	"desc_string_id": 973903
 },
@@ -28309,7 +28309,7 @@
 	"name": "TM - Torment",
 	"desc": "The user torments and enrages the\ntarget, making it incapable of\nusing the same move twice in a\nrow.",
 	"region_id": 3,
-	"icon_id": 8368,
+	"icon_id": 5328,
 	"name_string_id": 908368,
 	"desc_string_id": 973904
 },
@@ -28318,7 +28318,7 @@
 	"name": "TM - Facade",
 	"desc": "An attack move that doubles its\npower if the user is poisoned,\nburned, or has paralysis.",
 	"region_id": 3,
-	"icon_id": 8369,
+	"icon_id": 5332,
 	"name_string_id": 908369,
 	"desc_string_id": 973905
 },
@@ -28327,7 +28327,7 @@
 	"name": "TM - Secret Power",
 	"desc": "The user attacks the target with a\nsecret power. Its added effects\nvary depending on the user's\nenvironment.",
 	"region_id": 3,
-	"icon_id": 8370,
+	"icon_id": 5332,
 	"name_string_id": 908370,
 	"desc_string_id": 973906
 },
@@ -28336,7 +28336,7 @@
 	"name": "TM - Rest",
 	"desc": "The user goes to sleep for two\nturns. It fully restores the user's\nHP and heals any status problem.",
 	"region_id": 3,
-	"icon_id": 8371,
+	"icon_id": 5330,
 	"name_string_id": 908371,
 	"desc_string_id": 973907
 },
@@ -28345,7 +28345,7 @@
 	"name": "TM - Attract",
 	"desc": "If it is the opposite gender of the\nuser, the target becomes infatuated\nand less likely to attack.",
 	"region_id": 3,
-	"icon_id": 8372,
+	"icon_id": 5332,
 	"name_string_id": 908372,
 	"desc_string_id": 973908
 },
@@ -28354,7 +28354,7 @@
 	"name": "TM - Thief",
 	"desc": "An attack which steals the foe's\nheld item if the user isn't already\nholding one. Its effects are\ntemporary when stealing from\nTrainers.",
 	"region_id": 3,
-	"icon_id": 8373,
+	"icon_id": 5328,
 	"name_string_id": 908373,
 	"desc_string_id": 973909
 },
@@ -28363,7 +28363,7 @@
 	"name": "TM - Steel Wing",
 	"desc": "The target is hit with wings of\nsteel. It may also raise the user's\nDefense stat.",
 	"region_id": 3,
-	"icon_id": 8374,
+	"icon_id": 5401,
 	"name_string_id": 908374,
 	"desc_string_id": 973910
 },
@@ -28372,7 +28372,7 @@
 	"name": "TM - Skill Swap",
 	"desc": "The user employs its psychic power\nto exchange Abilities with the\ntarget.",
 	"region_id": 3,
-	"icon_id": 8375,
+	"icon_id": 5330,
 	"name_string_id": 908375,
 	"desc_string_id": 973911
 },
@@ -28381,7 +28381,7 @@
 	"name": "TM - Snatch",
 	"desc": "The user steals the effects of any\nhealing or stat-changing move the\nopponent attempts to use.",
 	"region_id": 3,
-	"icon_id": 8376,
+	"icon_id": 5328,
 	"name_string_id": 908376,
 	"desc_string_id": 973912
 },
@@ -28390,7 +28390,7 @@
 	"name": "TM - Overheat",
 	"desc": "The user attacks the target at full\npower. The attack's recoil harshly\nreduces the user's Sp. Atk stat.",
 	"region_id": 3,
-	"icon_id": 8377,
+	"icon_id": 5362,
 	"name_string_id": 908377,
 	"desc_string_id": 973913
 },
@@ -28399,7 +28399,7 @@
 	"name": "TM - Roost",
 	"desc": "The user lands and rests its body.\nIt restores the user's HP by up to\nhalf of its max HP.",
 	"region_id": 3,
-	"icon_id": 8378,
+	"icon_id": 5367,
 	"name_string_id": 908378,
 	"desc_string_id": 973914
 },
@@ -28408,7 +28408,7 @@
 	"name": "TM - Focus Blast",
 	"desc": "The user heightens its mental focus\nand unleashes its power. It may\nalso lower the target's Sp. Def.",
 	"region_id": 3,
-	"icon_id": 8379,
+	"icon_id": 5335,
 	"name_string_id": 908379,
 	"desc_string_id": 973915
 },
@@ -28417,7 +28417,7 @@
 	"name": "TM - Energy Ball",
 	"desc": "The user draws power from nature and\nfires it at the target. It may also\nlower the target's Sp. Def.",
 	"region_id": 3,
-	"icon_id": 8380,
+	"icon_id": 5349,
 	"name_string_id": 908380,
 	"desc_string_id": 973916
 },
@@ -28426,7 +28426,7 @@
 	"name": "TM - False Swipe",
 	"desc": "A restrained attack that prevents\nthe target from fainting. The\ntarget is left with at least 1 HP.",
 	"region_id": 3,
-	"icon_id": 8381,
+	"icon_id": 5332,
 	"name_string_id": 908381,
 	"desc_string_id": 973917
 },
@@ -28435,7 +28435,7 @@
 	"name": "TM - Brine",
 	"desc": "If the target's HP is down to about\nhalf, this attack will hit with\ndouble the power.",
 	"region_id": 3,
-	"icon_id": 8382,
+	"icon_id": 5345,
 	"name_string_id": 908382,
 	"desc_string_id": 973918
 },
@@ -28444,7 +28444,7 @@
 	"name": "TM - Fling",
 	"desc": "The user flings its item at the foe,\ndestroying it. In PvP, only\nconsumable items are destroyed\npermanently. The move's power and\neffects vary depending on what item\nis thrown.",
 	"region_id": 3,
-	"icon_id": 8383,
+	"icon_id": 5328,
 	"name_string_id": 908383,
 	"desc_string_id": 973919
 },
@@ -28453,7 +28453,7 @@
 	"name": "TM - Charge Beam",
 	"desc": "The user attacks with an electric\ncharge. The user may use any\nremaining electricity to raise its\nSp. Atk stat.",
 	"region_id": 3,
-	"icon_id": 8384,
+	"icon_id": 5351,
 	"name_string_id": 908384,
 	"desc_string_id": 973920
 },
@@ -28462,7 +28462,7 @@
 	"name": "TM - Endure",
 	"desc": "The user endures any attack with at\nleast 1 HP. Its chance of failing\nrises if it is used in succession.",
 	"region_id": 3,
-	"icon_id": 8385,
+	"icon_id": 5332,
 	"name_string_id": 908385,
 	"desc_string_id": 973921
 },
@@ -28471,7 +28471,7 @@
 	"name": "TM - Dragon Pulse",
 	"desc": "The target is attacked with a shock\nwave generated by the user's gaping\nmouth.",
 	"region_id": 3,
-	"icon_id": 8386,
+	"icon_id": 5329,
 	"name_string_id": 908386,
 	"desc_string_id": 973922
 },
@@ -28480,7 +28480,7 @@
 	"name": "TM - Drain Punch",
 	"desc": "An energy-draining punch. The user's\nHP is restored by half the damage\ntaken by the target.",
 	"region_id": 3,
-	"icon_id": 8387,
+	"icon_id": 5335,
 	"name_string_id": 908387,
 	"desc_string_id": 973923
 },
@@ -28489,7 +28489,7 @@
 	"name": "TM - Will-O-Wisp",
 	"desc": "The user shoots a sinister,\nbluish-white flame at the target to\ninflict a burn.",
 	"region_id": 3,
-	"icon_id": 8388,
+	"icon_id": 5362,
 	"name_string_id": 908388,
 	"desc_string_id": 973924
 },
@@ -28498,7 +28498,7 @@
 	"name": "TM - Silver Wind",
 	"desc": "The target is attacked with powdery\nscales blown by wind. It may also\nraise all the user's stats.",
 	"region_id": 3,
-	"icon_id": 8389,
+	"icon_id": 5403,
 	"name_string_id": 908389,
 	"desc_string_id": 973925
 },
@@ -28507,7 +28507,7 @@
 	"name": "TM - Embargo",
 	"desc": "It prevents the target from using\nits held item. Its Trainer is also\nprevented from using items on it.",
 	"region_id": 3,
-	"icon_id": 8390,
+	"icon_id": 5328,
 	"name_string_id": 908390,
 	"desc_string_id": 973926
 },
@@ -28516,7 +28516,7 @@
 	"name": "TM - Explosion",
 	"desc": "The user explodes to inflict damage\non those around it. The user faints\nupon using this move.",
 	"region_id": 3,
-	"icon_id": 8391,
+	"icon_id": 5332,
 	"name_string_id": 908391,
 	"desc_string_id": 973927
 },
@@ -28525,7 +28525,7 @@
 	"name": "TM - Shadow Claw",
 	"desc": "The user slashes with a sharp claw\nmade from shadows. Critical hits\nland more easily.",
 	"region_id": 3,
-	"icon_id": 8392,
+	"icon_id": 5392,
 	"name_string_id": 908392,
 	"desc_string_id": 973928
 },
@@ -28534,7 +28534,7 @@
 	"name": "TM - Payback",
 	"desc": "If the user moves after the target,\nthis attack's power will be\ndoubled.",
 	"region_id": 3,
-	"icon_id": 8393,
+	"icon_id": 5328,
 	"name_string_id": 908393,
 	"desc_string_id": 973929
 },
@@ -28543,7 +28543,7 @@
 	"name": "TM - Recycle",
 	"desc": "The user recycles a held item that\nhas been used in battle so it can\nbe used again.",
 	"region_id": 3,
-	"icon_id": 8394,
+	"icon_id": 5332,
 	"name_string_id": 908394,
 	"desc_string_id": 973930
 },
@@ -28552,7 +28552,7 @@
 	"name": "TM - Giga Impact",
 	"desc": "The user charges at the target using\nevery bit of its power. The user\nmust rest on the next turn.",
 	"region_id": 3,
-	"icon_id": 8395,
+	"icon_id": 5332,
 	"name_string_id": 908395,
 	"desc_string_id": 973931
 },
@@ -28561,7 +28561,7 @@
 	"name": "TM - Rock Polish",
 	"desc": "The user polishes its body to reduce\ndrag. It can sharply raise the\nSpeed stat.",
 	"region_id": 3,
-	"icon_id": 8396,
+	"icon_id": 5350,
 	"name_string_id": 908396,
 	"desc_string_id": 973932
 },
@@ -28570,7 +28570,7 @@
 	"name": "TM - Flash",
 	"desc": "The user flashes a bright light that\ncuts the target's accuracy. It can\nalso be used to illuminate caves.",
 	"region_id": 3,
-	"icon_id": 8397,
+	"icon_id": 5332,
 	"name_string_id": 908397,
 	"desc_string_id": 973933
 },
@@ -28579,7 +28579,7 @@
 	"name": "TM - Stone Edge",
 	"desc": "The user stabs the foe with\nsharpened stones from below. It has\na high critical-hit ratio.",
 	"region_id": 3,
-	"icon_id": 8398,
+	"icon_id": 5350,
 	"name_string_id": 908398,
 	"desc_string_id": 973934
 },
@@ -28588,7 +28588,7 @@
 	"name": "TM - Avalanche",
 	"desc": "An attack move that inflicts double\nthe damage if the user has been\nhurt by the target in the same\nturn.",
 	"region_id": 3,
-	"icon_id": 8399,
+	"icon_id": 5340,
 	"name_string_id": 908399,
 	"desc_string_id": 973935
 },
@@ -28597,7 +28597,7 @@
 	"name": "TM - Thunder Wave",
 	"desc": "A weak electric charge is launched\nat the target. It causes paralysis\nif it hits.",
 	"region_id": 3,
-	"icon_id": 8400,
+	"icon_id": 5351,
 	"name_string_id": 908400,
 	"desc_string_id": 973936
 },
@@ -28606,7 +28606,7 @@
 	"name": "TM - Gyro Ball",
 	"desc": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
 	"region_id": 3,
-	"icon_id": 8401,
+	"icon_id": 5401,
 	"name_string_id": 908401,
 	"desc_string_id": 973937
 },
@@ -28615,7 +28615,7 @@
 	"name": "TM - Swords Dance",
 	"desc": "A frenetic dance to uplift the\nfighting spirit. It sharply raises\nthe user's Attack stat.",
 	"region_id": 3,
-	"icon_id": 8402,
+	"icon_id": 5332,
 	"name_string_id": 908402,
 	"desc_string_id": 973938
 },
@@ -28624,7 +28624,7 @@
 	"name": "TM - Stealth Rock",
 	"desc": "The user lays a trap of levitating\nstones around the opponent's team.\nThe trap hurts opponents that\nswitch into battle.",
 	"region_id": 3,
-	"icon_id": 8403,
+	"icon_id": 5350,
 	"name_string_id": 908403,
 	"desc_string_id": 973939
 },
@@ -28633,7 +28633,7 @@
 	"name": "TM - Psych Up",
 	"desc": "The user hypnotizes itself into\ncopying any stat change made by the\ntarget.",
 	"region_id": 3,
-	"icon_id": 8404,
+	"icon_id": 5332,
 	"name_string_id": 908404,
 	"desc_string_id": 973940
 },
@@ -28642,7 +28642,7 @@
 	"name": "TM - Captivate",
 	"desc": "If it is the opposite gender of the\nuser, the target is charmed into\nharshly lowering its Sp. Atk stat.",
 	"region_id": 3,
-	"icon_id": 8405,
+	"icon_id": 5332,
 	"name_string_id": 908405,
 	"desc_string_id": 973941
 },
@@ -28651,7 +28651,7 @@
 	"name": "TM - Dark Pulse",
 	"desc": "The user releases a horrible aura\nimbued with dark thoughts. It may\nalso make the target flinch.",
 	"region_id": 3,
-	"icon_id": 8406,
+	"icon_id": 5328,
 	"name_string_id": 908406,
 	"desc_string_id": 973942
 },
@@ -28660,7 +28660,7 @@
 	"name": "TM - Rock Slide",
 	"desc": "Large boulders are hurled at the\nopposing team to inflict damage. It\nmay also make the targets flinch.",
 	"region_id": 3,
-	"icon_id": 8407,
+	"icon_id": 5350,
 	"name_string_id": 908407,
 	"desc_string_id": 973943
 },
@@ -28669,7 +28669,7 @@
 	"name": "TM - X-Scissor",
 	"desc": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
 	"region_id": 3,
-	"icon_id": 8408,
+	"icon_id": 5403,
 	"name_string_id": 908408,
 	"desc_string_id": 973944
 },
@@ -28678,7 +28678,7 @@
 	"name": "TM - Sleep Talk",
 	"desc": "While it is asleep, the user\nrandomly uses one of the moves it\nknows.",
 	"region_id": 3,
-	"icon_id": 8409,
+	"icon_id": 5332,
 	"name_string_id": 908409,
 	"desc_string_id": 973945
 },
@@ -28687,7 +28687,7 @@
 	"name": "TM - Natural Gift",
 	"desc": "The user draws power to attack by\nusing its held Berry. The Berry\ndetermines its type and power.",
 	"region_id": 3,
-	"icon_id": 8410,
+	"icon_id": 5332,
 	"name_string_id": 908410,
 	"desc_string_id": 973946
 },
@@ -28696,7 +28696,7 @@
 	"name": "TM - Poison Jab",
 	"desc": "The target is stabbed with a\ntentacle or arm steeped in poison.\nIt may also poison the target.",
 	"region_id": 3,
-	"icon_id": 8411,
+	"icon_id": 5411,
 	"name_string_id": 908411,
 	"desc_string_id": 973947
 },
@@ -28705,7 +28705,7 @@
 	"name": "TM - Dream Eater",
 	"desc": "The user eats the dreams of a\nsleeping target. It absorbs half\nthe damage caused to heal the\nuser's HP.",
 	"region_id": 3,
-	"icon_id": 8412,
+	"icon_id": 5330,
 	"name_string_id": 908412,
 	"desc_string_id": 973948
 },
@@ -28714,7 +28714,7 @@
 	"name": "TM - Grass Knot",
 	"desc": "The user snares the target with\ngrass and trips it. The heavier the\ntarget, the greater the damage.",
 	"region_id": 3,
-	"icon_id": 8413,
+	"icon_id": 5349,
 	"name_string_id": 908413,
 	"desc_string_id": 973949
 },
@@ -28723,7 +28723,7 @@
 	"name": "TM - Swagger",
 	"desc": "The user enrages and confuses the\ntarget. However, it also sharply\nraises the target's Attack stat.",
 	"region_id": 3,
-	"icon_id": 8414,
+	"icon_id": 5332,
 	"name_string_id": 908414,
 	"desc_string_id": 973950
 },
@@ -28732,7 +28732,7 @@
 	"name": "TM - Pluck",
 	"desc": "The user pecks the target. If the\ntarget is holding a Berry, the user\neats it and gains its effect.",
 	"region_id": 3,
-	"icon_id": 8415,
+	"icon_id": 5367,
 	"name_string_id": 908415,
 	"desc_string_id": 973951
 },
@@ -28741,7 +28741,7 @@
 	"name": "TM - U-turn",
 	"desc": "After making its attack, the user\nrushes back to switch places with a\nparty Pokémon in waiting.",
 	"region_id": 3,
-	"icon_id": 8416,
+	"icon_id": 5403,
 	"name_string_id": 908416,
 	"desc_string_id": 973952
 },
@@ -28750,7 +28750,7 @@
 	"name": "TM - Substitute",
 	"desc": "The user makes a copy of itself\nusing some of its HP. The copy\nserves as the user's decoy.",
 	"region_id": 3,
-	"icon_id": 8417,
+	"icon_id": 5332,
 	"name_string_id": 908417,
 	"desc_string_id": 973953
 },
@@ -28759,7 +28759,7 @@
 	"name": "TM - Flash Cannon",
 	"desc": "The user gathers all its light\nenergy and releases it at once. It\nmay also lower the target's Sp. Def\nstat.",
 	"region_id": 3,
-	"icon_id": 8418,
+	"icon_id": 5401,
 	"name_string_id": 908418,
 	"desc_string_id": 973954
 },
@@ -28768,7 +28768,7 @@
 	"name": "TM - Trick Room",
 	"desc": "The user creates a bizarre area in\nwhich slower Pokémon get to move\nfirst for five turns.",
 	"region_id": 3,
-	"icon_id": 8419,
+	"icon_id": 5330,
 	"name_string_id": 908419,
 	"desc_string_id": 973955
 },
@@ -31963,7 +31963,7 @@
 	"name": "TM - Focus Punch",
 	"desc": "The user focuses its mind before\nlaunching a punch. It will fail if\nthe user is hit before it is used.",
 	"region_id": 4,
-	"icon_id": 9328,
+	"icon_id": 5335,
 	"name_string_id": 909328,
 	"desc_string_id": 974864
 },
@@ -31972,7 +31972,7 @@
 	"name": "TM - Dragon Claw",
 	"desc": "The user slashes the target with\nhuge, sharp claws.",
 	"region_id": 4,
-	"icon_id": 9329,
+	"icon_id": 5329,
 	"name_string_id": 909329,
 	"desc_string_id": 974865
 },
@@ -31981,7 +31981,7 @@
 	"name": "TM - Water Pulse",
 	"desc": "The user attacks the target with a\npulsing blast of water. It may also\nconfuse the target.",
 	"region_id": 4,
-	"icon_id": 9330,
+	"icon_id": 5345,
 	"name_string_id": 909330,
 	"desc_string_id": 974866
 },
@@ -31990,7 +31990,7 @@
 	"name": "TM - Calm Mind",
 	"desc": "The user quietly focuses its mind\nand calms its spirit to raise its\nSp. Atk and Sp. Def stats.",
 	"region_id": 4,
-	"icon_id": 9331,
+	"icon_id": 5330,
 	"name_string_id": 909331,
 	"desc_string_id": 974867
 },
@@ -31999,7 +31999,7 @@
 	"name": "TM - Roar",
 	"desc": "The target is scared off and\nreplaced by another Pokémon in its\nparty. In the wild, the battle\nends.",
 	"region_id": 4,
-	"icon_id": 9332,
+	"icon_id": 5332,
 	"name_string_id": 909332,
 	"desc_string_id": 974868
 },
@@ -32008,7 +32008,7 @@
 	"name": "TM - Toxic",
 	"desc": "A move that leaves the target badly\npoisoned. Its poison damage worsens\nevery turn.",
 	"region_id": 4,
-	"icon_id": 9333,
+	"icon_id": 5411,
 	"name_string_id": 909333,
 	"desc_string_id": 974869
 },
@@ -32017,7 +32017,7 @@
 	"name": "TM - Snowscape",
 	"desc": "A snowstorm forms on the field for 5\nturns. Snow boosts the Defense stat\nof Ice-types by 50%.",
 	"region_id": 4,
-	"icon_id": 9334,
+	"icon_id": 5340,
 	"name_string_id": 909334,
 	"desc_string_id": 974870
 },
@@ -32026,7 +32026,7 @@
 	"name": "TM - Bulk Up",
 	"desc": "The user tenses its muscles to bulk\nup its body, boosting both its\nAttack and Defense stats.",
 	"region_id": 4,
-	"icon_id": 9335,
+	"icon_id": 5335,
 	"name_string_id": 909335,
 	"desc_string_id": 974871
 },
@@ -32035,7 +32035,7 @@
 	"name": "TM - Bullet Seed",
 	"desc": "The user forcefully shoots seeds at\nthe target. Two to five seeds are\nshot in rapid succession.",
 	"region_id": 4,
-	"icon_id": 9336,
+	"icon_id": 5349,
 	"name_string_id": 909336,
 	"desc_string_id": 974872
 },
@@ -32044,7 +32044,7 @@
 	"name": "TM - Hidden Power",
 	"desc": "An attack which varies in type\ndepending on its user. Its type may\nbe changed with 40 Gems.",
 	"region_id": 4,
-	"icon_id": 9337,
+	"icon_id": 5332,
 	"name_string_id": 909337,
 	"desc_string_id": 974873
 },
@@ -32053,7 +32053,7 @@
 	"name": "TM - Sunny Day",
 	"desc": "The user intensifies the sun for\nfive turns, powering up Fire-type\nmoves.",
 	"region_id": 4,
-	"icon_id": 9338,
+	"icon_id": 5362,
 	"name_string_id": 909338,
 	"desc_string_id": 974874
 },
@@ -32062,7 +32062,7 @@
 	"name": "TM - Taunt",
 	"desc": "The target is taunted into a rage\nthat allows it to use only attack\nmoves for three turns.",
 	"region_id": 4,
-	"icon_id": 9339,
+	"icon_id": 5328,
 	"name_string_id": 909339,
 	"desc_string_id": 974875
 },
@@ -32071,7 +32071,7 @@
 	"name": "TM - Ice Beam",
 	"desc": "The target is struck with an\nicy-cold beam of energy. It may\nalso freeze the target solid.",
 	"region_id": 4,
-	"icon_id": 9340,
+	"icon_id": 5340,
 	"name_string_id": 909340,
 	"desc_string_id": 974876
 },
@@ -32080,7 +32080,7 @@
 	"name": "TM - Blizzard",
 	"desc": "A howling blizzard is summoned to\nstrike the opposing team. It may\nalso freeze them solid.",
 	"region_id": 4,
-	"icon_id": 9341,
+	"icon_id": 5340,
 	"name_string_id": 909341,
 	"desc_string_id": 974877
 },
@@ -32089,7 +32089,7 @@
 	"name": "TM - Hyper Beam",
 	"desc": "The target is attacked with a\npowerful beam. The user must rest\non the next turn to regain its\nenergy.",
 	"region_id": 4,
-	"icon_id": 9342,
+	"icon_id": 5332,
 	"name_string_id": 909342,
 	"desc_string_id": 974878
 },
@@ -32098,7 +32098,7 @@
 	"name": "TM - Light Screen",
 	"desc": "A wondrous wall of light is put up\nto suppress damage from special\nattacks for five turns.",
 	"region_id": 4,
-	"icon_id": 9343,
+	"icon_id": 5330,
 	"name_string_id": 909343,
 	"desc_string_id": 974879
 },
@@ -32107,7 +32107,7 @@
 	"name": "TM - Protect",
 	"desc": "It enables the user to evade all\nattacks. Its chance of failing\nrises if it is used in succession.",
 	"region_id": 4,
-	"icon_id": 9344,
+	"icon_id": 5332,
 	"name_string_id": 909344,
 	"desc_string_id": 974880
 },
@@ -32116,7 +32116,7 @@
 	"name": "TM - Rain Dance",
 	"desc": "The user summons a heavy rain that\nfalls for five turns, powering up\nWater-type moves.",
 	"region_id": 4,
-	"icon_id": 9345,
+	"icon_id": 5345,
 	"name_string_id": 909345,
 	"desc_string_id": 974881
 },
@@ -32125,7 +32125,7 @@
 	"name": "TM - Giga Drain",
 	"desc": "A nutrient-draining attack. The\nuser's HP is restored by half the\ndamage taken by the target.",
 	"region_id": 4,
-	"icon_id": 9346,
+	"icon_id": 5349,
 	"name_string_id": 909346,
 	"desc_string_id": 974882
 },
@@ -32134,7 +32134,7 @@
 	"name": "TM - Safeguard",
 	"desc": "The user creates a protective field\nthat prevents status problems for\nfive turns.",
 	"region_id": 4,
-	"icon_id": 9347,
+	"icon_id": 5332,
 	"name_string_id": 909347,
 	"desc_string_id": 974883
 },
@@ -32143,7 +32143,7 @@
 	"name": "TM - Frustration",
 	"desc": "A full-power attack that grows more\npowerful the less the user likes\nits Trainer.",
 	"region_id": 4,
-	"icon_id": 9348,
+	"icon_id": 5332,
 	"name_string_id": 909348,
 	"desc_string_id": 974884
 },
@@ -32152,7 +32152,7 @@
 	"name": "TM - SolarBeam",
 	"desc": "A two-turn attack. The user gathers\nlight, then blasts a bundled beam\non the second turn.",
 	"region_id": 4,
-	"icon_id": 9349,
+	"icon_id": 5349,
 	"name_string_id": 909349,
 	"desc_string_id": 974885
 },
@@ -32161,7 +32161,7 @@
 	"name": "TM - Iron Tail",
 	"desc": "The target is slammed with a\nsteel-hard tail. It may also lower\nthe target's Defense stat.",
 	"region_id": 4,
-	"icon_id": 9350,
+	"icon_id": 5401,
 	"name_string_id": 909350,
 	"desc_string_id": 974886
 },
@@ -32170,7 +32170,7 @@
 	"name": "TM - Thunderbolt",
 	"desc": "A strong electric blast is loosed at\nthe target. It may also leave the\ntarget with paralysis.",
 	"region_id": 4,
-	"icon_id": 9351,
+	"icon_id": 5351,
 	"name_string_id": 909351,
 	"desc_string_id": 974887
 },
@@ -32179,7 +32179,7 @@
 	"name": "TM - Thunder",
 	"desc": "A wicked thunderbolt is dropped on\nthe target to inflict damage. It\nmay also leave the target with\nparalysis.",
 	"region_id": 4,
-	"icon_id": 9352,
+	"icon_id": 5351,
 	"name_string_id": 909352,
 	"desc_string_id": 974888
 },
@@ -32188,7 +32188,7 @@
 	"name": "TM - Earthquake",
 	"desc": "The user sets off an earthquake that\nstrikes those around it.",
 	"region_id": 4,
-	"icon_id": 9353,
+	"icon_id": 5353,
 	"name_string_id": 909353,
 	"desc_string_id": 974889
 },
@@ -32197,7 +32197,7 @@
 	"name": "TM - Return",
 	"desc": "A full-power attack that grows more\npowerful the more the user likes\nits Trainer.",
 	"region_id": 4,
-	"icon_id": 9354,
+	"icon_id": 5332,
 	"name_string_id": 909354,
 	"desc_string_id": 974890
 },
@@ -32206,7 +32206,7 @@
 	"name": "TM - Dig",
 	"desc": "The user burrows, then attacks on\nthe second turn. It can also be\nused to exit dungeons.",
 	"region_id": 4,
-	"icon_id": 9355,
+	"icon_id": 5353,
 	"name_string_id": 909355,
 	"desc_string_id": 974891
 },
@@ -32215,7 +32215,7 @@
 	"name": "TM - Psychic",
 	"desc": "The target is hit by a strong\ntelekinetic force. It may also\nreduce the target's Sp. Def stat.",
 	"region_id": 4,
-	"icon_id": 9356,
+	"icon_id": 5330,
 	"name_string_id": 909356,
 	"desc_string_id": 974892
 },
@@ -32224,7 +32224,7 @@
 	"name": "TM - Shadow Ball",
 	"desc": "The user hurls a shadowy blob at the\ntarget. It may also lower the\ntarget's Sp. Def stat.",
 	"region_id": 4,
-	"icon_id": 9357,
+	"icon_id": 5392,
 	"name_string_id": 909357,
 	"desc_string_id": 974893
 },
@@ -32233,7 +32233,7 @@
 	"name": "TM - Brick Break",
 	"desc": "The user attacks with a swift chop.\nIt can also break any barrier such\nas Light Screen and Reflect.",
 	"region_id": 4,
-	"icon_id": 9358,
+	"icon_id": 5335,
 	"name_string_id": 909358,
 	"desc_string_id": 974894
 },
@@ -32242,7 +32242,7 @@
 	"name": "TM - Double Team",
 	"desc": "By moving rapidly, the user makes\nillusory copies of itself to raise\nits evasiveness.",
 	"region_id": 4,
-	"icon_id": 9359,
+	"icon_id": 5332,
 	"name_string_id": 909359,
 	"desc_string_id": 974895
 },
@@ -32251,7 +32251,7 @@
 	"name": "TM - Reflect",
 	"desc": "A wondrous wall of light is put up\nto suppress damage from physical\nattacks for five turns.",
 	"region_id": 4,
-	"icon_id": 9360,
+	"icon_id": 5330,
 	"name_string_id": 909360,
 	"desc_string_id": 974896
 },
@@ -32260,7 +32260,7 @@
 	"name": "TM - Shock Wave",
 	"desc": "The user strikes the target with a\nquick jolt of electricity. This\nattack cannot be evaded.",
 	"region_id": 4,
-	"icon_id": 9361,
+	"icon_id": 5351,
 	"name_string_id": 909361,
 	"desc_string_id": 974897
 },
@@ -32269,7 +32269,7 @@
 	"name": "TM - Flamethrower",
 	"desc": "The target is scorched with an\nintense blast of fire. It may also\nleave the target with a burn.",
 	"region_id": 4,
-	"icon_id": 9362,
+	"icon_id": 5362,
 	"name_string_id": 909362,
 	"desc_string_id": 974898
 },
@@ -32278,7 +32278,7 @@
 	"name": "TM - Sludge Bomb",
 	"desc": "Unsanitary sludge is hurled at the\ntarget. It may also poison the\ntarget.",
 	"region_id": 4,
-	"icon_id": 9363,
+	"icon_id": 5411,
 	"name_string_id": 909363,
 	"desc_string_id": 974899
 },
@@ -32287,7 +32287,7 @@
 	"name": "TM - Sandstorm",
 	"desc": "A five-turn sandstorm is summoned to\nhurt all combatants except the\nRock, Ground, and Steel types.",
 	"region_id": 4,
-	"icon_id": 9364,
+	"icon_id": 5350,
 	"name_string_id": 909364,
 	"desc_string_id": 974900
 },
@@ -32296,7 +32296,7 @@
 	"name": "TM - Fire Blast",
 	"desc": "The target is attacked with an\nintense blast of all-consuming\nfire. It may also leave the target\nwith a burn.",
 	"region_id": 4,
-	"icon_id": 9365,
+	"icon_id": 5362,
 	"name_string_id": 909365,
 	"desc_string_id": 974901
 },
@@ -32305,7 +32305,7 @@
 	"name": "TM - Rock Tomb",
 	"desc": "Boulders are hurled at the target.\nIt also lowers the target's Speed\nby preventing its movement.",
 	"region_id": 4,
-	"icon_id": 9366,
+	"icon_id": 5350,
 	"name_string_id": 909366,
 	"desc_string_id": 974902
 },
@@ -32314,7 +32314,7 @@
 	"name": "TM - Aerial Ace",
 	"desc": "The user confounds the target with\nspeed, then slashes. The attack\nlands without fail.",
 	"region_id": 4,
-	"icon_id": 9367,
+	"icon_id": 5367,
 	"name_string_id": 909367,
 	"desc_string_id": 974903
 },
@@ -32323,7 +32323,7 @@
 	"name": "TM - Torment",
 	"desc": "The user torments and enrages the\ntarget, making it incapable of\nusing the same move twice in a\nrow.",
 	"region_id": 4,
-	"icon_id": 9368,
+	"icon_id": 5328,
 	"name_string_id": 909368,
 	"desc_string_id": 974904
 },
@@ -32332,7 +32332,7 @@
 	"name": "TM - Facade",
 	"desc": "An attack move that doubles its\npower if the user is poisoned,\nburned, or has paralysis.",
 	"region_id": 4,
-	"icon_id": 9369,
+	"icon_id": 5332,
 	"name_string_id": 909369,
 	"desc_string_id": 974905
 },
@@ -32341,7 +32341,7 @@
 	"name": "TM - Secret Power",
 	"desc": "The user attacks the target with a\nsecret power. Its added effects\nvary depending on the user's\nenvironment.",
 	"region_id": 4,
-	"icon_id": 9370,
+	"icon_id": 5332,
 	"name_string_id": 909370,
 	"desc_string_id": 974906
 },
@@ -32350,7 +32350,7 @@
 	"name": "TM - Rest",
 	"desc": "The user goes to sleep for two\nturns. It fully restores the user's\nHP and heals any status problem.",
 	"region_id": 4,
-	"icon_id": 9371,
+	"icon_id": 5330,
 	"name_string_id": 909371,
 	"desc_string_id": 974907
 },
@@ -32359,7 +32359,7 @@
 	"name": "TM - Attract",
 	"desc": "If it is the opposite gender of the\nuser, the target becomes infatuated\nand less likely to attack.",
 	"region_id": 4,
-	"icon_id": 9372,
+	"icon_id": 5332,
 	"name_string_id": 909372,
 	"desc_string_id": 974908
 },
@@ -32368,7 +32368,7 @@
 	"name": "TM - Thief",
 	"desc": "An attack which steals the foe's\nheld item if the user isn't already\nholding one. Its effects are\ntemporary when stealing from\nTrainers.",
 	"region_id": 4,
-	"icon_id": 9373,
+	"icon_id": 5328,
 	"name_string_id": 909373,
 	"desc_string_id": 974909
 },
@@ -32377,7 +32377,7 @@
 	"name": "TM - Steel Wing",
 	"desc": "The target is hit with wings of\nsteel. It may also raise the user's\nDefense stat.",
 	"region_id": 4,
-	"icon_id": 9374,
+	"icon_id": 5401,
 	"name_string_id": 909374,
 	"desc_string_id": 974910
 },
@@ -32386,7 +32386,7 @@
 	"name": "TM - Skill Swap",
 	"desc": "The user employs its psychic power\nto exchange Abilities with the\ntarget.",
 	"region_id": 4,
-	"icon_id": 9375,
+	"icon_id": 5330,
 	"name_string_id": 909375,
 	"desc_string_id": 974911
 },
@@ -32395,7 +32395,7 @@
 	"name": "TM - Snatch",
 	"desc": "The user steals the effects of any\nhealing or stat-changing move the\nopponent attempts to use.",
 	"region_id": 4,
-	"icon_id": 9376,
+	"icon_id": 5328,
 	"name_string_id": 909376,
 	"desc_string_id": 974912
 },
@@ -32404,7 +32404,7 @@
 	"name": "TM - Overheat",
 	"desc": "The user attacks the target at full\npower. The attack's recoil harshly\nreduces the user's Sp. Atk stat.",
 	"region_id": 4,
-	"icon_id": 9377,
+	"icon_id": 5362,
 	"name_string_id": 909377,
 	"desc_string_id": 974913
 },
@@ -32413,7 +32413,7 @@
 	"name": "TM - Roost",
 	"desc": "The user lands and rests its body.\nIt restores the user's HP by up to\nhalf of its max HP.",
 	"region_id": 4,
-	"icon_id": 9378,
+	"icon_id": 5367,
 	"name_string_id": 909378,
 	"desc_string_id": 974914
 },
@@ -32422,7 +32422,7 @@
 	"name": "TM - Focus Blast",
 	"desc": "The user heightens its mental focus\nand unleashes its power. It may\nalso lower the target's Sp. Def.",
 	"region_id": 4,
-	"icon_id": 9379,
+	"icon_id": 5335,
 	"name_string_id": 909379,
 	"desc_string_id": 974915
 },
@@ -32431,7 +32431,7 @@
 	"name": "TM - Energy Ball",
 	"desc": "The user draws power from nature and\nfires it at the target. It may also\nlower the target's Sp. Def.",
 	"region_id": 4,
-	"icon_id": 9380,
+	"icon_id": 5349,
 	"name_string_id": 909380,
 	"desc_string_id": 974916
 },
@@ -32440,7 +32440,7 @@
 	"name": "TM - False Swipe",
 	"desc": "A restrained attack that prevents\nthe target from fainting. The\ntarget is left with at least 1 HP.",
 	"region_id": 4,
-	"icon_id": 9381,
+	"icon_id": 5332,
 	"name_string_id": 909381,
 	"desc_string_id": 974917
 },
@@ -32449,7 +32449,7 @@
 	"name": "TM - Brine",
 	"desc": "If the target's HP is down to about\nhalf, this attack will hit with\ndouble the power.",
 	"region_id": 4,
-	"icon_id": 9382,
+	"icon_id": 5345,
 	"name_string_id": 909382,
 	"desc_string_id": 974918
 },
@@ -32458,7 +32458,7 @@
 	"name": "TM - Fling",
 	"desc": "The user flings its item at the foe,\ndestroying it. In PvP, only\nconsumable items are destroyed\npermanently. The move's power and\neffects vary depending on what item\nis thrown.",
 	"region_id": 4,
-	"icon_id": 9383,
+	"icon_id": 5328,
 	"name_string_id": 909383,
 	"desc_string_id": 974919
 },
@@ -32467,7 +32467,7 @@
 	"name": "TM - Charge Beam",
 	"desc": "The user attacks with an electric\ncharge. The user may use any\nremaining electricity to raise its\nSp. Atk stat.",
 	"region_id": 4,
-	"icon_id": 9384,
+	"icon_id": 5351,
 	"name_string_id": 909384,
 	"desc_string_id": 974920
 },
@@ -32476,7 +32476,7 @@
 	"name": "TM - Endure",
 	"desc": "The user endures any attack with at\nleast 1 HP. Its chance of failing\nrises if it is used in succession.",
 	"region_id": 4,
-	"icon_id": 9385,
+	"icon_id": 5332,
 	"name_string_id": 909385,
 	"desc_string_id": 974921
 },
@@ -32485,7 +32485,7 @@
 	"name": "TM - Dragon Pulse",
 	"desc": "The target is attacked with a shock\nwave generated by the user's gaping\nmouth.",
 	"region_id": 4,
-	"icon_id": 9386,
+	"icon_id": 5329,
 	"name_string_id": 909386,
 	"desc_string_id": 974922
 },
@@ -32494,7 +32494,7 @@
 	"name": "TM - Drain Punch",
 	"desc": "An energy-draining punch. The user's\nHP is restored by half the damage\ntaken by the target.",
 	"region_id": 4,
-	"icon_id": 9387,
+	"icon_id": 5335,
 	"name_string_id": 909387,
 	"desc_string_id": 974923
 },
@@ -32503,7 +32503,7 @@
 	"name": "TM - Will-O-Wisp",
 	"desc": "The user shoots a sinister,\nbluish-white flame at the target to\ninflict a burn.",
 	"region_id": 4,
-	"icon_id": 9388,
+	"icon_id": 5362,
 	"name_string_id": 909388,
 	"desc_string_id": 974924
 },
@@ -32512,7 +32512,7 @@
 	"name": "TM - Silver Wind",
 	"desc": "The target is attacked with powdery\nscales blown by wind. It may also\nraise all the user's stats.",
 	"region_id": 4,
-	"icon_id": 9389,
+	"icon_id": 5403,
 	"name_string_id": 909389,
 	"desc_string_id": 974925
 },
@@ -32521,7 +32521,7 @@
 	"name": "TM - Embargo",
 	"desc": "It prevents the target from using\nits held item. Its Trainer is also\nprevented from using items on it.",
 	"region_id": 4,
-	"icon_id": 9390,
+	"icon_id": 5328,
 	"name_string_id": 909390,
 	"desc_string_id": 974926
 },
@@ -32530,7 +32530,7 @@
 	"name": "TM - Explosion",
 	"desc": "The user explodes to inflict damage\non those around it. The user faints\nupon using this move.",
 	"region_id": 4,
-	"icon_id": 9391,
+	"icon_id": 5332,
 	"name_string_id": 909391,
 	"desc_string_id": 974927
 },
@@ -32539,7 +32539,7 @@
 	"name": "TM - Shadow Claw",
 	"desc": "The user slashes with a sharp claw\nmade from shadows. Critical hits\nland more easily.",
 	"region_id": 4,
-	"icon_id": 9392,
+	"icon_id": 5392,
 	"name_string_id": 909392,
 	"desc_string_id": 974928
 },
@@ -32548,7 +32548,7 @@
 	"name": "TM - Payback",
 	"desc": "If the user moves after the target,\nthis attack's power will be\ndoubled.",
 	"region_id": 4,
-	"icon_id": 9393,
+	"icon_id": 5328,
 	"name_string_id": 909393,
 	"desc_string_id": 974929
 },
@@ -32557,7 +32557,7 @@
 	"name": "TM - Recycle",
 	"desc": "The user recycles a held item that\nhas been used in battle so it can\nbe used again.",
 	"region_id": 4,
-	"icon_id": 9394,
+	"icon_id": 5332,
 	"name_string_id": 909394,
 	"desc_string_id": 974930
 },
@@ -32566,7 +32566,7 @@
 	"name": "TM - Giga Impact",
 	"desc": "The user charges at the target using\nevery bit of its power. The user\nmust rest on the next turn.",
 	"region_id": 4,
-	"icon_id": 9395,
+	"icon_id": 5332,
 	"name_string_id": 909395,
 	"desc_string_id": 974931
 },
@@ -32575,7 +32575,7 @@
 	"name": "TM - Rock Polish",
 	"desc": "The user polishes its body to reduce\ndrag. It can sharply raise the\nSpeed stat.",
 	"region_id": 4,
-	"icon_id": 9396,
+	"icon_id": 5350,
 	"name_string_id": 909396,
 	"desc_string_id": 974932
 },
@@ -32584,7 +32584,7 @@
 	"name": "TM - Flash",
 	"desc": "The user flashes a bright light that\ncuts the target's accuracy. It can\nalso be used to illuminate caves.",
 	"region_id": 4,
-	"icon_id": 9397,
+	"icon_id": 5332,
 	"name_string_id": 909397,
 	"desc_string_id": 974933
 },
@@ -32593,7 +32593,7 @@
 	"name": "TM - Stone Edge",
 	"desc": "The user stabs the foe with\nsharpened stones from below. It has\na high critical-hit ratio.",
 	"region_id": 4,
-	"icon_id": 9398,
+	"icon_id": 5350,
 	"name_string_id": 909398,
 	"desc_string_id": 974934
 },
@@ -32602,7 +32602,7 @@
 	"name": "TM - Avalanche",
 	"desc": "An attack move that inflicts double\nthe damage if the user has been\nhurt by the target in the same\nturn.",
 	"region_id": 4,
-	"icon_id": 9399,
+	"icon_id": 5340,
 	"name_string_id": 909399,
 	"desc_string_id": 974935
 },
@@ -32611,7 +32611,7 @@
 	"name": "TM - Thunder Wave",
 	"desc": "A weak electric charge is launched\nat the target. It causes paralysis\nif it hits.",
 	"region_id": 4,
-	"icon_id": 9400,
+	"icon_id": 5351,
 	"name_string_id": 909400,
 	"desc_string_id": 974936
 },
@@ -32620,7 +32620,7 @@
 	"name": "TM - Gyro Ball",
 	"desc": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
 	"region_id": 4,
-	"icon_id": 9401,
+	"icon_id": 5401,
 	"name_string_id": 909401,
 	"desc_string_id": 974937
 },
@@ -32629,7 +32629,7 @@
 	"name": "TM - Swords Dance",
 	"desc": "A frenetic dance to uplift the\nfighting spirit. It sharply raises\nthe user's Attack stat.",
 	"region_id": 4,
-	"icon_id": 9402,
+	"icon_id": 5332,
 	"name_string_id": 909402,
 	"desc_string_id": 974938
 },
@@ -32638,7 +32638,7 @@
 	"name": "TM - Stealth Rock",
 	"desc": "The user lays a trap of levitating\nstones around the opponent's team.\nThe trap hurts opponents that\nswitch into battle.",
 	"region_id": 4,
-	"icon_id": 9403,
+	"icon_id": 5350,
 	"name_string_id": 909403,
 	"desc_string_id": 974939
 },
@@ -32647,7 +32647,7 @@
 	"name": "TM - Psych Up",
 	"desc": "The user hypnotizes itself into\ncopying any stat change made by the\ntarget.",
 	"region_id": 4,
-	"icon_id": 9404,
+	"icon_id": 5332,
 	"name_string_id": 909404,
 	"desc_string_id": 974940
 },
@@ -32656,7 +32656,7 @@
 	"name": "TM - Captivate",
 	"desc": "If it is the opposite gender of the\nuser, the target is charmed into\nharshly lowering its Sp. Atk stat.",
 	"region_id": 4,
-	"icon_id": 9405,
+	"icon_id": 5332,
 	"name_string_id": 909405,
 	"desc_string_id": 974941
 },
@@ -32665,7 +32665,7 @@
 	"name": "TM - Dark Pulse",
 	"desc": "The user releases a horrible aura\nimbued with dark thoughts. It may\nalso make the target flinch.",
 	"region_id": 4,
-	"icon_id": 9406,
+	"icon_id": 5328,
 	"name_string_id": 909406,
 	"desc_string_id": 974942
 },
@@ -32674,7 +32674,7 @@
 	"name": "TM - Rock Slide",
 	"desc": "Large boulders are hurled at the\nopposing team to inflict damage. It\nmay also make the targets flinch.",
 	"region_id": 4,
-	"icon_id": 9407,
+	"icon_id": 5350,
 	"name_string_id": 909407,
 	"desc_string_id": 974943
 },
@@ -32683,7 +32683,7 @@
 	"name": "TM - X-Scissor",
 	"desc": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
 	"region_id": 4,
-	"icon_id": 9408,
+	"icon_id": 5403,
 	"name_string_id": 909408,
 	"desc_string_id": 974944
 },
@@ -32692,7 +32692,7 @@
 	"name": "TM - Sleep Talk",
 	"desc": "While it is asleep, the user\nrandomly uses one of the moves it\nknows.",
 	"region_id": 4,
-	"icon_id": 9409,
+	"icon_id": 5332,
 	"name_string_id": 909409,
 	"desc_string_id": 974945
 },
@@ -32701,7 +32701,7 @@
 	"name": "TM - Natural Gift",
 	"desc": "The user draws power to attack by\nusing its held Berry. The Berry\ndetermines its type and power.",
 	"region_id": 4,
-	"icon_id": 9410,
+	"icon_id": 5332,
 	"name_string_id": 909410,
 	"desc_string_id": 974946
 },
@@ -32710,7 +32710,7 @@
 	"name": "TM - Poison Jab",
 	"desc": "The target is stabbed with a\ntentacle or arm steeped in poison.\nIt may also poison the target.",
 	"region_id": 4,
-	"icon_id": 9411,
+	"icon_id": 5411,
 	"name_string_id": 909411,
 	"desc_string_id": 974947
 },
@@ -32719,7 +32719,7 @@
 	"name": "TM - Dream Eater",
 	"desc": "The user eats the dreams of a\nsleeping target. It absorbs half\nthe damage caused to heal the\nuser's HP.",
 	"region_id": 4,
-	"icon_id": 9412,
+	"icon_id": 5330,
 	"name_string_id": 909412,
 	"desc_string_id": 974948
 },
@@ -32728,7 +32728,7 @@
 	"name": "TM - Grass Knot",
 	"desc": "The user snares the target with\ngrass and trips it. The heavier the\ntarget, the greater the damage.",
 	"region_id": 4,
-	"icon_id": 9413,
+	"icon_id": 5349,
 	"name_string_id": 909413,
 	"desc_string_id": 974949
 },
@@ -32737,7 +32737,7 @@
 	"name": "TM - Swagger",
 	"desc": "The user enrages and confuses the\ntarget. However, it also sharply\nraises the target's Attack stat.",
 	"region_id": 4,
-	"icon_id": 9414,
+	"icon_id": 5332,
 	"name_string_id": 909414,
 	"desc_string_id": 974950
 },
@@ -32746,7 +32746,7 @@
 	"name": "TM - Pluck",
 	"desc": "The user pecks the target. If the\ntarget is holding a Berry, the user\neats it and gains its effect.",
 	"region_id": 4,
-	"icon_id": 9415,
+	"icon_id": 5367,
 	"name_string_id": 909415,
 	"desc_string_id": 974951
 },
@@ -32755,7 +32755,7 @@
 	"name": "TM - U-turn",
 	"desc": "After making its attack, the user\nrushes back to switch places with a\nparty Pokémon in waiting.",
 	"region_id": 4,
-	"icon_id": 9416,
+	"icon_id": 5403,
 	"name_string_id": 909416,
 	"desc_string_id": 974952
 },
@@ -32764,7 +32764,7 @@
 	"name": "TM - Substitute",
 	"desc": "The user makes a copy of itself\nusing some of its HP. The copy\nserves as the user's decoy.",
 	"region_id": 4,
-	"icon_id": 9417,
+	"icon_id": 5332,
 	"name_string_id": 909417,
 	"desc_string_id": 974953
 },
@@ -32773,7 +32773,7 @@
 	"name": "TM - Flash Cannon",
 	"desc": "The user gathers all its light\nenergy and releases it at once. It\nmay also lower the target's Sp. Def\nstat.",
 	"region_id": 4,
-	"icon_id": 9418,
+	"icon_id": 5401,
 	"name_string_id": 909418,
 	"desc_string_id": 974954
 },
@@ -32782,7 +32782,7 @@
 	"name": "TM - Trick Room",
 	"desc": "The user creates a bizarre area in\nwhich slower Pokémon get to move\nfirst for five turns.",
 	"region_id": 4,
-	"icon_id": 9419,
+	"icon_id": 5330,
 	"name_string_id": 909419,
 	"desc_string_id": 974955
 },

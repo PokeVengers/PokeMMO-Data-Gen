@@ -553,7 +553,34 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Headbutt",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Safari Zone",
+                "min_level": 28,
+                "max_level": 31,
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Headbutt",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Safari Zone",
+                "min_level": 28,
+                "max_level": 31,
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Headbutt",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Safari Zone",
+                "min_level": 28,
+                "max_level": 31,
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -952,7 +979,34 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Headbutt",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Safari Zone",
+                "min_level": 28,
+                "max_level": 31,
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Headbutt",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Safari Zone",
+                "min_level": 28,
+                "max_level": 31,
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Headbutt",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Safari Zone",
+                "min_level": 28,
+                "max_level": 31,
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -2778,7 +2832,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Very Common"
             },
             {
                 "type": "Headbutt",
@@ -2787,7 +2841,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Very Common"
             },
             {
                 "type": "Headbutt",
@@ -2796,7 +2850,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Very Common"
             },
             {
                 "type": "Headbutt",
@@ -2805,7 +2859,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Very Common"
             },
             {
                 "type": "Headbutt",
@@ -3164,7 +3218,7 @@
                 "location": "Mt. Mortar",
                 "min_level": 19,
                 "max_level": 22,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -3272,7 +3326,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -3321,7 +3375,7 @@
                 "location": "POKéMON MANSION",
                 "min_level": 32,
                 "max_level": 38,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -3438,7 +3492,7 @@
                 "location": "Dreamyard",
                 "min_level": 47,
                 "max_level": 50,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Grass",
@@ -3690,7 +3744,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -3717,7 +3771,7 @@
                 "location": "Union Cave",
                 "min_level": 22,
                 "max_level": 25,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -4504,7 +4558,7 @@
                 "location": "Safari Zone (Day/Morning/SEASON0)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -4513,7 +4567,7 @@
                 "location": "Safari Zone (Day/Morning/SEASON1)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -4522,7 +4576,7 @@
                 "location": "Safari Zone (Day/Morning/SEASON2)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -5531,34 +5585,16 @@
                 "type": "Cave",
                 "region_id": 4,
                 "region_name": "Johto",
-                "location": "Safari Zone (Day/Morning/SEASON0)",
+                "location": "Safari Zone (Day/Morning)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
-                "type": "Cave",
+                "type": "Headbutt",
                 "region_id": 4,
                 "region_name": "Johto",
-                "location": "Safari Zone (Day/Morning/SEASON1)",
-                "min_level": 28,
-                "max_level": 31,
-                "rarity": "Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone (Day/Morning/SEASON2)",
-                "min_level": 28,
-                "max_level": 31,
-                "rarity": "Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone (Day/Morning/SEASON3)",
+                "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
                 "rarity": "Rare"
@@ -5570,7 +5606,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -5579,7 +5615,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -5588,16 +5624,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Common"
-            },
-            {
-                "type": "Headbutt",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone",
-                "min_level": 28,
-                "max_level": 31,
-                "rarity": "Very Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -5947,7 +5974,7 @@
                 "location": "Safari Zone (Night)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             }
         ]
     },
@@ -6005,7 +6032,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 28,
                 "max_level": 30,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Grass",
@@ -6094,7 +6121,7 @@
                 "location": "MT. MOON",
                 "min_level": 7,
                 "max_level": 10,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -6287,7 +6314,7 @@
                 "location": "Relic Castle",
                 "min_level": 47,
                 "max_level": 50,
-                "rarity": "Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -7080,7 +7107,7 @@
                 "location": "MT. MOON",
                 "min_level": 8,
                 "max_level": 12,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -7107,7 +7134,7 @@
                 "location": "Giant Chasm",
                 "min_level": 52,
                 "max_level": 54,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Dark Grass",
@@ -7116,7 +7143,7 @@
                 "location": "Giant Chasm",
                 "min_level": 57,
                 "max_level": 59,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -7161,7 +7188,7 @@
                 "location": "Safari Zone (Night)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             }
         ]
     },
@@ -7716,7 +7743,7 @@
                 "location": "MT. MOON",
                 "min_level": 7,
                 "max_level": 11,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Inside",
@@ -7860,7 +7887,7 @@
                 "location": "GRANITE CAVE",
                 "min_level": 9,
                 "max_level": 13,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Cave",
@@ -7869,7 +7896,7 @@
                 "location": "METEOR FALLS",
                 "min_level": 16,
                 "max_level": 20,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Water",
@@ -8031,7 +8058,7 @@
                 "location": "Iron Island",
                 "min_level": 30,
                 "max_level": 30,
-                "rarity": "Very Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -8049,7 +8076,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 14,
                 "max_level": 19,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Water",
@@ -8310,7 +8337,7 @@
                 "location": "Ruin Maniac Cave",
                 "min_level": 21,
                 "max_level": 24,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -8355,7 +8382,7 @@
                 "location": "Dark Cave",
                 "min_level": 4,
                 "max_level": 25,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -8481,7 +8508,7 @@
                 "location": "Safari Zone (Night)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -8490,7 +8517,7 @@
                 "location": "Tohjo Falls",
                 "min_level": 22,
                 "max_level": 39,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -8530,7 +8557,7 @@
                 "location": "CERULEAN CAVE",
                 "min_level": 54,
                 "max_level": 60,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -8629,7 +8656,7 @@
                 "location": "VICTORY ROAD",
                 "min_level": 44,
                 "max_level": 46,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -8656,7 +8683,7 @@
                 "location": "METEOR FALLS",
                 "min_level": 37,
                 "max_level": 45,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Water",
@@ -8935,7 +8962,7 @@
                 "location": "Giant Chasm",
                 "min_level": 48,
                 "max_level": 50,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Dark Grass",
@@ -8944,7 +8971,7 @@
                 "location": "Giant Chasm",
                 "min_level": 53,
                 "max_level": 55,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Grass",
@@ -8980,7 +9007,7 @@
                 "location": "Iron Island",
                 "min_level": 31,
                 "max_level": 33,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -9061,7 +9088,7 @@
                 "location": "Route 209",
                 "min_level": 22,
                 "max_level": 23,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Grass",
@@ -9196,7 +9223,7 @@
                 "location": "Dark Cave",
                 "min_level": 22,
                 "max_level": 25,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -9250,7 +9277,7 @@
                 "location": "Mt. Mortar",
                 "min_level": 19,
                 "max_level": 36,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -9376,7 +9403,7 @@
                 "location": "Safari Zone (Night)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -9394,7 +9421,7 @@
                 "location": "Tohjo Falls",
                 "min_level": 22,
                 "max_level": 39,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -9412,7 +9439,7 @@
                 "location": "Union Cave",
                 "min_level": 22,
                 "max_level": 25,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -9695,7 +9722,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 27,
                 "max_level": 29,
-                "rarity": "Rare"
+                "rarity": "Common"
             },
             {
                 "type": "Grass",
@@ -9888,7 +9915,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 28,
                 "max_level": 30,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -9995,7 +10022,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 24,
                 "max_level": 26,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -10040,7 +10067,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -10053,7 +10080,7 @@
                 "location": "CERULEAN CAVE",
                 "min_level": 54,
                 "max_level": 60,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -10210,7 +10237,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 24,
                 "max_level": 26,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Headbutt",
@@ -10367,7 +10394,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 31,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -10376,7 +10403,7 @@
                 "location": "VICTORY ROAD",
                 "min_level": 44,
                 "max_level": 46,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Dark Grass",
@@ -10385,7 +10412,7 @@
                 "location": "Dreamyard (Night)",
                 "min_level": 48,
                 "max_level": 50,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -10860,7 +10887,7 @@
                 "location": "CERULEAN CAVE",
                 "min_level": 54,
                 "max_level": 56,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -11728,7 +11755,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 27,
                 "max_level": 29,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Water",
@@ -12326,7 +12353,7 @@
                 "location": "ICEFALL CAVE",
                 "min_level": 48,
                 "max_level": 50,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Water",
@@ -13351,7 +13378,7 @@
                 "location": "CERULEAN CAVE",
                 "min_level": 54,
                 "max_level": 56,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -14416,7 +14443,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Old Rod",
@@ -14425,7 +14452,7 @@
                 "location": "Safari Zone",
                 "min_level": 10,
                 "max_level": 10,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Good Rod",
@@ -14443,7 +14470,7 @@
                 "location": "Safari Zone",
                 "min_level": 40,
                 "max_level": 40,
-                "rarity": "Uncommon"
+                "rarity": "Very Common"
             },
             {
                 "type": "Water",
@@ -15032,7 +15059,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Good Rod",
@@ -15041,7 +15068,7 @@
                 "location": "Safari Zone",
                 "min_level": 20,
                 "max_level": 20,
-                "rarity": "Rare"
+                "rarity": "Common"
             },
             {
                 "type": "Super Rod",
@@ -15328,7 +15355,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Common"
             }
         ]
     },
@@ -15341,7 +15368,7 @@
                 "location": "CERULEAN CAVE",
                 "min_level": 56,
                 "max_level": 60,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -15404,7 +15431,7 @@
                 "location": "Victory Road",
                 "min_level": 45,
                 "max_level": 47,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -15433,15 +15460,6 @@
                 "rarity": "Very Common"
             },
             {
-                "type": "Cave",
-                "region_id": 0,
-                "region_name": "Kanto",
-                "location": "MT. EMBER",
-                "min_level": 38,
-                "max_level": 40,
-                "rarity": "Horde"
-            },
-            {
                 "type": "Grass",
                 "region_id": 0,
                 "region_name": "Kanto",
@@ -15449,6 +15467,15 @@
                 "min_level": 38,
                 "max_level": 40,
                 "rarity": "Common"
+            },
+            {
+                "type": "Cave",
+                "region_id": 0,
+                "region_name": "Kanto",
+                "location": "MT. EMBER",
+                "min_level": 38,
+                "max_level": 40,
+                "rarity": "Horde"
             },
             {
                 "type": "Cave",
@@ -15520,7 +15547,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 16,
                 "max_level": 20,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -15592,7 +15619,7 @@
                 "location": "Mt. Mortar",
                 "min_level": 19,
                 "max_level": 35,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -15601,7 +15628,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -15614,7 +15641,7 @@
                 "location": "CERULEAN CAVE",
                 "min_level": 54,
                 "max_level": 60,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -15632,7 +15659,7 @@
                 "location": "MT. EMBER",
                 "min_level": 40,
                 "max_level": 48,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -15650,7 +15677,7 @@
                 "location": "VICTORY ROAD",
                 "min_level": 44,
                 "max_level": 48,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -15695,7 +15722,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 35,
                 "max_level": 41,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -15974,7 +16001,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -17146,25 +17173,7 @@
                 "location": "AQUA HIDEOUT",
                 "min_level": 25,
                 "max_level": 30,
-                "rarity": "Very Common"
-            },
-            {
-                "type": "Water",
-                "region_id": 1,
-                "region_name": "Hoenn",
-                "location": "AQUA HIDEOUT",
-                "min_level": 25,
-                "max_level": 30,
                 "rarity": "Horde"
-            },
-            {
-                "type": "Old Rod",
-                "region_id": 1,
-                "region_name": "Hoenn",
-                "location": "AQUA HIDEOUT",
-                "min_level": 5,
-                "max_level": 5,
-                "rarity": "Very Common"
             },
             {
                 "type": "Old Rod",
@@ -17183,15 +17192,6 @@
                 "min_level": 15,
                 "max_level": 30,
                 "rarity": "Common"
-            },
-            {
-                "type": "Good Rod",
-                "region_id": 1,
-                "region_name": "Hoenn",
-                "location": "AQUA HIDEOUT",
-                "min_level": 25,
-                "max_level": 25,
-                "rarity": "Very Common"
             },
             {
                 "type": "Old Rod",
@@ -19396,7 +19396,7 @@
                 "location": "Union Cave",
                 "min_level": 20,
                 "max_level": 25,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Water",
@@ -19414,7 +19414,7 @@
                 "location": "Whirl Islands",
                 "min_level": 26,
                 "max_level": 30,
-                "rarity": "Common"
+                "rarity": "Very Common"
             }
         ]
     },
@@ -20561,7 +20561,7 @@
                 "location": "Whirl Islands",
                 "min_level": 30,
                 "max_level": 31,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -20637,7 +20637,7 @@
                 "location": "MT. MOON",
                 "min_level": 7,
                 "max_level": 10,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -20772,7 +20772,7 @@
                 "location": "Iron Island",
                 "min_level": 29,
                 "max_level": 32,
-                "rarity": "Rare"
+                "rarity": "Very Common"
             },
             {
                 "type": "Cave",
@@ -20808,7 +20808,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 13,
                 "max_level": 19,
-                "rarity": "Rare"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -20826,7 +20826,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 16,
                 "max_level": 35,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Cave",
@@ -20835,7 +20835,7 @@
                 "location": "Oreburgh Gate",
                 "min_level": 5,
                 "max_level": 9,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Rocks",
@@ -21168,7 +21168,7 @@
                 "location": "Dark Cave",
                 "min_level": 4,
                 "max_level": 25,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Rocks",
@@ -21406,7 +21406,7 @@
                 "location": "CERULEAN CAVE",
                 "min_level": 54,
                 "max_level": 60,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Rocks",
@@ -21469,7 +21469,7 @@
                 "location": "VICTORY ROAD",
                 "min_level": 44,
                 "max_level": 48,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -21559,7 +21559,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 32,
                 "max_level": 40,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -21910,7 +21910,7 @@
                 "location": "Dark Cave",
                 "min_level": 25,
                 "max_level": 25,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -21919,7 +21919,7 @@
                 "location": "Dark Cave",
                 "min_level": 25,
                 "max_level": 25,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -21928,7 +21928,7 @@
                 "location": "Dark Cave",
                 "min_level": 25,
                 "max_level": 25,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -21937,7 +21937,7 @@
                 "location": "Dark Cave",
                 "min_level": 25,
                 "max_level": 25,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Rocks",
@@ -21955,7 +21955,7 @@
                 "location": "Mt. Mortar",
                 "min_level": 33,
                 "max_level": 36,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -22175,7 +22175,7 @@
                 "location": "Turnback Cave",
                 "min_level": 55,
                 "max_level": 65,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Rocks",
@@ -22260,7 +22260,7 @@
                 "location": "POKéMON MANSION",
                 "min_level": 30,
                 "max_level": 32,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -23276,7 +23276,7 @@
                 "location": "Tohjo Falls",
                 "min_level": 22,
                 "max_level": 39,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Water",
@@ -23379,7 +23379,7 @@
                 "location": "ICEFALL CAVE",
                 "min_level": 48,
                 "max_level": 50,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Water",
@@ -23451,7 +23451,7 @@
                 "location": "Tohjo Falls",
                 "min_level": 37,
                 "max_level": 39,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -23599,7 +23599,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             }
         ]
     },
@@ -23639,7 +23639,7 @@
                 "location": "Victory Road",
                 "min_level": 41,
                 "max_level": 43,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -23648,7 +23648,7 @@
                 "location": "Safari Zone",
                 "min_level": 30,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             }
         ]
     },
@@ -23859,7 +23859,7 @@
                 "location": "Safari Zone (Day/Morning/SEASON0)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -23868,7 +23868,7 @@
                 "location": "Safari Zone (Day/Morning/SEASON1)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -23877,7 +23877,7 @@
                 "location": "Safari Zone (Day/Morning/SEASON2)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -23895,7 +23895,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -23904,7 +23904,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -23913,7 +23913,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -23989,7 +23989,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 27,
                 "max_level": 30,
-                "rarity": "Rare"
+                "rarity": "Common"
             },
             {
                 "type": "Grass",
@@ -24047,7 +24047,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 28,
                 "max_level": 30,
-                "rarity": "Very Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -24869,7 +24869,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             }
         ]
     },
@@ -25452,7 +25452,7 @@
                 "location": "Safari Zone (Night)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -25534,8 +25534,8 @@
                 "type": "Cave",
                 "region_id": 4,
                 "region_name": "Johto",
-                "location": "Bell Tower (Day/Night)",
-                "min_level": 33,
+                "location": "Bell Tower (Night)",
+                "min_level": 35,
                 "max_level": 38,
                 "rarity": "Very Common"
             },
@@ -25546,7 +25546,7 @@
                 "location": "Safari Zone (Night)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             }
         ]
     },
@@ -25608,7 +25608,7 @@
                 "location": "VICTORY ROAD",
                 "min_level": 40,
                 "max_level": 48,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -25635,7 +25635,7 @@
                 "location": "Relic Castle",
                 "min_level": 47,
                 "max_level": 49,
-                "rarity": "Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -25752,7 +25752,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -25882,7 +25882,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -25913,7 +25913,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -26853,7 +26853,7 @@
                 "location": "Safari Zone",
                 "min_level": 20,
                 "max_level": 20,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Old Rod",
@@ -26871,7 +26871,7 @@
                 "location": "Union Cave",
                 "min_level": 20,
                 "max_level": 20,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Super Rod",
@@ -26880,7 +26880,7 @@
                 "location": "Union Cave",
                 "min_level": 40,
                 "max_level": 40,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Cave",
@@ -27307,7 +27307,7 @@
                 "location": "Safari Zone",
                 "min_level": 40,
                 "max_level": 40,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Super Rod",
@@ -27778,7 +27778,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Very Common"
             }
         ]
     },
@@ -27831,7 +27831,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 24,
                 "max_level": 26,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Grass",
@@ -27899,6 +27899,33 @@
                 "min_level": 44,
                 "max_level": 48,
                 "rarity": "Rare"
+            },
+            {
+                "type": "Cave",
+                "region_id": 0,
+                "region_name": "Kanto",
+                "location": "VICTORY ROAD",
+                "min_level": 44,
+                "max_level": 48,
+                "rarity": "Rare"
+            },
+            {
+                "type": "Cave",
+                "region_id": 0,
+                "region_name": "Kanto",
+                "location": "VICTORY ROAD",
+                "min_level": 44,
+                "max_level": 48,
+                "rarity": "Rare"
+            },
+            {
+                "type": "Cave",
+                "region_id": 0,
+                "region_name": "Kanto",
+                "location": "VICTORY ROAD",
+                "min_level": 44,
+                "max_level": 48,
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -28005,7 +28032,7 @@
                 "location": "VICTORY ROAD",
                 "min_level": 44,
                 "max_level": 44,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -28090,7 +28117,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Common"
+                "rarity": "Rare"
             }
         ]
     },
@@ -28148,7 +28175,7 @@
                 "location": "Stark Mountain",
                 "min_level": 53,
                 "max_level": 53,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Cave",
@@ -28175,7 +28202,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             }
         ]
     },
@@ -28300,33 +28327,6 @@
                 "location": "VICTORY ROAD",
                 "min_level": 42,
                 "max_level": 46,
-                "rarity": "Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 0,
-                "region_name": "Kanto",
-                "location": "VICTORY ROAD",
-                "min_level": 42,
-                "max_level": 46,
-                "rarity": "Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 0,
-                "region_name": "Kanto",
-                "location": "VICTORY ROAD",
-                "min_level": 42,
-                "max_level": 46,
-                "rarity": "Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 0,
-                "region_name": "Kanto",
-                "location": "VICTORY ROAD",
-                "min_level": 42,
-                "max_level": 46,
                 "rarity": "Uncommon"
             },
             {
@@ -28345,7 +28345,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 28,
                 "max_level": 30,
-                "rarity": "Rare"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -28384,16 +28384,16 @@
                 "rarity": "Rare"
             },
             {
-                "type": "Cave",
+                "type": "Grass",
                 "region_id": 3,
                 "region_name": "Sinnoh",
                 "location": "Stark Mountain",
                 "min_level": 52,
                 "max_level": 52,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
-                "type": "Grass",
+                "type": "Cave",
                 "region_id": 3,
                 "region_name": "Sinnoh",
                 "location": "Stark Mountain",
@@ -28408,7 +28408,7 @@
                 "location": "Victory Road",
                 "min_level": 41,
                 "max_level": 41,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -28466,7 +28466,7 @@
                 "location": "CERULEAN CAVE",
                 "min_level": 54,
                 "max_level": 60,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -28484,7 +28484,7 @@
                 "location": "VICTORY ROAD",
                 "min_level": 44,
                 "max_level": 48,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -28532,15 +28532,6 @@
                 "rarity": "Common"
             },
             {
-                "type": "Cave",
-                "region_id": 3,
-                "region_name": "Sinnoh",
-                "location": "Stark Mountain",
-                "min_level": 54,
-                "max_level": 55,
-                "rarity": "Uncommon"
-            },
-            {
                 "type": "Grass",
                 "region_id": 3,
                 "region_name": "Sinnoh",
@@ -28553,10 +28544,19 @@
                 "type": "Cave",
                 "region_id": 3,
                 "region_name": "Sinnoh",
+                "location": "Stark Mountain",
+                "min_level": 54,
+                "max_level": 55,
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Cave",
+                "region_id": 3,
+                "region_name": "Sinnoh",
                 "location": "Victory Road",
                 "min_level": 42,
                 "max_level": 43,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -28587,7 +28587,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 26,
                 "max_level": 26,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Grass",
@@ -28681,7 +28681,7 @@
                 "location": "Giant Chasm",
                 "min_level": 47,
                 "max_level": 49,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Dark Grass",
@@ -28699,7 +28699,7 @@
                 "location": "Giant Chasm",
                 "min_level": 52,
                 "max_level": 54,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Grass",
@@ -28811,7 +28811,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -29890,7 +29890,7 @@
                 "location": "Whirl Islands",
                 "min_level": 32,
                 "max_level": 32,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Super Rod",
@@ -30506,7 +30506,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 15,
                 "max_level": 30,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Super Rod",
@@ -30911,7 +30911,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Old Rod",
@@ -30929,7 +30929,7 @@
                 "location": "Safari Zone",
                 "min_level": 20,
                 "max_level": 20,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Super Rod",
@@ -30938,7 +30938,7 @@
                 "location": "Safari Zone",
                 "min_level": 40,
                 "max_level": 40,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Water",
@@ -31167,7 +31167,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 33,
                 "max_level": 40,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Fishing",
@@ -31437,7 +31437,7 @@
                 "location": "Safari Zone",
                 "min_level": 20,
                 "max_level": 20,
-                "rarity": "Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Super Rod",
@@ -31446,7 +31446,7 @@
                 "location": "Safari Zone",
                 "min_level": 40,
                 "max_level": 40,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Super Rod",
@@ -31604,15 +31604,6 @@
                 "min_level": 30,
                 "max_level": 40,
                 "rarity": "Uncommon"
-            },
-            {
-                "type": "Super Rod",
-                "region_id": 1,
-                "region_name": "Hoenn",
-                "location": "AQUA HIDEOUT",
-                "min_level": 40,
-                "max_level": 40,
-                "rarity": "Rare"
             },
             {
                 "type": "Super Rod",
@@ -31989,33 +31980,6 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone",
-                "min_level": 28,
-                "max_level": 31,
-                "rarity": "Very Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone",
-                "min_level": 28,
-                "max_level": 31,
-                "rarity": "Very Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone",
-                "min_level": 28,
-                "max_level": 31,
                 "rarity": "Rare"
             }
         ]
@@ -32029,7 +31993,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 26,
                 "max_level": 28,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -32297,7 +32261,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 26,
                 "max_level": 28,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -32306,7 +32270,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 28,
                 "max_level": 30,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -33325,30 +33289,12 @@
                 "rarity": "Very Common"
             },
             {
-                "type": "Old Rod",
-                "region_id": 1,
-                "region_name": "Hoenn",
-                "location": "AQUA HIDEOUT",
-                "min_level": 10,
-                "max_level": 15,
-                "rarity": "Very Common"
-            },
-            {
                 "type": "Good Rod",
                 "region_id": 1,
                 "region_name": "Hoenn",
                 "location": "AQUA HIDEOUT",
                 "min_level": 15,
                 "max_level": 30,
-                "rarity": "Very Common"
-            },
-            {
-                "type": "Good Rod",
-                "region_id": 1,
-                "region_name": "Hoenn",
-                "location": "AQUA HIDEOUT",
-                "min_level": 25,
-                "max_level": 25,
                 "rarity": "Very Common"
             },
             {
@@ -37025,7 +36971,7 @@
                 "location": "Safari Zone",
                 "min_level": 40,
                 "max_level": 40,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Super Rod",
@@ -37164,7 +37110,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Water",
@@ -37267,7 +37213,7 @@
                 "location": "Giant Chasm",
                 "min_level": 53,
                 "max_level": 55,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Dark Grass",
@@ -37276,7 +37222,7 @@
                 "location": "Giant Chasm",
                 "min_level": 58,
                 "max_level": 60,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -37331,6 +37277,33 @@
                 "min_level": 33,
                 "max_level": 35,
                 "rarity": "Very Common"
+            },
+            {
+                "type": "Cave",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Safari Zone",
+                "min_level": 28,
+                "max_level": 31,
+                "rarity": "Very Rare"
+            },
+            {
+                "type": "Cave",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Safari Zone",
+                "min_level": 28,
+                "max_level": 31,
+                "rarity": "Very Rare"
+            },
+            {
+                "type": "Cave",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Safari Zone",
+                "min_level": 28,
+                "max_level": 31,
+                "rarity": "Very Rare"
             },
             {
                 "type": "Cave",
@@ -37525,7 +37498,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 15,
                 "max_level": 25,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Water",
@@ -37615,7 +37588,7 @@
                 "location": "Safari Zone",
                 "min_level": 40,
                 "max_level": 40,
-                "rarity": "Common"
+                "rarity": "Rare"
             }
         ]
     },
@@ -37673,7 +37646,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 30,
                 "max_level": 55,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Water",
@@ -38151,7 +38124,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 35,
                 "max_level": 37,
-                "rarity": "Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Shadow",
@@ -39076,7 +39049,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 35,
                 "max_level": 37,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -39749,7 +39722,7 @@
                 "location": "UNDERWATER",
                 "min_level": 30,
                 "max_level": 35,
-                "rarity": "Horde"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Water",
@@ -39758,7 +39731,7 @@
                 "location": "UNDERWATER",
                 "min_level": 30,
                 "max_level": 35,
-                "rarity": "Uncommon"
+                "rarity": "Horde"
             },
             {
                 "type": "Water",
@@ -40097,7 +40070,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -40106,7 +40079,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -40115,7 +40088,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -40124,7 +40097,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -40164,7 +40137,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 28,
                 "max_level": 30,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Headbutt",
@@ -40267,7 +40240,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 35,
                 "max_level": 37,
-                "rarity": "Very Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -40598,7 +40571,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 35,
                 "max_level": 40,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Inside",
@@ -40778,7 +40751,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Water",
@@ -40787,7 +40760,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Common"
             }
         ]
     },
@@ -40908,7 +40881,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 35,
                 "max_level": 40,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -41433,7 +41406,7 @@
                 "location": "Safari Zone (Day/Morning)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Common"
             }
         ]
     },
@@ -41482,7 +41455,7 @@
                 "location": "Safari Zone (Day/Morning)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             }
         ]
     },
@@ -41643,7 +41616,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Headbutt",
@@ -41652,7 +41625,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Headbutt",
@@ -41661,7 +41634,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Headbutt",
@@ -41670,7 +41643,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Common"
+                "rarity": "Very Common"
             }
         ]
     },
@@ -41719,7 +41692,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 35,
                 "max_level": 37,
-                "rarity": "Very Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -41764,7 +41737,7 @@
                 "location": "Safari Zone (Day)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -41902,7 +41875,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 35,
                 "max_level": 40,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Inside",
@@ -42010,7 +41983,7 @@
                 "location": "Safari Zone (Night)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Water",
@@ -42019,7 +41992,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Very Common"
             },
             {
                 "type": "Cave",
@@ -42140,7 +42113,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 35,
                 "max_level": 40,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Water",
@@ -42329,7 +42302,7 @@
                 "location": "Safari Zone (Night)",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Water",
@@ -42728,7 +42701,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Common"
+                "rarity": "Rare"
             }
         ]
     },
@@ -42992,7 +42965,7 @@
                 "location": "Solaceon Ruins",
                 "min_level": 20,
                 "max_level": 30,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -43041,7 +43014,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 28,
                 "max_level": 30,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Cave",
@@ -43059,7 +43032,7 @@
                 "location": "Dark Cave",
                 "min_level": 22,
                 "max_level": 25,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -43081,7 +43054,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 28,
                 "max_level": 30,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Grass",
@@ -43180,7 +43153,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Common"
             }
         ]
     },
@@ -43319,7 +43292,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -43480,7 +43453,7 @@
                 "location": "Dark Cave",
                 "min_level": 4,
                 "max_level": 4,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -43493,7 +43466,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 37,
                 "max_level": 40,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Grass",
@@ -43717,7 +43690,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 35,
                 "max_level": 37,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Grass",
@@ -44061,7 +44034,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 28,
                 "max_level": 30,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -44224,33 +44197,6 @@
                 "min_level": 28,
                 "max_level": 31,
                 "rarity": "Uncommon"
-            },
-            {
-                "type": "Headbutt",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone",
-                "min_level": 28,
-                "max_level": 31,
-                "rarity": "Uncommon"
-            },
-            {
-                "type": "Headbutt",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone",
-                "min_level": 28,
-                "max_level": 31,
-                "rarity": "Uncommon"
-            },
-            {
-                "type": "Headbutt",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone",
-                "min_level": 28,
-                "max_level": 31,
-                "rarity": "Common"
             },
             {
                 "type": "Headbutt",
@@ -44587,7 +44533,7 @@
                 "location": "Ice Path (Night)",
                 "min_level": 32,
                 "max_level": 34,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -45180,7 +45126,7 @@
                 "location": "VICTORY ROAD",
                 "min_level": 44,
                 "max_level": 48,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -45189,7 +45135,7 @@
                 "location": "VICTORY ROAD",
                 "min_level": 44,
                 "max_level": 48,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -45198,7 +45144,7 @@
                 "location": "VICTORY ROAD",
                 "min_level": 44,
                 "max_level": 48,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -45207,43 +45153,43 @@
                 "location": "VICTORY ROAD",
                 "min_level": 44,
                 "max_level": 46,
-                "rarity": "Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Dark Cave",
-                "min_level": 30,
-                "max_level": 30,
-                "rarity": "Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Dark Cave",
-                "min_level": 30,
-                "max_level": 30,
-                "rarity": "Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Dark Cave",
-                "min_level": 30,
-                "max_level": 30,
-                "rarity": "Rare"
-            },
-            {
-                "type": "Cave",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Dark Cave",
-                "min_level": 30,
-                "max_level": 30,
                 "rarity": "Very Rare"
+            },
+            {
+                "type": "Cave",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Dark Cave",
+                "min_level": 30,
+                "max_level": 30,
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Cave",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Dark Cave",
+                "min_level": 30,
+                "max_level": 30,
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Cave",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Dark Cave",
+                "min_level": 30,
+                "max_level": 30,
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Cave",
+                "region_id": 4,
+                "region_name": "Johto",
+                "location": "Dark Cave",
+                "min_level": 30,
+                "max_level": 30,
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -45490,7 +45436,7 @@
                 "location": "MT. EMBER",
                 "min_level": 48,
                 "max_level": 50,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -45593,7 +45539,7 @@
                 "location": "MT. EMBER",
                 "min_level": 48,
                 "max_level": 50,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -45633,7 +45579,7 @@
                 "location": "ICEFALL CAVE",
                 "min_level": 48,
                 "max_level": 50,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -45651,7 +45597,7 @@
                 "location": "ICEFALL CAVE",
                 "min_level": 48,
                 "max_level": 50,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -45660,7 +45606,7 @@
                 "location": "ICEFALL CAVE",
                 "min_level": 48,
                 "max_level": 50,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -45889,7 +45835,7 @@
                 "location": "Giant Chasm",
                 "min_level": 52,
                 "max_level": 54,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -45898,7 +45844,7 @@
                 "location": "Giant Chasm",
                 "min_level": 52,
                 "max_level": 54,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -45907,7 +45853,7 @@
                 "location": "Giant Chasm",
                 "min_level": 52,
                 "max_level": 54,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -45916,7 +45862,7 @@
                 "location": "Giant Chasm",
                 "min_level": 52,
                 "max_level": 54,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Dark Grass",
@@ -45934,7 +45880,7 @@
                 "location": "Giant Chasm",
                 "min_level": 57,
                 "max_level": 59,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Dark Grass",
@@ -45943,7 +45889,7 @@
                 "location": "Giant Chasm",
                 "min_level": 57,
                 "max_level": 59,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Dark Grass",
@@ -45952,7 +45898,7 @@
                 "location": "Giant Chasm",
                 "min_level": 57,
                 "max_level": 59,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Dark Grass",
@@ -45961,7 +45907,7 @@
                 "location": "Giant Chasm",
                 "min_level": 57,
                 "max_level": 59,
-                "rarity": "Very Common"
+                "rarity": "Common"
             }
         ]
     },
@@ -46347,7 +46293,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 15,
                 "max_level": 30,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Super Rod",
@@ -46576,7 +46522,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 30,
                 "max_level": 40,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Fishing",
@@ -47227,34 +47173,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
-            },
-            {
-                "type": "Headbutt",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone",
-                "min_level": 28,
-                "max_level": 31,
-                "rarity": "Uncommon"
-            },
-            {
-                "type": "Headbutt",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone",
-                "min_level": 28,
-                "max_level": 31,
-                "rarity": "Uncommon"
-            },
-            {
-                "type": "Headbutt",
-                "region_id": 4,
-                "region_name": "Johto",
-                "location": "Safari Zone",
-                "min_level": 28,
-                "max_level": 31,
-                "rarity": "Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -47598,7 +47517,7 @@
                 "location": "VICTORY ROAD",
                 "min_level": 44,
                 "max_level": 48,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -47794,7 +47713,7 @@
                 "location": "SAFARI ZONE",
                 "min_level": 36,
                 "max_level": 39,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Grass",
@@ -47929,7 +47848,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -48005,7 +47924,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -48235,7 +48154,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Uncommon"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -48296,21 +48215,21 @@
                 "rarity": "Lure"
             },
             {
-                "type": "Cave",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Victory Road",
-                "min_level": 43,
-                "max_level": 45,
-                "rarity": "Lure"
-            },
-            {
                 "type": "Grass",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Victory Road",
                 "min_level": 43,
                 "max_level": 43,
+                "rarity": "Lure"
+            },
+            {
+                "type": "Cave",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Victory Road",
+                "min_level": 43,
+                "max_level": 45,
                 "rarity": "Lure"
             },
             {
@@ -49603,7 +49522,25 @@
                 "location": "Giant Chasm",
                 "min_level": 47,
                 "max_level": 47,
-                "rarity": "Uncommon"
+                "rarity": "Common"
+            },
+            {
+                "type": "Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Giant Chasm",
+                "min_level": 47,
+                "max_level": 47,
+                "rarity": "Common"
+            },
+            {
+                "type": "Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Giant Chasm",
+                "min_level": 47,
+                "max_level": 47,
+                "rarity": "Common"
             },
             {
                 "type": "Grass",
@@ -49615,22 +49552,31 @@
                 "rarity": "Uncommon"
             },
             {
-                "type": "Grass",
+                "type": "Dark Grass",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Giant Chasm",
-                "min_level": 47,
-                "max_level": 47,
-                "rarity": "Uncommon"
+                "min_level": 52,
+                "max_level": 52,
+                "rarity": "Common"
             },
             {
-                "type": "Grass",
+                "type": "Dark Grass",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Giant Chasm",
-                "min_level": 47,
-                "max_level": 47,
-                "rarity": "Rare"
+                "min_level": 52,
+                "max_level": 52,
+                "rarity": "Common"
+            },
+            {
+                "type": "Dark Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Giant Chasm",
+                "min_level": 52,
+                "max_level": 52,
+                "rarity": "Common"
             },
             {
                 "type": "Dark Grass",
@@ -49640,33 +49586,6 @@
                 "min_level": 52,
                 "max_level": 52,
                 "rarity": "Uncommon"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 52,
-                "max_level": 52,
-                "rarity": "Uncommon"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 52,
-                "max_level": 52,
-                "rarity": "Uncommon"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 52,
-                "max_level": 52,
-                "rarity": "Rare"
             },
             {
                 "type": "Shadow",
@@ -53421,7 +53340,7 @@
                 "location": "GRANITE CAVE",
                 "min_level": 9,
                 "max_level": 13,
-                "rarity": "Uncommon"
+                "rarity": "Very Common"
             },
             {
                 "type": "Cave",
@@ -53541,7 +53460,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 16,
                 "max_level": 40,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Rocks",
@@ -53625,7 +53544,7 @@
                 "location": "GRANITE CAVE",
                 "min_level": 9,
                 "max_level": 12,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -53719,7 +53638,7 @@
                 "location": "GRANITE CAVE",
                 "min_level": 9,
                 "max_level": 12,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -53813,7 +53732,7 @@
                 "location": "GRANITE CAVE",
                 "min_level": 10,
                 "max_level": 13,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -53942,7 +53861,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 14,
                 "max_level": 35,
-                "rarity": "Rare"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -54135,7 +54054,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 37,
                 "max_level": 41,
-                "rarity": "Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Cave",
@@ -54877,24 +54796,6 @@
                 "min_level": 15,
                 "max_level": 30,
                 "rarity": "Common"
-            },
-            {
-                "type": "Good Rod",
-                "region_id": 1,
-                "region_name": "Hoenn",
-                "location": "AQUA HIDEOUT",
-                "min_level": 25,
-                "max_level": 25,
-                "rarity": "Rare"
-            },
-            {
-                "type": "Super Rod",
-                "region_id": 1,
-                "region_name": "Hoenn",
-                "location": "AQUA HIDEOUT",
-                "min_level": 30,
-                "max_level": 35,
-                "rarity": "Very Common"
             },
             {
                 "type": "Super Rod",
@@ -56105,7 +56006,7 @@
                 "rarity": "Special"
             },
             {
-                "type": "Inside",
+                "type": "Grass",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
@@ -56114,7 +56015,7 @@
                 "rarity": "Lure"
             },
             {
-                "type": "Grass",
+                "type": "Inside",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
@@ -56321,7 +56222,7 @@
                 "location": "METEOR FALLS",
                 "min_level": 16,
                 "max_level": 45,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Water",
@@ -56330,7 +56231,7 @@
                 "location": "METEOR FALLS",
                 "min_level": 20,
                 "max_level": 40,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Water",
@@ -56348,34 +56249,7 @@
                 "location": "Giant Chasm",
                 "min_level": 48,
                 "max_level": 55,
-                "rarity": "Common"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 48,
-                "max_level": 55,
-                "rarity": "Common"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 48,
-                "max_level": 55,
-                "rarity": "Common"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 48,
-                "max_level": 55,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -56429,34 +56303,7 @@
                 "location": "Giant Chasm",
                 "min_level": 53,
                 "max_level": 60,
-                "rarity": "Common"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 53,
-                "max_level": 60,
-                "rarity": "Common"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 53,
-                "max_level": 60,
-                "rarity": "Common"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 53,
-                "max_level": 60,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -56514,7 +56361,7 @@
                 "location": "METEOR FALLS",
                 "min_level": 16,
                 "max_level": 45,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Water",
@@ -56523,7 +56370,7 @@
                 "location": "METEOR FALLS",
                 "min_level": 20,
                 "max_level": 40,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Water",
@@ -56541,34 +56388,7 @@
                 "location": "Giant Chasm",
                 "min_level": 48,
                 "max_level": 55,
-                "rarity": "Common"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 48,
-                "max_level": 55,
-                "rarity": "Common"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 48,
-                "max_level": 55,
-                "rarity": "Common"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 48,
-                "max_level": 55,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -56622,34 +56442,7 @@
                 "location": "Giant Chasm",
                 "min_level": 53,
                 "max_level": 60,
-                "rarity": "Common"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 53,
-                "max_level": 60,
-                "rarity": "Common"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 53,
-                "max_level": 60,
-                "rarity": "Common"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 53,
-                "max_level": 60,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -56981,7 +56774,7 @@
                 "location": "METEOR FALLS",
                 "min_level": 30,
                 "max_level": 40,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Water",
@@ -57080,7 +56873,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 30,
                 "max_level": 55,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Super Rod",
@@ -57384,7 +57177,7 @@
                 "location": "Relic Castle",
                 "min_level": 47,
                 "max_level": 50,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             }
         ]
     },
@@ -57704,15 +57497,6 @@
                 "rarity": "Uncommon"
             },
             {
-                "type": "Cave",
-                "region_id": 3,
-                "region_name": "Sinnoh",
-                "location": "Route 209 (Night)",
-                "min_level": 18,
-                "max_level": 20,
-                "rarity": "Horde"
-            },
-            {
                 "type": "Grass",
                 "region_id": 3,
                 "region_name": "Sinnoh",
@@ -57720,6 +57504,15 @@
                 "min_level": 18,
                 "max_level": 19,
                 "rarity": "Rare"
+            },
+            {
+                "type": "Cave",
+                "region_id": 3,
+                "region_name": "Sinnoh",
+                "location": "Route 209 (Night)",
+                "min_level": 18,
+                "max_level": 20,
+                "rarity": "Horde"
             },
             {
                 "type": "Inside",
@@ -57851,7 +57644,7 @@
                 "rarity": "Rare"
             },
             {
-                "type": "Grass",
+                "type": "Inside",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Celestial Tower",
@@ -57860,7 +57653,7 @@
                 "rarity": "Lure"
             },
             {
-                "type": "Inside",
+                "type": "Grass",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Celestial Tower",
@@ -57978,7 +57771,7 @@
                 "location": "Giant Chasm",
                 "min_level": 48,
                 "max_level": 50,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Dark Grass",
@@ -57987,7 +57780,7 @@
                 "location": "Giant Chasm",
                 "min_level": 53,
                 "max_level": 55,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -58636,7 +58429,7 @@
                 "location": "UNDERWATER",
                 "min_level": 30,
                 "max_level": 35,
-                "rarity": "Very Common"
+                "rarity": "Horde"
             },
             {
                 "type": "Water",
@@ -58645,7 +58438,7 @@
                 "location": "UNDERWATER",
                 "min_level": 30,
                 "max_level": 35,
-                "rarity": "Horde"
+                "rarity": "Very Common"
             },
             {
                 "type": "Old Rod",
@@ -59072,7 +58865,7 @@
                 "location": "METEOR FALLS",
                 "min_level": 37,
                 "max_level": 45,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -59094,7 +58887,7 @@
                 "location": "Giant Chasm",
                 "min_level": 53,
                 "max_level": 55,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Dark Grass",
@@ -59103,7 +58896,7 @@
                 "location": "Giant Chasm",
                 "min_level": 59,
                 "max_level": 60,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -60566,7 +60359,7 @@
                 "location": "Dreamyard (Night/Morning)",
                 "min_level": 47,
                 "max_level": 50,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -61412,7 +61205,7 @@
                 "location": "Victory Road",
                 "min_level": 42,
                 "max_level": 51,
-                "rarity": "Common"
+                "rarity": "Rare"
             },
             {
                 "type": "Water",
@@ -61943,7 +61736,7 @@
                 "location": "Giant Chasm",
                 "min_level": 49,
                 "max_level": 49,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Dark Grass",
@@ -61952,7 +61745,7 @@
                 "location": "Giant Chasm",
                 "min_level": 54,
                 "max_level": 54,
-                "rarity": "Rare"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -62379,7 +62172,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 14,
                 "max_level": 36,
-                "rarity": "Rare"
+                "rarity": "Common"
             },
             {
                 "type": "Grass",
@@ -62424,7 +62217,7 @@
                 "location": "Wayward Cave",
                 "min_level": 18,
                 "max_level": 20,
-                "rarity": "Common"
+                "rarity": "Very Common"
             }
         ]
     },
@@ -62473,7 +62266,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 37,
                 "max_level": 42,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -62610,7 +62403,7 @@
                 "location": "Turnback Cave",
                 "min_level": 45,
                 "max_level": 55,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             }
         ]
     },
@@ -62641,7 +62434,7 @@
                 "location": "Wayward Cave",
                 "min_level": 17,
                 "max_level": 20,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -62725,7 +62518,7 @@
                 "location": "Safari Zone",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Headbutt",
@@ -62747,7 +62540,7 @@
                 "location": "Challenger's Cave",
                 "min_level": 49,
                 "max_level": 50,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Dust Cloud",
@@ -62854,7 +62647,7 @@
                 "location": "Ruin Maniac Cave",
                 "min_level": 22,
                 "max_level": 25,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             }
         ]
     },
@@ -63619,21 +63412,21 @@
     "rhyperior": {
         "locations": [
             {
-                "type": "Cave",
-                "region_id": 3,
-                "region_name": "Sinnoh",
-                "location": "Stark Mountain",
-                "min_level": 59,
-                "max_level": 61,
-                "rarity": "Lure"
-            },
-            {
                 "type": "Grass",
                 "region_id": 3,
                 "region_name": "Sinnoh",
                 "location": "Stark Mountain",
                 "min_level": 59,
                 "max_level": 59,
+                "rarity": "Lure"
+            },
+            {
+                "type": "Cave",
+                "region_id": 3,
+                "region_name": "Sinnoh",
+                "location": "Stark Mountain",
+                "min_level": 59,
+                "max_level": 61,
                 "rarity": "Lure"
             }
         ]
@@ -63862,21 +63655,21 @@
                 "rarity": "Special"
             },
             {
-                "type": "Cave",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Giant Chasm",
-                "min_level": 53,
-                "max_level": 53,
-                "rarity": "Lure"
-            },
-            {
                 "type": "Grass",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Giant Chasm",
                 "min_level": 53,
                 "max_level": 58,
+                "rarity": "Lure"
+            },
+            {
+                "type": "Cave",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Giant Chasm",
+                "min_level": 53,
+                "max_level": 53,
                 "rarity": "Lure"
             },
             {
@@ -63942,7 +63735,7 @@
                 "location": "Mt. Coronet",
                 "min_level": 42,
                 "max_level": 42,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             }
         ]
     },
@@ -64165,7 +63958,7 @@
                 "location": "Dreamyard",
                 "min_level": 47,
                 "max_level": 47,
-                "rarity": "Uncommon"
+                "rarity": "Very Common"
             },
             {
                 "type": "Grass",
@@ -64563,7 +64356,7 @@
                 "location": "Dreamyard",
                 "min_level": 47,
                 "max_level": 47,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Grass",
@@ -64657,7 +64450,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 14,
                 "max_level": 17,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Dark Grass",
@@ -64666,7 +64459,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 22,
                 "max_level": 25,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -64719,7 +64512,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 14,
                 "max_level": 17,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Dark Grass",
@@ -64728,7 +64521,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 22,
                 "max_level": 25,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -64781,7 +64574,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 14,
                 "max_level": 17,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             },
             {
                 "type": "Dark Grass",
@@ -64790,7 +64583,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 22,
                 "max_level": 25,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
@@ -64834,7 +64627,7 @@
                 "location": "Dreamyard",
                 "min_level": 48,
                 "max_level": 49,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -64869,7 +64662,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 12,
                 "max_level": 16,
-                "rarity": "Uncommon"
+                "rarity": "Very Common"
             },
             {
                 "type": "Grass",
@@ -64887,7 +64680,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 14,
                 "max_level": 15,
-                "rarity": "Uncommon"
+                "rarity": "Very Common"
             },
             {
                 "type": "Grass",
@@ -64930,33 +64723,6 @@
     "tranquill": {
         "locations": [
             {
-                "type": "Inside",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 30,
-                "max_level": 32,
-                "rarity": "Common"
-            },
-            {
-                "type": "Inside",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 30,
-                "max_level": 32,
-                "rarity": "Common"
-            },
-            {
-                "type": "Inside",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 30,
-                "max_level": 32,
-                "rarity": "Common"
-            },
-            {
                 "type": "Grass",
                 "region_id": 2,
                 "region_name": "Unova",
@@ -64976,6 +64742,33 @@
             },
             {
                 "type": "Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 30,
+                "max_level": 32,
+                "rarity": "Common"
+            },
+            {
+                "type": "Inside",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 30,
+                "max_level": 32,
+                "rarity": "Common"
+            },
+            {
+                "type": "Inside",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 30,
+                "max_level": 32,
+                "rarity": "Common"
+            },
+            {
+                "type": "Inside",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
@@ -65035,7 +64828,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 23,
                 "max_level": 24,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -65330,7 +65123,7 @@
                 "location": "Wellspring Cave",
                 "min_level": 10,
                 "max_level": 13,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Rocks",
@@ -65361,7 +65154,7 @@
                 "location": "Challenger's Cave",
                 "min_level": 48,
                 "max_level": 48,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -65535,6 +65328,15 @@
                 "rarity": "Very Common"
             },
             {
+                "type": "Rocks",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Twist Mountain",
+                "min_level": 32,
+                "max_level": 33,
+                "rarity": "Very Common"
+            },
+            {
                 "type": "Cave",
                 "region_id": 2,
                 "region_name": "Unova",
@@ -65550,7 +65352,7 @@
                 "location": "Victory Road",
                 "min_level": 37,
                 "max_level": 41,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Rocks",
@@ -65577,7 +65379,7 @@
                 "location": "Wellspring Cave",
                 "min_level": 28,
                 "max_level": 31,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Rocks",
@@ -65801,7 +65603,7 @@
                 "location": "Victory Road",
                 "min_level": 37,
                 "max_level": 42,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Cave",
@@ -66181,7 +65983,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 13,
                 "max_level": 14,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             },
             {
                 "type": "Dark Grass",
@@ -66199,7 +66001,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 15,
                 "max_level": 16,
-                "rarity": "Uncommon"
+                "rarity": "Common"
             }
         ]
     },
@@ -66283,7 +66085,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 12,
                 "max_level": 15,
-                "rarity": "Common"
+                "rarity": "Very Common"
             },
             {
                 "type": "Dark Grass",
@@ -66301,7 +66103,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 14,
                 "max_level": 17,
-                "rarity": "Common"
+                "rarity": "Very Common"
             }
         ]
     },
@@ -66403,7 +66205,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 12,
                 "max_level": 15,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Dark Grass",
@@ -66412,7 +66214,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 14,
                 "max_level": 17,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -66569,7 +66371,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 12,
                 "max_level": 15,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Dark Grass",
@@ -66578,7 +66380,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 14,
                 "max_level": 17,
-                "rarity": "Very Rare"
+                "rarity": "Rare"
             },
             {
                 "type": "Grass",
@@ -66726,7 +66528,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 14,
                 "max_level": 17,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -66775,7 +66577,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 22,
                 "max_level": 25,
-                "rarity": "Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -66864,7 +66666,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 15,
                 "max_level": 16,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -66886,7 +66688,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 23,
                 "max_level": 24,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             },
             {
                 "type": "Dark Grass",
@@ -66966,7 +66768,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 14,
                 "max_level": 17,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Dark Grass",
@@ -66975,7 +66777,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 22,
                 "max_level": 25,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Dark Grass",
@@ -67082,7 +66884,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 14,
                 "max_level": 17,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Dark Grass",
@@ -67091,7 +66893,7 @@
                 "location": "Pinwheel Forest",
                 "min_level": 22,
                 "max_level": 25,
-                "rarity": "Uncommon"
+                "rarity": "Rare"
             },
             {
                 "type": "Dark Grass",
@@ -67183,7 +66985,7 @@
                 "location": "Relic Castle",
                 "min_level": 19,
                 "max_level": 22,
-                "rarity": "Very Rare"
+                "rarity": "Very Common"
             },
             {
                 "type": "Grass",
@@ -67214,7 +67016,7 @@
                 "location": "Relic Castle",
                 "min_level": 34,
                 "max_level": 50,
-                "rarity": "Very Common"
+                "rarity": "Uncommon"
             }
         ]
     },
@@ -67558,7 +67360,7 @@
                 "location": "Relic Castle",
                 "min_level": 19,
                 "max_level": 22,
-                "rarity": "Rare"
+                "rarity": "Very Common"
             }
         ]
     },
@@ -67571,7 +67373,7 @@
                 "location": "Relic Castle",
                 "min_level": 34,
                 "max_level": 49,
-                "rarity": "Very Common"
+                "rarity": "Common"
             },
             {
                 "type": "Cave",
@@ -68302,7 +68104,7 @@
                 "rarity": "Horde"
             },
             {
-                "type": "Inside",
+                "type": "Grass",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
@@ -68311,7 +68113,7 @@
                 "rarity": "Common"
             },
             {
-                "type": "Grass",
+                "type": "Inside",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
@@ -68376,7 +68178,7 @@
                 "rarity": "Horde"
             },
             {
-                "type": "Inside",
+                "type": "Grass",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
@@ -68385,7 +68187,7 @@
                 "rarity": "Very Common"
             },
             {
-                "type": "Grass",
+                "type": "Inside",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
@@ -68457,8 +68259,8 @@
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
                 "min_level": 34,
-                "max_level": 34,
-                "rarity": "Horde"
+                "max_level": 36,
+                "rarity": "Very Common"
             },
             {
                 "type": "Dark Grass",
@@ -68468,6 +68270,33 @@
                 "min_level": 34,
                 "max_level": 34,
                 "rarity": "Horde"
+            },
+            {
+                "type": "Dark Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 34,
+                "max_level": 36,
+                "rarity": "Very Common"
+            },
+            {
+                "type": "Dark Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 34,
+                "max_level": 34,
+                "rarity": "Horde"
+            },
+            {
+                "type": "Dark Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 34,
+                "max_level": 36,
+                "rarity": "Very Common"
             },
             {
                 "type": "Dark Grass",
@@ -69282,6 +69111,15 @@
     "elgyem": {
         "locations": [
             {
+                "type": "Inside",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Celestial Tower",
+                "min_level": 25,
+                "max_level": 26,
+                "rarity": "Horde"
+            },
+            {
                 "type": "Grass",
                 "region_id": 2,
                 "region_name": "Unova",
@@ -69295,9 +69133,9 @@
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Celestial Tower",
-                "min_level": 25,
-                "max_level": 26,
-                "rarity": "Horde"
+                "min_level": 26,
+                "max_level": 29,
+                "rarity": "Uncommon"
             },
             {
                 "type": "Grass",
@@ -69307,15 +69145,6 @@
                 "min_level": 26,
                 "max_level": 29,
                 "rarity": "Very Common"
-            },
-            {
-                "type": "Inside",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Celestial Tower",
-                "min_level": 26,
-                "max_level": 29,
-                "rarity": "Common"
             }
         ]
     },
@@ -69362,7 +69191,7 @@
                 "rarity": "Horde"
             },
             {
-                "type": "Grass",
+                "type": "Inside",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Celestial Tower",
@@ -69371,7 +69200,7 @@
                 "rarity": "Very Common"
             },
             {
-                "type": "Inside",
+                "type": "Grass",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Celestial Tower",
@@ -69456,7 +69285,7 @@
     "cubchoo": {
         "locations": [
             {
-                "type": "Inside",
+                "type": "Grass",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
@@ -69465,7 +69294,7 @@
                 "rarity": "Uncommon"
             },
             {
-                "type": "Grass",
+                "type": "Inside",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
@@ -69912,6 +69741,15 @@
     "mienfoo": {
         "locations": [
             {
+                "type": "Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 29,
+                "max_level": 30,
+                "rarity": "Horde"
+            },
+            {
                 "type": "Inside",
                 "region_id": 2,
                 "region_name": "Unova",
@@ -69943,9 +69781,36 @@
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
-                "min_level": 29,
-                "max_level": 30,
-                "rarity": "Horde"
+                "min_level": 30,
+                "max_level": 33,
+                "rarity": "Very Common"
+            },
+            {
+                "type": "Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 30,
+                "max_level": 33,
+                "rarity": "Very Common"
+            },
+            {
+                "type": "Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 30,
+                "max_level": 33,
+                "rarity": "Very Common"
+            },
+            {
+                "type": "Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 30,
+                "max_level": 33,
+                "rarity": "Very Common"
             },
             {
                 "type": "Inside",
@@ -69981,69 +69846,6 @@
                 "location": "Dragonspiral Tower",
                 "min_level": 30,
                 "max_level": 33,
-                "rarity": "Very Common"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 30,
-                "max_level": 33,
-                "rarity": "Very Common"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 30,
-                "max_level": 33,
-                "rarity": "Very Common"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 30,
-                "max_level": 33,
-                "rarity": "Very Common"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 30,
-                "max_level": 33,
-                "rarity": "Very Common"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 33,
-                "max_level": 36,
-                "rarity": "Very Common"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 33,
-                "max_level": 36,
-                "rarity": "Very Common"
-            },
-            {
-                "type": "Dark Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 33,
-                "max_level": 36,
                 "rarity": "Very Common"
             },
             {
@@ -70053,6 +69855,33 @@
                 "location": "Dragonspiral Tower",
                 "min_level": 33,
                 "max_level": 37,
+                "rarity": "Very Common"
+            },
+            {
+                "type": "Dark Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 33,
+                "max_level": 36,
+                "rarity": "Very Common"
+            },
+            {
+                "type": "Dark Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 33,
+                "max_level": 36,
+                "rarity": "Very Common"
+            },
+            {
+                "type": "Dark Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 33,
+                "max_level": 36,
                 "rarity": "Very Common"
             },
             {
@@ -70145,6 +69974,33 @@
                 "rarity": "Uncommon"
             },
             {
+                "type": "Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 31,
+                "max_level": 33,
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 31,
+                "max_level": 33,
+                "rarity": "Uncommon"
+            },
+            {
+                "type": "Grass",
+                "region_id": 2,
+                "region_name": "Unova",
+                "location": "Dragonspiral Tower",
+                "min_level": 31,
+                "max_level": 33,
+                "rarity": "Uncommon"
+            },
+            {
                 "type": "Inside",
                 "region_id": 2,
                 "region_name": "Unova",
@@ -70155,33 +70011,6 @@
             },
             {
                 "type": "Inside",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 31,
-                "max_level": 33,
-                "rarity": "Uncommon"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 31,
-                "max_level": 33,
-                "rarity": "Uncommon"
-            },
-            {
-                "type": "Grass",
-                "region_id": 2,
-                "region_name": "Unova",
-                "location": "Dragonspiral Tower",
-                "min_level": 31,
-                "max_level": 33,
-                "rarity": "Uncommon"
-            },
-            {
-                "type": "Grass",
                 "region_id": 2,
                 "region_name": "Unova",
                 "location": "Dragonspiral Tower",
@@ -70729,7 +70558,7 @@
                 "location": "Victory Road",
                 "min_level": 38,
                 "max_level": 40,
-                "rarity": "Rare"
+                "rarity": "Common"
             }
         ]
     },
@@ -70758,7 +70587,7 @@
                 "location": "Relic Castle",
                 "min_level": 47,
                 "max_level": 49,
-                "rarity": "Rare"
+                "rarity": "Very Rare"
             }
         ]
     },
