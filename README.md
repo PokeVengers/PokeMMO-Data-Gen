@@ -13,7 +13,8 @@ It is very important that data in this project be as accurate as possible. If yo
 - `download_PokeAPI_moves.py`: This script generates moves-data.json.
 - `download_PokeAPI_egg-group.py`: This script generates egg-groups-data.json.
 - `download_PokeAPI_abilities.py`: This script generates abilities-data.json.
-- `download_PokeAPI_items.py`: This script generates item-data.json.
+- `download_PokeAPI_items_unused.py`: This script generates item-data.json. Not currently used.
+- `generate_PokeMMO_items.py`: This script generates item-data.json. Not currently used.
 - `download_PokeAPI_sprites.py`: This script generates pokemon-sprites.json.
 - `add_pokemon_to_abilities.py`: Adds Pokemon to their abilities in abilities-data.json.
 - `add_pokemon_to_moves.py`: Adds Pokemon to their moves in moves-data.json.

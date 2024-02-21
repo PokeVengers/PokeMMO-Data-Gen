@@ -92,9 +92,9 @@ def main():
     save_json(abilities_data, DATA_SAVE_PATH + ABILITIES_DATA_FILE)
 
     # Process Item Data
-    item_data = load_json(DATA_SAVE_PATH + ITEM_DATA_FILE)
-    replace_string_in_data(item_data, "assault-vest", "assault-gear")
-    save_json(item_data, DATA_SAVE_PATH + ITEM_DATA_FILE)
+    # item_data = load_json(DATA_SAVE_PATH + ITEM_DATA_FILE)
+    # replace_string_in_data(item_data, "assault-vest", "assault-gear")
+    # save_json(item_data, DATA_SAVE_PATH + ITEM_DATA_FILE)
 
     # Process Move Data
     moves_original_data = load_json(DATA_SAVE_PATH + MOVES_DATA_FILE)
