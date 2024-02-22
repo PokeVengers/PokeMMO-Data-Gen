@@ -619,7 +619,6 @@ def main():
     all_pokemon_data = {}
     locations_data = read_locations()
     moves_data = read_moves()
-    all_unique_moves = get_all_unique_moves(moves_data)
     obtainable_pokemon = read_obtainable_pokemon()
 
     response = requests.get(POKEMON_BASE_URL)
@@ -725,6 +724,8 @@ def main():
 
                     # Store the data for this variety in the main dictionary
                     all_pokemon_data[variety_name] = merged_data
+
+    all_unique_moves = get_all_unique_moves(all_pokemon_data)
 
     smeargle_moves = [
         {"id": move_id, "name": move_name, "type": "sketch"}
