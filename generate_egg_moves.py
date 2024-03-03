@@ -20,7 +20,8 @@ name_change_lookup = {
     "farfetch'd": "farfetchd",
     "mr. mime": "mr-mime",
     "mime jr.": "mime-jr",
-    "basculin" : "basculin-blue-striped"
+    "basculin" : "basculin-blue-striped",
+    "darmanitan" : "darmanitan-standard"
     # Add more name mappings as needed
 }
 
